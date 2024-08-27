@@ -1,4 +1,6 @@
 {
+  "advancement.omnicomp.craft_compressed_block.description": "Obtained when crafting any 1x compressed block variant",
+  "advancement.omnicomp.craft_compressed_block.title": "Compressed blocks all the way down!",
   "block.omnicomp.cobblestone_1x": "Cobblestone 1x Block",
   "block.omnicomp.cobblestone_2x": "Cobblestone 2x Block",
   "block.omnicomp.cobblestone_3x": "Cobblestone 3x Block"

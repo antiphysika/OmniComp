@@ -76,6 +76,15 @@ public class DataGenerators
     );
   }
 
+  public static void generateAdvancements (GatherDataEvent event, PackOutput output,
+                                           ExistingFileHelper exFileHelper)
+  {
+    event.getGenerator().addProvider(
+      event.includeServer(),
+      new OmniCompAdvancements(output, event.getLookupProvider(), exFileHelper)
+    );
+  }
+
   @SubscribeEvent
   public static void gatherData (GatherDataEvent event)
   {
@@ -94,6 +103,9 @@ public class DataGenerators
 
     // Recipes
     generateRecipes(event, output, exFileHelper);
+
+    // Advancements
+    generateAdvancements(event, output, exFileHelper);
 
     // Default en_us translations
     generateTranslations(event, output, exFileHelper);
