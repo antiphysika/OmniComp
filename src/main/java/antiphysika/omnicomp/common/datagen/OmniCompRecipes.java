@@ -14,6 +14,7 @@ import net.minecraft.world.item.Items;
 
 import java.util.concurrent.CompletableFuture;
 
+import net.minecraft.world.level.ItemLike;
 import org.jetbrains.annotations.NotNull;
 
 import antiphysika.omnicomp.common.registry.Registrar;
@@ -25,62 +26,27 @@ public class OmniCompRecipes extends RecipeProvider
     super(output, lookupProvider);
   }
 
+  private void compBlockRecipe (@NotNull RecipeOutput output, ItemLike result, ItemLike material)
+  {
+    ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, result)
+      .pattern("###")
+      .pattern("###")
+      .pattern("###")
+      .define('#', material)
+      .unlockedBy("has_item", has(material))
+      .save(output);
+  }
+
   @Override
   protected void buildRecipes (@NotNull RecipeOutput output)
   {
-    // Cobblestone
-    //
+    compBlockRecipe(output, Registrar.COBBLESTONE_1X_ITEM, Items.COBBLESTONE);
+    compBlockRecipe(output, Registrar.COBBLESTONE_2X_ITEM, Registrar.COBBLESTONE_1X_ITEM);
+    compBlockRecipe(output, Registrar.COBBLESTONE_3X_ITEM, Registrar.COBBLESTONE_2X_ITEM);
 
-    ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, Registrar.COBBLESTONE_1X_ITEM)
-      .pattern("###")
-      .pattern("###")
-      .pattern("###")
-      .define('#', Items.COBBLESTONE)
-      .unlockedBy("has_cobblestone", has(Items.COBBLESTONE))
-      .save(output);
-
-    ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, Registrar.COBBLESTONE_2X_ITEM)
-      .pattern("###")
-      .pattern("###")
-      .pattern("###")
-      .define('#', Registrar.COBBLESTONE_1X_ITEM)
-      .unlockedBy("has_cobblestone_1x", has(Registrar.COBBLESTONE_1X_ITEM))
-      .save(output);
-
-    ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, Registrar.COBBLESTONE_3X_ITEM)
-      .pattern("###")
-      .pattern("###")
-      .pattern("###")
-      .define('#', Registrar.COBBLESTONE_2X_ITEM)
-      .unlockedBy("has_cobblestone_1x", has(Registrar.COBBLESTONE_2X_ITEM))
-      .save(output);
-
-    // Stone
-    //
-
-    ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, Registrar.STONE_1X_ITEM)
-      .pattern("###")
-      .pattern("###")
-      .pattern("###")
-      .define('#', Items.STONE)
-      .unlockedBy("has_cobblestone", has(Items.STONE))
-      .save(output);
-
-    ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, Registrar.STONE_2X_ITEM)
-      .pattern("###")
-      .pattern("###")
-      .pattern("###")
-      .define('#', Registrar.STONE_1X_ITEM)
-      .unlockedBy("has_cobblestone_1x", has(Registrar.STONE_1X_ITEM))
-      .save(output);
-
-    ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, Registrar.STONE_3X_ITEM)
-      .pattern("###")
-      .pattern("###")
-      .pattern("###")
-      .define('#', Registrar.STONE_2X_ITEM)
-      .unlockedBy("has_cobblestone_1x", has(Registrar.STONE_2X_ITEM))
-      .save(output);
+    compBlockRecipe(output, Registrar.STONE_1X_ITEM, Items.STONE);
+    compBlockRecipe(output, Registrar.STONE_2X_ITEM, Registrar.STONE_1X_ITEM);
+    compBlockRecipe(output, Registrar.STONE_3X_ITEM, Registrar.STONE_2X_ITEM);
   }
 }
 
