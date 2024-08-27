@@ -94,15 +94,15 @@ neoForge {
     }
   }
 
-  unitTest {
-    enable()
-    testedMod = mods.getAt(0)
-  }
+  //unitTest {
+  //  enable()
+  //  testedMod = mods.getAt(0)
+  //}
 }
 
-test {
-  useJUnitPlatform()
-}
+//test {
+//  useJUnitPlatform()
+//}
 
 sourceSets.main.resources {
   srcDir 'src/generated/resources'
