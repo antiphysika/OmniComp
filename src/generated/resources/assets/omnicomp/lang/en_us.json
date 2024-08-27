@@ -1,7 +1,10 @@
 {
   "advancement.omnicomp.craft_compressed_block.description": "Obtained when crafting any 1x compressed block variant",
   "advancement.omnicomp.craft_compressed_block.title": "Compressed blocks all the way down!",
-  "block.omnicomp.cobblestone_1x": "Cobblestone 1x Block",
-  "block.omnicomp.cobblestone_2x": "Cobblestone 2x Block",
-  "block.omnicomp.cobblestone_3x": "Cobblestone 3x Block"
+  "block.omnicomp.cobblestone_1x": "Compressed Cobblestone (1x) Block",
+  "block.omnicomp.cobblestone_2x": "Compressed Cobblestone (2x) Block",
+  "block.omnicomp.cobblestone_3x": "Compressed Cobblestone (3x) Block",
+  "block.omnicomp.stone_1x": "Compressed Stone (1x) Block",
+  "block.omnicomp.stone_2x": "Compressed Stone (2x) Block",
+  "block.omnicomp.stone_3x": "Compressed Stone (3x) Block"
 }

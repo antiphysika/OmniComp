@@ -58,6 +58,27 @@ public class Registrar
   public static final DeferredItem<BlockItem> COBBLESTONE_3X_ITEM =
     ITEMS.registerSimpleBlockItem("cobblestone_3x", COBBLESTONE_3X);
 
+  // Cobblestone
+  //
+
+  public static final DeferredBlock<Block> STONE_1X =
+    registerBlock("stone_1x", 0.8f, MapColor.STONE);
+
+  public static final DeferredBlock<Block> STONE_2X =
+    registerBlock("stone_2x", 0.8f, MapColor.STONE);
+
+  public static final DeferredBlock<Block> STONE_3X =
+    registerBlock("stone_3x", 0.8f, MapColor.STONE);
+
+  public static final DeferredItem<BlockItem> STONE_1X_ITEM =
+    ITEMS.registerSimpleBlockItem("stone_1x", STONE_1X);
+
+  public static final DeferredItem<BlockItem> STONE_2X_ITEM =
+    ITEMS.registerSimpleBlockItem("stone_2x", STONE_2X);
+
+  public static final DeferredItem<BlockItem> STONE_3X_ITEM =
+    ITEMS.registerSimpleBlockItem("stone_3x", STONE_3X);
+
   // Creative mode tab
   //
 

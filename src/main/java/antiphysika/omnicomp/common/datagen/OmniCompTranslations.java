@@ -37,9 +37,13 @@ public class OmniCompTranslations extends LanguageProvider
     // Blocks
     //
 
-    add(blockTransKey("cobblestone_1x"), "Cobblestone 1x Block");
-    add(blockTransKey("cobblestone_2x"), "Cobblestone 2x Block");
-    add(blockTransKey("cobblestone_3x"), "Cobblestone 3x Block");
+    add(blockTransKey("cobblestone_1x"), "Compressed Cobblestone (1x) Block");
+    add(blockTransKey("cobblestone_2x"), "Compressed Cobblestone (2x) Block");
+    add(blockTransKey("cobblestone_3x"), "Compressed Cobblestone (3x) Block");
+
+    add(blockTransKey("stone_1x"), "Compressed Stone (1x) Block");
+    add(blockTransKey("stone_2x"), "Compressed Stone (2x) Block");
+    add(blockTransKey("stone_3x"), "Compressed Stone (3x) Block");
 
     // Advancements
     //

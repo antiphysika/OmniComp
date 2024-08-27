@@ -7,7 +7,6 @@ package antiphysika.omnicomp.client.event;
 import antiphysika.omnicomp.OmniComp;
 import antiphysika.omnicomp.client.texture.DynamicTextureManager;
 import antiphysika.omnicomp.client.texture.OverlayTextureGenerator;
-import net.minecraft.resources.ResourceLocation;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -20,7 +19,8 @@ public class ClientEvents
 {
   static
   {
-    generateTextures();
+    generateCobblestoneTextures();
+    generateStoneTextures();
   }
 
   @SubscribeEvent
@@ -28,7 +28,7 @@ public class ClientEvents
   {
   }
 
-  private static void generateTextures ()
+  private static void generateCobblestoneTextures ()
   {
     OverlayTextureGenerator gen1x =
       new OverlayTextureGenerator(OmniComp.id("block/cobblestone_1x"));
@@ -46,6 +46,27 @@ public class ClientEvents
       new OverlayTextureGenerator(OmniComp.id("block/cobblestone_3x"));
     gen3x.addLayer(OmniComp.id("overlay/3x"));
     gen3x.addLayer("minecraft:block/cobblestone");
+    gen3x.generate(DynamicTextureManager.ASSET_CACHE);
+  }
+
+  private static void generateStoneTextures ()
+  {
+    OverlayTextureGenerator gen1x =
+      new OverlayTextureGenerator(OmniComp.id("block/stone_1x"));
+    gen1x.addLayer(OmniComp.id("overlay/1x"));
+    gen1x.addLayer("minecraft:block/stone");
+    gen1x.generate(DynamicTextureManager.ASSET_CACHE);
+
+    OverlayTextureGenerator gen2x =
+      new OverlayTextureGenerator(OmniComp.id("block/stone_2x"));
+    gen2x.addLayer(OmniComp.id("overlay/2x"));
+    gen2x.addLayer("minecraft:block/stone");
+    gen2x.generate(DynamicTextureManager.ASSET_CACHE);
+
+    OverlayTextureGenerator gen3x =
+      new OverlayTextureGenerator(OmniComp.id("block/stone_3x"));
+    gen3x.addLayer(OmniComp.id("overlay/3x"));
+    gen3x.addLayer("minecraft:block/stone");
     gen3x.generate(DynamicTextureManager.ASSET_CACHE);
   }
 }

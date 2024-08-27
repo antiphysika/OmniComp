@@ -37,6 +37,10 @@ public class OmniCompBlockLoot extends BlockLootSubProvider
     dropSelf(Registrar.COBBLESTONE_1X.get());
     dropSelf(Registrar.COBBLESTONE_2X.get());
     dropSelf(Registrar.COBBLESTONE_3X.get());
+
+    dropSelf(Registrar.STONE_1X.get());
+    dropSelf(Registrar.STONE_2X.get());
+    dropSelf(Registrar.STONE_3X.get());
   }
 }
 

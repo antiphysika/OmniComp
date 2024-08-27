@@ -1,7 +1,13 @@
-// 1.21.1	2024-08-27T09:27:06.211161034	Recipes
+// 1.21.1	2024-08-27T11:10:02.510035831	Recipes
 998d6c9870119f748b322e59939e0b871881aee2 data/omnicomp/advancement/recipes/building_blocks/cobblestone_1x.json
 18f2fd1cb7873506b603e06573e42ac22daa5cf9 data/omnicomp/advancement/recipes/building_blocks/cobblestone_2x.json
 b7f9e83a26eb944666c3df8da6b477464d144ab9 data/omnicomp/advancement/recipes/building_blocks/cobblestone_3x.json
+c620a2f156d85831fb9f4cf516b7c1a80852e727 data/omnicomp/advancement/recipes/building_blocks/stone_1x.json
+82a3ba3320fd964af9d5ed9b4b0f821ffcd4286a data/omnicomp/advancement/recipes/building_blocks/stone_2x.json
+b63a3e5bf2b181132100814e1e9624f04c76278d data/omnicomp/advancement/recipes/building_blocks/stone_3x.json
 bfca0219931fab569babe526d089b658b72d9004 data/omnicomp/recipe/cobblestone_1x.json
 82626aac8bbaaa2d69dc77bf500928c379e920ab data/omnicomp/recipe/cobblestone_2x.json
 d58ef08ad99a6449c878fbae85bfe019d2b255c6 data/omnicomp/recipe/cobblestone_3x.json
+79a87539f6dbe8d7aabe4696c6228a7f40188755 data/omnicomp/recipe/stone_1x.json
+60acb74153d61dfa7e8ef06a9cc75a17df77a7fa data/omnicomp/recipe/stone_2x.json
+ad402d2acbe412b54c2db956971199ede240c5b1 data/omnicomp/recipe/stone_3x.json

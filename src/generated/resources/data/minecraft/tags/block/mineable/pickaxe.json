@@ -2,6 +2,9 @@
   "values": [
     "omnicomp:cobblestone_1x",
     "omnicomp:cobblestone_2x",
-    "omnicomp:cobblestone_3x"
+    "omnicomp:cobblestone_3x",
+    "omnicomp:stone_1x",
+    "omnicomp:stone_2x",
+    "omnicomp:stone_3x"
   ]
 }

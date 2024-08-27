@@ -1,10 +1,19 @@
-// 1.21.1	2024-08-27T08:29:25.806963149	Block States: omnicomp
+// 1.21.1	2024-08-27T11:44:44.432479752	Block States: omnicomp
 0e5d23d748bee5a21e072c2c32cfa37a9e214014 assets/omnicomp/blockstates/cobblestone_1x.json
 15be3efee90b126be9e98606a772bde285eab849 assets/omnicomp/blockstates/cobblestone_2x.json
 b5fdb767f4a7eb6ec77e7e9db0e86641cc515172 assets/omnicomp/blockstates/cobblestone_3x.json
+60d75388542e2fbe64975b91bf9c52b973554137 assets/omnicomp/blockstates/stone_1x.json
+bbd3c200ee4ceadaf971404d35a1df1d418dc638 assets/omnicomp/blockstates/stone_2x.json
+20348dc17227a9a43714687e7315f9c2b408e0cc assets/omnicomp/blockstates/stone_3x.json
 2f99b43549b30dc34ace5d8bf574f9075c5c3ec8 assets/omnicomp/models/block/cobblestone_1x.json
 4fd94f9a226ce47afff9fb8be146c6b314577152 assets/omnicomp/models/block/cobblestone_2x.json
 9252c5feab8b561785ef21fae359e9402c34eb84 assets/omnicomp/models/block/cobblestone_3x.json
+5455f3fda909de40fffb25856c56e31b0718e068 assets/omnicomp/models/block/stone_1x.json
+025a3dbad9d71f439aa15ae1dd07aeaf29f5ad92 assets/omnicomp/models/block/stone_2x.json
+757431fe6e35cdccd859e071b89818e46d9b0d57 assets/omnicomp/models/block/stone_3x.json
 7e046cc652d5d07a24ce7684791d7c8fd89c9e53 assets/omnicomp/models/item/cobblestone_1x.json
 d1f2348b40bb53387222137e8e013c76113b75f0 assets/omnicomp/models/item/cobblestone_2x.json
 98ae6137aa748c24f9859aa93849a95d1dd6b036 assets/omnicomp/models/item/cobblestone_3x.json
+828ad8ac487759bf0e4b4258608f916c33c50383 assets/omnicomp/models/item/stone_1x.json
+3d3008ee143538631a67e3d89b02f45c2ec0be42 assets/omnicomp/models/item/stone_2x.json
+f6840a0a38ecdc1104836a38abb7344afa55539e assets/omnicomp/models/item/stone_3x.json

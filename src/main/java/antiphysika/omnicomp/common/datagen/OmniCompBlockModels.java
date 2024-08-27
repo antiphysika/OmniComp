@@ -24,10 +24,18 @@ public class OmniCompBlockModels extends BlockStateProvider
   {
     super(output, MOD_ID, exFileHelper);
 
-    // Trick data generators into thinking our dynamically-generated textures exist
+    // The `exFileHelper.trackGenerated()` calls trick the existing file helper into
+    // thinking that the assets we'll dynamically generate at runtime actually exist
+    // on disk.
+    //
+
     exFileHelper.trackGenerated(OmniComp.id("block/cobblestone_1x"), ModelProvider.TEXTURE);
     exFileHelper.trackGenerated(OmniComp.id("block/cobblestone_2x"), ModelProvider.TEXTURE);
     exFileHelper.trackGenerated(OmniComp.id("block/cobblestone_3x"), ModelProvider.TEXTURE);
+
+    exFileHelper.trackGenerated(OmniComp.id("block/stone_1x"), ModelProvider.TEXTURE);
+    exFileHelper.trackGenerated(OmniComp.id("block/stone_2x"), ModelProvider.TEXTURE);
+    exFileHelper.trackGenerated(OmniComp.id("block/stone_3x"), ModelProvider.TEXTURE);
   }
 
   private void simpleBlockWithItem (@NotNull DeferredBlock<Block> block)
@@ -41,6 +49,10 @@ public class OmniCompBlockModels extends BlockStateProvider
     simpleBlockWithItem(Registrar.COBBLESTONE_1X);
     simpleBlockWithItem(Registrar.COBBLESTONE_2X);
     simpleBlockWithItem(Registrar.COBBLESTONE_3X);
+
+    simpleBlockWithItem(Registrar.STONE_1X);
+    simpleBlockWithItem(Registrar.STONE_2X);
+    simpleBlockWithItem(Registrar.STONE_3X);
   }
 }
 

@@ -26,6 +26,9 @@ public class OmniCompRecipes extends RecipeProvider
   @Override
   protected void buildRecipes (@NotNull RecipeOutput output)
   {
+    // Cobblestone
+    //
+
     ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, Registrar.COBBLESTONE_1X_ITEM)
       .pattern("###")
       .pattern("###")
@@ -48,6 +51,33 @@ public class OmniCompRecipes extends RecipeProvider
       .pattern("###")
       .define('#', Registrar.COBBLESTONE_2X_ITEM)
       .unlockedBy("has_cobblestone_1x", has(Registrar.COBBLESTONE_2X_ITEM))
+      .save(output);
+
+    // Stone
+    //
+
+    ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, Registrar.STONE_1X_ITEM)
+      .pattern("###")
+      .pattern("###")
+      .pattern("###")
+      .define('#', Items.STONE)
+      .unlockedBy("has_cobblestone", has(Items.STONE))
+      .save(output);
+
+    ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, Registrar.STONE_2X_ITEM)
+      .pattern("###")
+      .pattern("###")
+      .pattern("###")
+      .define('#', Registrar.STONE_1X_ITEM)
+      .unlockedBy("has_cobblestone_1x", has(Registrar.STONE_1X_ITEM))
+      .save(output);
+
+    ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, Registrar.STONE_3X_ITEM)
+      .pattern("###")
+      .pattern("###")
+      .pattern("###")
+      .define('#', Registrar.STONE_2X_ITEM)
+      .unlockedBy("has_cobblestone_1x", has(Registrar.STONE_2X_ITEM))
       .save(output);
   }
 }
