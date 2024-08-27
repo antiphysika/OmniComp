@@ -18,20 +18,12 @@ public class ClientEvents
 {
   static
   {
-    generateTextures();
+    DynamicTextureManager.generateTextures();
   }
 
   @SubscribeEvent
   public static void onClientSetup (FMLClientSetupEvent event)
   {
-  }
-
-  private static void generateTextures ()
-  {
-    for (var block : StaticConfig.getAllBlocks())
-    {
-      DynamicTextureManager.generateCompBlockTextures(block.id);
-    }
   }
 }
 

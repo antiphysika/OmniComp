@@ -66,7 +66,7 @@ public class Registrar
   public static final DeferredItem<BlockItem> COBBLESTONE_3X_ITEM =
     ITEMS.registerSimpleBlockItem("cobblestone_3x", COBBLESTONE_3X);
 
-  // Cobblestone
+  // Stone
   //
 
   public static final DeferredBlock<Block> STONE_1X =
@@ -86,6 +86,48 @@ public class Registrar
 
   public static final DeferredItem<BlockItem> STONE_3X_ITEM =
     ITEMS.registerSimpleBlockItem("stone_3x", STONE_3X);
+
+  // Cobbled Deepslate
+  //
+
+  public static final DeferredBlock<Block> COBBLED_DEEPSLATE_1X =
+    registerBlock("cobbled_deepslate_1x", 0.8f, MapColor.STONE);
+
+  public static final DeferredBlock<Block> COBBLED_DEEPSLATE_2X =
+    registerBlock("cobbled_deepslate_2x", 0.8f, MapColor.STONE);
+
+  public static final DeferredBlock<Block> COBBLED_DEEPSLATE_3X =
+    registerBlock("cobbled_deepslate_3x", 0.8f, MapColor.STONE);
+
+  public static final DeferredItem<BlockItem> COBBLED_DEEPSLATE_1X_ITEM =
+    ITEMS.registerSimpleBlockItem("cobbled_deepslate_1x", COBBLED_DEEPSLATE_1X);
+
+  public static final DeferredItem<BlockItem> COBBLED_DEEPSLATE_2X_ITEM =
+    ITEMS.registerSimpleBlockItem("cobbled_deepslate_2x", COBBLED_DEEPSLATE_2X);
+
+  public static final DeferredItem<BlockItem> COBBLED_DEEPSLATE_3X_ITEM =
+    ITEMS.registerSimpleBlockItem("cobbled_deepslate_3x", COBBLED_DEEPSLATE_3X);
+
+  // Deepslate
+  //
+
+  public static final DeferredBlock<Block> DEEPSLATE_1X =
+    registerBlock("deepslate_1x", 0.8f, MapColor.STONE);
+
+  public static final DeferredBlock<Block> DEEPSLATE_2X =
+    registerBlock("deepslate_2x", 0.8f, MapColor.STONE);
+
+  public static final DeferredBlock<Block> DEEPSLATE_3X =
+    registerBlock("deepslate_3x", 0.8f, MapColor.STONE);
+
+  public static final DeferredItem<BlockItem> DEEPSLATE_1X_ITEM =
+    ITEMS.registerSimpleBlockItem("deepslate_1x", DEEPSLATE_1X);
+
+  public static final DeferredItem<BlockItem> DEEPSLATE_2X_ITEM =
+    ITEMS.registerSimpleBlockItem("deepslate_2x", DEEPSLATE_2X);
+
+  public static final DeferredItem<BlockItem> DEEPSLATE_3X_ITEM =
+    ITEMS.registerSimpleBlockItem("deepslate_3x", DEEPSLATE_3X);
 
   // Creative mode tab
   //

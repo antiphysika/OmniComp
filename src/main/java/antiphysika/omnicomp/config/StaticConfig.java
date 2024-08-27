@@ -24,11 +24,22 @@ public class StaticConfig
     new Block("cobblestone", "Cobblestone");
 
   public static final Block STONE =
-    new Block("stone", "stone");
+    new Block("stone", "Stone");
+
+  public static final Block COBBLED_DEEPSLATE =
+    new Block("cobbled_deepslate", "Cobbled Deepslate");
+
+  public static final Block DEEPSLATE =
+    new Block("deepslate", "Deepslate");
 
   public static List<Block> getAllBlocks ()
   {
-    return List.of(COBBLESTONE, STONE);
+    return List.of(
+      COBBLESTONE,
+      STONE,
+      COBBLED_DEEPSLATE,
+      DEEPSLATE
+    );
   }
 }
 

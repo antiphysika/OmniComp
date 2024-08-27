@@ -5,6 +5,12 @@
     "omnicomp:cobblestone_3x",
     "omnicomp:stone_1x",
     "omnicomp:stone_2x",
-    "omnicomp:stone_3x"
+    "omnicomp:stone_3x",
+    "omnicomp:cobbled_deepslate_1x",
+    "omnicomp:cobbled_deepslate_2x",
+    "omnicomp:cobbled_deepslate_3x",
+    "omnicomp:deepslate_1x",
+    "omnicomp:deepslate_2x",
+    "omnicomp:deepslate_3x"
   ]
 }
