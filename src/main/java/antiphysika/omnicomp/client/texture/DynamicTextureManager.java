@@ -4,7 +4,7 @@
 
 package antiphysika.omnicomp.client.texture;
 
-import antiphysika.omnicomp.common.config.StaticBlockConfig;
+import antiphysika.omnicomp.common.staticdata.StaticBlockData;
 import dev.lukebemish.dynamicassetgenerator.api.ResourceCache;
 import dev.lukebemish.dynamicassetgenerator.api.client.AssetResourceCache;
 
@@ -57,7 +57,7 @@ public class DynamicTextureManager
 
   public static void generateTextures ()
   {
-    for (var block : StaticBlockConfig.getAllBlocks())
+    for (var block : StaticBlockData.getAllBlocks())
     {
       DynamicTextureManager.generateCompBlockTextures(block.id);
     }

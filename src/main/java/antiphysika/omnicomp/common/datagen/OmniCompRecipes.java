@@ -16,7 +16,7 @@ import java.util.concurrent.CompletableFuture;
 
 import org.jetbrains.annotations.NotNull;
 
-import antiphysika.omnicomp.common.config.StaticRecipeConfig;
+import antiphysika.omnicomp.common.staticdata.StaticRecipeData;
 
 public class OmniCompRecipes extends RecipeProvider
 {
@@ -49,8 +49,8 @@ public class OmniCompRecipes extends RecipeProvider
   @Override
   protected void buildRecipes (@NotNull RecipeOutput output)
   {
-    compBlockRecipes(output, StaticRecipeConfig.COBBLESTONE_MATERIALS);
-    compBlockRecipes(output, StaticRecipeConfig.STONE_MATERIALS);
+    compBlockRecipes(output, StaticRecipeData.COBBLESTONE_MATERIALS);
+    compBlockRecipes(output, StaticRecipeData.STONE_MATERIALS);
   }
 }
 

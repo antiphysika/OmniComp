@@ -2,7 +2,7 @@
  * SPDX-License-Identifier: LGPL-2.1
  */
 
-package antiphysika.omnicomp.common.config;
+package antiphysika.omnicomp.common.staticdata;
 
 import antiphysika.omnicomp.common.registry.block.CompressedStone;
 import net.minecraft.world.item.Items;
@@ -10,7 +10,7 @@ import net.minecraft.world.level.ItemLike;
 
 import antiphysika.omnicomp.common.registry.block.CompressedCobblestone;
 
-public class StaticRecipeConfig
+public class StaticRecipeData
 {
   public static final ItemLike[] COBBLESTONE_MATERIALS = new ItemLike[]{
     Items.COBBLESTONE,

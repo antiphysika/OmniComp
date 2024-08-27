@@ -8,7 +8,7 @@ import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 
 import antiphysika.omnicomp.OmniComp;
-import antiphysika.omnicomp.common.config.StaticBlockConfig;
+import antiphysika.omnicomp.common.staticdata.StaticBlockData;
 
 public class OmniCompTranslations extends LanguageProvider
 {
@@ -48,7 +48,7 @@ public class OmniCompTranslations extends LanguageProvider
     // Blocks
     //
 
-    for (var block : StaticBlockConfig.getAllBlocks())
+    for (var block : StaticBlockData.getAllBlocks())
     {
       compBlockTranslations(block.id, block.name);
     }
