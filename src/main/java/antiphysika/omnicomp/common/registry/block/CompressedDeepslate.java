@@ -4,14 +4,13 @@
 
 package antiphysika.omnicomp.common.registry.block;
 
-import antiphysika.omnicomp.common.registry.Registrar;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.material.MapColor;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
 
-import static antiphysika.omnicomp.common.registry.Registrar.ITEMS;
+import antiphysika.omnicomp.common.registry.Registrar;
 
 public class CompressedDeepslate
 {
@@ -43,9 +42,9 @@ public class CompressedDeepslate
       MapColor.DEEPSLATE
     );
 
-    ITEM_1X = ITEMS.registerSimpleBlockItem("deepslate_1x", BLOCK_1X);
-    ITEM_2X = ITEMS.registerSimpleBlockItem("deepslate_2x", BLOCK_2X);
-    ITEM_3X = ITEMS.registerSimpleBlockItem("deepslate_3x", BLOCK_3X);
+    ITEM_1X = Registrar.ITEMS.registerSimpleBlockItem("deepslate_1x", BLOCK_1X);
+    ITEM_2X = Registrar.ITEMS.registerSimpleBlockItem("deepslate_2x", BLOCK_2X);
+    ITEM_3X = Registrar.ITEMS.registerSimpleBlockItem("deepslate_3x", BLOCK_3X);
   }
 }
 

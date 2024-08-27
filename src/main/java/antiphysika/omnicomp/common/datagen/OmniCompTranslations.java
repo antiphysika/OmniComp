@@ -4,23 +4,22 @@
 
 package antiphysika.omnicomp.common.datagen;
 
-import antiphysika.omnicomp.OmniComp;
-import antiphysika.omnicomp.common.config.StaticBlockConfig;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 
-import static antiphysika.omnicomp.OmniComp.MOD_ID;
+import antiphysika.omnicomp.OmniComp;
+import antiphysika.omnicomp.common.config.StaticBlockConfig;
 
 public class OmniCompTranslations extends LanguageProvider
 {
   public OmniCompTranslations (PackOutput output, String locale)
   {
-    super(output, MOD_ID, locale);
+    super(output, OmniComp.MOD_ID, locale);
   }
 
   private String transKey (String type, String key)
   {
-    return String.format("%s.%s.%s", type, MOD_ID, key);
+    return String.format("%s.%s.%s", type, OmniComp.MOD_ID, key);
   }
 
   private String blockTransKey (String key)

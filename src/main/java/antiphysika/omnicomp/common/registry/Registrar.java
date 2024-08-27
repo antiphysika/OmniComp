@@ -4,7 +4,6 @@
 
 package antiphysika.omnicomp.common.registry;
 
-import antiphysika.omnicomp.common.registry.block.*;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,6 +19,8 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import static antiphysika.omnicomp.OmniComp.MOD_ID;
+
+import antiphysika.omnicomp.common.registry.block.*;
 
 public class Registrar
 {

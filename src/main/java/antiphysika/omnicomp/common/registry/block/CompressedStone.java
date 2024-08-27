@@ -4,14 +4,14 @@
 
 package antiphysika.omnicomp.common.registry.block;
 
-import antiphysika.omnicomp.common.registry.Registrar;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.material.MapColor;
+
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
 
-import static antiphysika.omnicomp.common.registry.Registrar.ITEMS;
+import antiphysika.omnicomp.common.registry.Registrar;
 
 public class CompressedStone
 {
@@ -43,9 +43,9 @@ public class CompressedStone
       MapColor.STONE
     );
 
-    ITEM_1X = ITEMS.registerSimpleBlockItem("stone_1x", BLOCK_1X);
-    ITEM_2X = ITEMS.registerSimpleBlockItem("stone_2x", BLOCK_2X);
-    ITEM_3X = ITEMS.registerSimpleBlockItem("stone_3x", BLOCK_3X);
+    ITEM_1X = Registrar.ITEMS.registerSimpleBlockItem("stone_1x", BLOCK_1X);
+    ITEM_2X = Registrar.ITEMS.registerSimpleBlockItem("stone_2x", BLOCK_2X);
+    ITEM_3X = Registrar.ITEMS.registerSimpleBlockItem("stone_3x", BLOCK_3X);
   }
 }
 
