@@ -4,18 +4,54 @@
 
 package antiphysika.omnicomp.client.texture;
 
-import antiphysika.omnicomp.OmniComp;
 import dev.lukebemish.dynamicassetgenerator.api.ResourceCache;
 import dev.lukebemish.dynamicassetgenerator.api.client.AssetResourceCache;
 
+import antiphysika.omnicomp.OmniComp;
+import net.minecraft.resources.ResourceLocation;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class DynamicTextureManager
 {
-  public static final AssetResourceCache ASSET_CACHE =
+  private static final AssetResourceCache ASSET_CACHE =
     ResourceCache.register(new AssetResourceCache(OmniComp.id("assets")));
+
+  private static final ArrayList<ResourceLocation> GENERATED = new ArrayList<>();
 
   public static AssetResourceCache getAssetCache ()
   {
     return ASSET_CACHE;
+  }
+
+  public static void generateCompBlockTextures (String parent)
+  {
+    generateCompBlockTexture(parent, 1);
+    generateCompBlockTexture(parent, 2);
+    generateCompBlockTexture(parent, 3);
+  }
+
+  private static void trackGenerated (ResourceLocation location)
+  {
+    GENERATED.add(location);
+  }
+
+  public static List<ResourceLocation> getGenerated ()
+  {
+    return GENERATED;
+  }
+
+  private static void generateCompBlockTexture (String parent, int level)
+  {
+    ResourceLocation outputLoc = OmniComp.id(String.format("block/%s_%dx", parent, level));
+    OverlayTextureGenerator gen = new OverlayTextureGenerator(outputLoc);
+
+    gen.addLayer(OmniComp.id(String.format("overlay/%dx", level)));
+    gen.addLayer(OmniComp.id("minecraft", "block/" + parent));
+
+    gen.generate(DynamicTextureManager.getAssetCache());
+    trackGenerated(outputLoc);
   }
 }
 

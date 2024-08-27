@@ -66,6 +66,11 @@ public class OmniComp
   {
     return ResourceLocation.fromNamespaceAndPath(MOD_ID, path);
   }
+
+  public static ResourceLocation id (String namespace, String path)
+  {
+    return ResourceLocation.fromNamespaceAndPath(namespace, path);
+  }
 }
 
 //
