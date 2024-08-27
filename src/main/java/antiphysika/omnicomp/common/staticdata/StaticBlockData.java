@@ -41,6 +41,12 @@ public class StaticBlockData
   public static final Block GRAVEL =
     new Block("gravel", "Gravel");
 
+  public static final Block SAND =
+    new Block("sand", "Sand");
+
+  public static final Block SANDSTONE =
+    new Block("sandstone", "Sandstone");
+
   public static List<Block> getAllBlocks ()
   {
     return List.of(
@@ -50,7 +56,9 @@ public class StaticBlockData
       DEEPSLATE,
       DIRT,
       COARSE_DIRT,
-      GRAVEL
+      GRAVEL,
+      SAND,
+      SANDSTONE
     );
   }
 }

@@ -56,6 +56,8 @@ public class OmniCompRecipes extends RecipeProvider
     compBlockRecipes(output, StaticRecipeData.DIRT_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.COARSE_DIRT_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.GRAVEL_MATERIALS);
+    compBlockRecipes(output, StaticRecipeData.SAND_MATERIALS);
+    compBlockRecipes(output, StaticRecipeData.SANDSTONE_MATERIALS);
   }
 }
 

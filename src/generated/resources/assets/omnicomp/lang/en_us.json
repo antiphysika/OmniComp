@@ -19,6 +19,12 @@
   "block.omnicomp.gravel_1x": "Compressed Gravel (1x) Block",
   "block.omnicomp.gravel_2x": "Compressed Gravel (2x) Block",
   "block.omnicomp.gravel_3x": "Compressed Gravel (3x) Block",
+  "block.omnicomp.sand_1x": "Compressed Sand (1x) Block",
+  "block.omnicomp.sand_2x": "Compressed Sand (2x) Block",
+  "block.omnicomp.sand_3x": "Compressed Sand (3x) Block",
+  "block.omnicomp.sandstone_1x": "Compressed Sandstone (1x) Block",
+  "block.omnicomp.sandstone_2x": "Compressed Sandstone (2x) Block",
+  "block.omnicomp.sandstone_3x": "Compressed Sandstone (3x) Block",
   "block.omnicomp.stone_1x": "Compressed Stone (1x) Block",
   "block.omnicomp.stone_2x": "Compressed Stone (2x) Block",
   "block.omnicomp.stone_3x": "Compressed Stone (3x) Block"

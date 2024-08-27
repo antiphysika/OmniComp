@@ -20,6 +20,12 @@
     "omnicomp:cobbled_deepslate_3x",
     "omnicomp:gravel_1x",
     "omnicomp:gravel_2x",
-    "omnicomp:gravel_3x"
+    "omnicomp:gravel_3x",
+    "omnicomp:sand_1x",
+    "omnicomp:sand_2x",
+    "omnicomp:sand_3x",
+    "omnicomp:sandstone_1x",
+    "omnicomp:sandstone_2x",
+    "omnicomp:sandstone_3x"
   ]
 }
