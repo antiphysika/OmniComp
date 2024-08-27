@@ -30,19 +30,10 @@ public class OmniCompBlockTags extends BlockTagsProvider
   @Override
   protected void addTags(HolderLookup.Provider provider)
   {
-    // Cobblestone
-    //
-
-    tag(BlockTags.MINEABLE_WITH_PICKAXE).add(Registrar.COBBLESTONE_1X.get());
-    tag(BlockTags.MINEABLE_WITH_PICKAXE).add(Registrar.COBBLESTONE_2X.get());
-    tag(BlockTags.MINEABLE_WITH_PICKAXE).add(Registrar.COBBLESTONE_3X.get());
-
-    // Stone
-    //
-
-    tag(BlockTags.MINEABLE_WITH_PICKAXE).add(Registrar.STONE_1X.get());
-    tag(BlockTags.MINEABLE_WITH_PICKAXE).add(Registrar.STONE_2X.get());
-    tag(BlockTags.MINEABLE_WITH_PICKAXE).add(Registrar.STONE_3X.get());
+    for (var block : Registrar.getKnownBlocks())
+    {
+      tag(BlockTags.MINEABLE_WITH_PICKAXE).add(block);
+    }
   }
 }
 
