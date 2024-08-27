@@ -10,24 +10,25 @@ import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 
 import java.util.concurrent.CompletableFuture;
 
 import org.jetbrains.annotations.NotNull;
 
-import antiphysika.omnicomp.common.registry.block.CompressedCobblestone;
-import antiphysika.omnicomp.common.registry.block.CompressedStone;
+import antiphysika.omnicomp.common.config.StaticRecipeConfig;
 
 public class OmniCompRecipes extends RecipeProvider
 {
-  public OmniCompRecipes (PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider)
+  public OmniCompRecipes (PackOutput output,
+                          CompletableFuture<HolderLookup.Provider> lookupProvider)
   {
     super(output, lookupProvider);
   }
 
-  private void compBlockRecipe (@NotNull RecipeOutput output, ItemLike result, ItemLike material)
+  private void compBlockRecipe (@NotNull RecipeOutput output,
+                                ItemLike material,
+                                ItemLike result)
   {
     ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, result)
       .pattern("###")
@@ -38,16 +39,18 @@ public class OmniCompRecipes extends RecipeProvider
       .save(output);
   }
 
+  private void compBlockRecipes (@NotNull RecipeOutput output, ItemLike[] materials)
+  {
+    compBlockRecipe(output, materials[0], materials[1]);
+    compBlockRecipe(output, materials[1], materials[2]);
+    compBlockRecipe(output, materials[2], materials[3]);
+  }
+
   @Override
   protected void buildRecipes (@NotNull RecipeOutput output)
   {
-    compBlockRecipe(output, CompressedCobblestone.ITEM_1X, Items.COBBLESTONE);
-    compBlockRecipe(output, CompressedCobblestone.ITEM_2X, CompressedCobblestone.ITEM_1X);
-    compBlockRecipe(output, CompressedCobblestone.ITEM_3X, CompressedCobblestone.ITEM_2X);
-
-    compBlockRecipe(output, CompressedStone.ITEM_1X, Items.STONE);
-    compBlockRecipe(output, CompressedStone.ITEM_2X, CompressedStone.ITEM_1X);
-    compBlockRecipe(output, CompressedStone.ITEM_3X, CompressedStone.ITEM_2X);
+    compBlockRecipes(output, StaticRecipeConfig.COBBLESTONE_MATERIALS);
+    compBlockRecipes(output, StaticRecipeConfig.STONE_MATERIALS);
   }
 }
 
