@@ -35,7 +35,7 @@ public class OmniComp
     INSTANCE = this;
 
     // Add listener for FMLCommonSetupEvent event
-    bus.addListener(this::initCommon);
+    bus.addListener(OmniCompCommon::initCommon);
 
     // Deferred registers
     Registrar.register(bus);
@@ -66,14 +66,17 @@ public class OmniComp
     return id(String.format("%s_%dx", id, level));
   }
 
-  private void initCommon (final FMLCommonSetupEvent event)
+  private static class OmniCompCommon
   {
-    LOGGER.debug("In {}.initCommon()", MOD_ID);
-
-    LOGGER.debug("Registered blocks:");
-    for (var block : Registrar.getKnownBlocks())
+    private static void initCommon (final FMLCommonSetupEvent event)
     {
-      LOGGER.debug("- " + block.toString());
+      LOGGER.debug("In {}.initCommon()", MOD_ID);
+
+      LOGGER.debug("Registered blocks:");
+      for (var block : Registrar.getKnownBlocks())
+      {
+        LOGGER.debug("- " + block.toString());
+      }
     }
   }
 
