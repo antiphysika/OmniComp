@@ -15,6 +15,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.advancements.AdvancementSubProvider;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.neoforge.common.data.AdvancementProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -42,7 +43,7 @@ public class OmniCompAdvancements extends AdvancementProvider
     {
       Advancement.Builder builder = Advancement.Builder.advancement();
 
-      // FIXME: It'd be nice if we had our own root advancement tree some day...
+      // FIXME: It'd be nice if we had our own advancement tree some day...
       builder.parent(AdvancementSubProvider.createPlaceholder("minecraft:story/root"));
 
       builder.display(
