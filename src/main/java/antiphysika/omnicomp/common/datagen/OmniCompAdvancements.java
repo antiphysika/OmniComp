@@ -4,6 +4,7 @@
 
 package antiphysika.omnicomp.common.datagen;
 
+import antiphysika.omnicomp.common.registry.block.CompressedCobblestone;
 import net.minecraft.advancements.Advancement;
 import net.minecraft.advancements.AdvancementHolder;
 import net.minecraft.advancements.AdvancementRequirements;
@@ -23,7 +24,6 @@ import java.util.concurrent.CompletableFuture;
 import java.util.function.Consumer;
 
 import antiphysika.omnicomp.OmniComp;
-import antiphysika.omnicomp.common.registry.Registrar;
 
 public class OmniCompAdvancements extends AdvancementProvider
 {
@@ -48,7 +48,7 @@ public class OmniCompAdvancements extends AdvancementProvider
       builder.parent(AdvancementSubProvider.createPlaceholder("minecraft:story/root"));
 
       builder.display(
-        new ItemStack(Registrar.COBBLESTONE_1X_ITEM.get()),
+        new ItemStack(CompressedCobblestone.ITEM_1X.get()),
         Component.translatable("advancement.omnicomp.craft_compressed_block.title"),
         Component.translatable("advancement.omnicomp.craft_compressed_block.description"),
         null,
@@ -60,7 +60,7 @@ public class OmniCompAdvancements extends AdvancementProvider
 
       builder.addCriterion(
         "recipe_crafted",
-        InventoryChangeTrigger.TriggerInstance.hasItems(Registrar.COBBLESTONE_1X_ITEM)
+        InventoryChangeTrigger.TriggerInstance.hasItems(CompressedCobblestone.ITEM_1X)
       );
 
       builder.requirements(
