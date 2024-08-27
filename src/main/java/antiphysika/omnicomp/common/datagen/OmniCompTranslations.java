@@ -4,6 +4,7 @@
 
 package antiphysika.omnicomp.common.datagen;
 
+import antiphysika.omnicomp.OmniComp;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 
@@ -31,19 +32,24 @@ public class OmniCompTranslations extends LanguageProvider
     return transKey("advancement", key);
   }
 
+  private void compBlockTranslations (String id, String name)
+  {
+    for (int level = 1; level < 4; ++level)
+    {
+      String key = blockTransKey(OmniComp.block(id, level).getPath());
+      String str = String.format("Compressed %s (%dx) Block", name, level);
+      add(key, str);
+    }
+  }
+
   @Override
   protected void addTranslations()
   {
     // Blocks
     //
 
-    add(blockTransKey("cobblestone_1x"), "Compressed Cobblestone (1x) Block");
-    add(blockTransKey("cobblestone_2x"), "Compressed Cobblestone (2x) Block");
-    add(blockTransKey("cobblestone_3x"), "Compressed Cobblestone (3x) Block");
-
-    add(blockTransKey("stone_1x"), "Compressed Stone (1x) Block");
-    add(blockTransKey("stone_2x"), "Compressed Stone (2x) Block");
-    add(blockTransKey("stone_3x"), "Compressed Stone (3x) Block");
+    compBlockTranslations("cobblestone", "Cobblestone");
+    compBlockTranslations("stone", "Stone");
 
     // Advancements
     //

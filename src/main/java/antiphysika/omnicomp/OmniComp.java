@@ -71,6 +71,11 @@ public class OmniComp
   {
     return ResourceLocation.fromNamespaceAndPath(namespace, path);
   }
+
+  public static ResourceLocation block (String id, int level)
+  {
+    return id(String.format("%s_%dx", id, level));
+  }
 }
 
 //
