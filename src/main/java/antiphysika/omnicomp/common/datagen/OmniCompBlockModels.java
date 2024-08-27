@@ -10,7 +10,6 @@ import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import net.neoforged.neoforge.registries.DeferredBlock;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -39,21 +38,23 @@ public class OmniCompBlockModels extends BlockStateProvider
     exFileHelper.trackGenerated(OmniComp.id("block/stone_3x"), ModelProvider.TEXTURE);
   }
 
-  private void simpleBlockWithItem (@NotNull DeferredBlock<Block> block)
+  private void simpleBlockWithItem (@NotNull Block block)
   {
-    simpleBlockWithItem(block.get(), cubeAll(block.get()));
+    simpleBlockWithItem(block, cubeAll(block));
+  }
+
+  private Iterable<Block> getKnownBlocks ()
+  {
+    return Registrar.getKnownBlocks();
   }
 
   @Override
   protected void registerStatesAndModels()
   {
-    simpleBlockWithItem(Registrar.COBBLESTONE_1X);
-    simpleBlockWithItem(Registrar.COBBLESTONE_2X);
-    simpleBlockWithItem(Registrar.COBBLESTONE_3X);
-
-    simpleBlockWithItem(Registrar.STONE_1X);
-    simpleBlockWithItem(Registrar.STONE_2X);
-    simpleBlockWithItem(Registrar.STONE_3X);
+    for (var block : getKnownBlocks())
+    {
+      simpleBlockWithItem(block);
+    }
   }
 }
 

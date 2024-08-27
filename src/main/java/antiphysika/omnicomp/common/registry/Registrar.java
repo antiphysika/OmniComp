@@ -37,6 +37,14 @@ public class Registrar
     );
   }
 
+  public static Iterable<Block> getKnownBlocks ()
+  {
+    return BLOCKS.getEntries()
+      .stream()
+      .map(e -> (Block) e.value())
+      .toList();
+  }
+
   // Cobblestone
   //
 

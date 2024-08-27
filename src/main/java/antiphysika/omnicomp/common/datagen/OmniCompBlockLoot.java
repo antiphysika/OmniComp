@@ -26,10 +26,7 @@ public class OmniCompBlockLoot extends BlockLootSubProvider
   @NotNull
   protected Iterable<Block> getKnownBlocks ()
   {
-    return Registrar.BLOCKS.getEntries()
-      .stream()
-      .map(e -> (Block) e.value())
-      .toList();
+    return Registrar.getKnownBlocks();
   }
 
   @Override
