@@ -1,6 +1,9 @@
 {
   "advancement.omnicomp.craft_compressed_block.description": "Obtained when crafting any 1x compressed block variant",
   "advancement.omnicomp.craft_compressed_block.title": "Compressed blocks all the way down!",
+  "block.omnicomp.coarse_dirt_1x": "Compressed Coarse Dirt (1x) Block",
+  "block.omnicomp.coarse_dirt_2x": "Compressed Coarse Dirt (2x) Block",
+  "block.omnicomp.coarse_dirt_3x": "Compressed Coarse Dirt (3x) Block",
   "block.omnicomp.cobbled_deepslate_1x": "Compressed Cobbled Deepslate (1x) Block",
   "block.omnicomp.cobbled_deepslate_2x": "Compressed Cobbled Deepslate (2x) Block",
   "block.omnicomp.cobbled_deepslate_3x": "Compressed Cobbled Deepslate (3x) Block",
@@ -10,6 +13,9 @@
   "block.omnicomp.deepslate_1x": "Compressed Deepslate (1x) Block",
   "block.omnicomp.deepslate_2x": "Compressed Deepslate (2x) Block",
   "block.omnicomp.deepslate_3x": "Compressed Deepslate (3x) Block",
+  "block.omnicomp.dirt_1x": "Compressed Dirt (1x) Block",
+  "block.omnicomp.dirt_2x": "Compressed Dirt (2x) Block",
+  "block.omnicomp.dirt_3x": "Compressed Dirt (3x) Block",
   "block.omnicomp.stone_1x": "Compressed Stone (1x) Block",
   "block.omnicomp.stone_2x": "Compressed Stone (2x) Block",
   "block.omnicomp.stone_3x": "Compressed Stone (3x) Block"

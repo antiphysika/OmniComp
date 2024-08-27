@@ -11,6 +11,12 @@
     "omnicomp:cobbled_deepslate_3x",
     "omnicomp:deepslate_1x",
     "omnicomp:deepslate_2x",
-    "omnicomp:deepslate_3x"
+    "omnicomp:deepslate_3x",
+    "omnicomp:dirt_1x",
+    "omnicomp:dirt_2x",
+    "omnicomp:dirt_3x",
+    "omnicomp:coarse_dirt_1x",
+    "omnicomp:coarse_dirt_2x",
+    "omnicomp:coarse_dirt_3x"
   ]
 }

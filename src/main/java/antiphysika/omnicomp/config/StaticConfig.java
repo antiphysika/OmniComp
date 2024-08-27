@@ -32,13 +32,21 @@ public class StaticConfig
   public static final Block DEEPSLATE =
     new Block("deepslate", "Deepslate");
 
+  public static final Block DIRT =
+    new Block("dirt", "Dirt");
+
+  public static final Block COARSE_DIRT =
+    new Block("coarse_dirt", "Coarse Dirt");
+
   public static List<Block> getAllBlocks ()
   {
     return List.of(
       COBBLESTONE,
       STONE,
       COBBLED_DEEPSLATE,
-      DEEPSLATE
+      DEEPSLATE,
+      DIRT,
+      COARSE_DIRT
     );
   }
 }

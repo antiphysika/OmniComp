@@ -129,6 +129,48 @@ public class Registrar
   public static final DeferredItem<BlockItem> DEEPSLATE_3X_ITEM =
     ITEMS.registerSimpleBlockItem("deepslate_3x", DEEPSLATE_3X);
 
+  // Dirt
+  //
+
+  public static final DeferredBlock<Block> DIRT_1X =
+    registerBlock("dirt_1x", 0.8f, MapColor.STONE);
+
+  public static final DeferredBlock<Block> DIRT_2X =
+    registerBlock("dirt_2x", 0.8f, MapColor.STONE);
+
+  public static final DeferredBlock<Block> DIRT_3X =
+    registerBlock("dirt_3x", 0.8f, MapColor.STONE);
+
+  public static final DeferredItem<BlockItem> DIRT_1X_ITEM =
+    ITEMS.registerSimpleBlockItem("dirt_1x", DIRT_1X);
+
+  public static final DeferredItem<BlockItem> DIRT_2X_ITEM =
+    ITEMS.registerSimpleBlockItem("dirt_2x", DIRT_2X);
+
+  public static final DeferredItem<BlockItem> DIRT_3X_ITEM =
+    ITEMS.registerSimpleBlockItem("dirt_3x", DIRT_3X);
+
+  // Coarse Dirt
+  //
+
+  public static final DeferredBlock<Block> COARSE_DIRT_1X =
+    registerBlock("coarse_dirt_1x", 0.8f, MapColor.STONE);
+
+  public static final DeferredBlock<Block> COARSE_DIRT_2X =
+    registerBlock("coarse_dirt_2x", 0.8f, MapColor.STONE);
+
+  public static final DeferredBlock<Block> COARSE_DIRT_3X =
+    registerBlock("coarse_dirt_3x", 0.8f, MapColor.STONE);
+
+  public static final DeferredItem<BlockItem> COARSE_DIRT_1X_ITEM =
+    ITEMS.registerSimpleBlockItem("coarse_dirt_1x", COARSE_DIRT_1X);
+
+  public static final DeferredItem<BlockItem> COARSE_DIRT_2X_ITEM =
+    ITEMS.registerSimpleBlockItem("coarse_dirt_2x", COARSE_DIRT_2X);
+
+  public static final DeferredItem<BlockItem> COARSE_DIRT_3X_ITEM =
+    ITEMS.registerSimpleBlockItem("coarse_dirt_3x", COARSE_DIRT_3X);
+
   // Creative mode tab
   //
 

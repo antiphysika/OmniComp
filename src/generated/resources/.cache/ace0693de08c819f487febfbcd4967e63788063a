@@ -1,4 +1,7 @@
-// 1.21.1	2024-08-27T16:15:44.684890904	Block States: omnicomp
+// 1.21.1	2024-08-27T16:33:16.090231907	Block States: omnicomp
+a91491fb189979f8c3e251ec0536cc07fb41b71c assets/omnicomp/blockstates/coarse_dirt_1x.json
+b683fd4667680ff496ede4ea6f630d13c89f7c30 assets/omnicomp/blockstates/coarse_dirt_2x.json
+7719633640ca6db7ed6f8b454edc01f37b5543b2 assets/omnicomp/blockstates/coarse_dirt_3x.json
 cdb2e0c62b9153205a73e7e082cfc59a4a01446f assets/omnicomp/blockstates/cobbled_deepslate_1x.json
 65ae82019413203830f1f05eeffe2dfff0c2044a assets/omnicomp/blockstates/cobbled_deepslate_2x.json
 9835094c4df388132ea8cea14385a809f62d13ae assets/omnicomp/blockstates/cobbled_deepslate_3x.json
@@ -8,9 +11,15 @@ b5fdb767f4a7eb6ec77e7e9db0e86641cc515172 assets/omnicomp/blockstates/cobblestone
 f30e3c85b696ab2709cead9dbdc1cb33cf576701 assets/omnicomp/blockstates/deepslate_1x.json
 6e82ab9b4bd4e1f3a1d7edd55a74a63af9d4f6c6 assets/omnicomp/blockstates/deepslate_2x.json
 a07aed0b204486437d1fde1eb0ab0d75c7d1c556 assets/omnicomp/blockstates/deepslate_3x.json
+f01cfb486339414b9ff3710b51470f6af3058de5 assets/omnicomp/blockstates/dirt_1x.json
+3070b4fd9f630b178691caf6325b99e159ede470 assets/omnicomp/blockstates/dirt_2x.json
+a8a602766ffda05e31506f9cfd66e7c1966ec5a8 assets/omnicomp/blockstates/dirt_3x.json
 60d75388542e2fbe64975b91bf9c52b973554137 assets/omnicomp/blockstates/stone_1x.json
 bbd3c200ee4ceadaf971404d35a1df1d418dc638 assets/omnicomp/blockstates/stone_2x.json
 20348dc17227a9a43714687e7315f9c2b408e0cc assets/omnicomp/blockstates/stone_3x.json
+95ac2f0e5dafd086ef6d139951e074388b9272ea assets/omnicomp/models/block/coarse_dirt_1x.json
+ae0ad1c31bf1ff0a9de6bd7a6b3df588cadc5af2 assets/omnicomp/models/block/coarse_dirt_2x.json
+706124fd3d7d8bcf4e768a1228cda289175f601e assets/omnicomp/models/block/coarse_dirt_3x.json
 a19ed12ae5ffa53cdbf530d85981d540f661ceb5 assets/omnicomp/models/block/cobbled_deepslate_1x.json
 135491aca2c59f0ae7e865df6da81078f1f100c4 assets/omnicomp/models/block/cobbled_deepslate_2x.json
 6a07af3a2d3102faa97ede18c7688e18f4c94d09 assets/omnicomp/models/block/cobbled_deepslate_3x.json
@@ -20,9 +29,15 @@ a19ed12ae5ffa53cdbf530d85981d540f661ceb5 assets/omnicomp/models/block/cobbled_de
 0bc48415d1c2da314d7f3e154f10c9dfd6991113 assets/omnicomp/models/block/deepslate_1x.json
 01d70a879554cd07e34229bfc8217cce1dca9051 assets/omnicomp/models/block/deepslate_2x.json
 b99add0479937b079d74050d58558c3b8b6a3ab5 assets/omnicomp/models/block/deepslate_3x.json
+d071462c8c23093e356d9ac7bb20b452264db9b4 assets/omnicomp/models/block/dirt_1x.json
+789137255dccc3fdb82da3139a1a880a0ca63a08 assets/omnicomp/models/block/dirt_2x.json
+69fb05754b973c264a2e073ebbf6fdcbeea429b1 assets/omnicomp/models/block/dirt_3x.json
 5455f3fda909de40fffb25856c56e31b0718e068 assets/omnicomp/models/block/stone_1x.json
 025a3dbad9d71f439aa15ae1dd07aeaf29f5ad92 assets/omnicomp/models/block/stone_2x.json
 757431fe6e35cdccd859e071b89818e46d9b0d57 assets/omnicomp/models/block/stone_3x.json
+7e5c05130b804c28052053430bb451ae1fc390f1 assets/omnicomp/models/item/coarse_dirt_1x.json
+ef5181feb11e333b298da66dde7d2243f9f45442 assets/omnicomp/models/item/coarse_dirt_2x.json
+41783928b2200ae45ea256744b5b2e4e7f492b7d assets/omnicomp/models/item/coarse_dirt_3x.json
 783ce5d3a2b495d37b6a158e2186003b6f179c6f assets/omnicomp/models/item/cobbled_deepslate_1x.json
 bc1cd1a2ed5e2687ef89ba66884c48c5a6868067 assets/omnicomp/models/item/cobbled_deepslate_2x.json
 231f3b4840d7807e611631a409a344f38a860b2f assets/omnicomp/models/item/cobbled_deepslate_3x.json
@@ -32,6 +47,9 @@ d1f2348b40bb53387222137e8e013c76113b75f0 assets/omnicomp/models/item/cobblestone
 56b7aef83f3b6848fae5401a7e71795eb4206968 assets/omnicomp/models/item/deepslate_1x.json
 7aa421c37c003bd4d9c7fbcc0430398ef59923c9 assets/omnicomp/models/item/deepslate_2x.json
 7a042c473ab6d8d8a2530706cc9302b981a88154 assets/omnicomp/models/item/deepslate_3x.json
+90790f95c27d4593c4cd5dab2f66bae04a7439cb assets/omnicomp/models/item/dirt_1x.json
+e70747e6187c8b41065a5bde63974a767973ae1c assets/omnicomp/models/item/dirt_2x.json
+2d48bfcbab12497e81dc30b556e622dc2974bddf assets/omnicomp/models/item/dirt_3x.json
 828ad8ac487759bf0e4b4258608f916c33c50383 assets/omnicomp/models/item/stone_1x.json
 3d3008ee143538631a67e3d89b02f45c2ec0be42 assets/omnicomp/models/item/stone_2x.json
 f6840a0a38ecdc1104836a38abb7344afa55539e assets/omnicomp/models/item/stone_3x.json

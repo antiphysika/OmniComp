@@ -1,4 +1,7 @@
-// 1.21.1	2024-08-27T16:15:44.684008462	Loot Tables
+// 1.21.1	2024-08-27T16:33:16.088659661	Loot Tables
+ab3361261f0373345832cd8b8fd64fb6529774f8 data/omnicomp/loot_table/blocks/coarse_dirt_1x.json
+d89b2e8b5a992217b32cdf96eacb56cd6443de5c data/omnicomp/loot_table/blocks/coarse_dirt_2x.json
+05db4f7579652f613c1a4a49b0cbb7f9db64b480 data/omnicomp/loot_table/blocks/coarse_dirt_3x.json
 cfc0d01dbc953ee2db6dac812a8cdc7012e2e5f1 data/omnicomp/loot_table/blocks/cobbled_deepslate_1x.json
 23f989070824919bac8a371884b028f7170d699a data/omnicomp/loot_table/blocks/cobbled_deepslate_2x.json
 b3761d51208df8b92329f110519e6a2d3a7ed305 data/omnicomp/loot_table/blocks/cobbled_deepslate_3x.json
@@ -8,6 +11,9 @@ b8567b4b4cc5c1b242dd239d8e32c66facc76149 data/omnicomp/loot_table/blocks/cobbles
 2f785171825f65b6ff9c58f5a8273976a6719f11 data/omnicomp/loot_table/blocks/deepslate_1x.json
 cdcde2a260e40368561347fa7e867ea7af51b4db data/omnicomp/loot_table/blocks/deepslate_2x.json
 dea5c3ec266cd12e30a8b76d0dccbe157eec4dcf data/omnicomp/loot_table/blocks/deepslate_3x.json
+d64fc5bbc011fa3b2455829f2ce2f696a0b63354 data/omnicomp/loot_table/blocks/dirt_1x.json
+9e9e78e077136f9ee41ded85373630e6a16ed31a data/omnicomp/loot_table/blocks/dirt_2x.json
+4716629439cf00b3eb513f06cc980acf3acd447d data/omnicomp/loot_table/blocks/dirt_3x.json
 34267d14cd74db7b1334ca62336ab6412298bf0e data/omnicomp/loot_table/blocks/stone_1x.json
 777c8ff020bdc572ddd21105c98b164ab1523efe data/omnicomp/loot_table/blocks/stone_2x.json
 9bfaff43b99f0c8cab7afa54b64d2755b0d314b0 data/omnicomp/loot_table/blocks/stone_3x.json
