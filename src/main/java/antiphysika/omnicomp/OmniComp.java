@@ -6,18 +6,21 @@ package antiphysika.omnicomp;
 
 import net.minecraft.resources.ResourceLocation;
 
+import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 
 import antiphysika.omnicomp.common.registry.Registrar;
+import antiphysika.omnicomp.client.texture.DynamicTextureManager;
 
 @Mod(OmniComp.MOD_ID)
 public class OmniComp
@@ -36,9 +39,6 @@ public class OmniComp
 
     // Deferred registers
     Registrar.register(bus);
-
-    // Register ourselves on the game bus
-    NeoForge.EVENT_BUS.register(this);
   }
 
   public static OmniComp getInstance ()
@@ -49,17 +49,6 @@ public class OmniComp
   public static Logger getLogger ()
   {
     return LOGGER;
-  }
-
-  private void initCommon (final FMLCommonSetupEvent event)
-  {
-    LOGGER.info("In {}.initCommon()", MOD_ID);
-  }
-
-  @SubscribeEvent
-  public void onServerStarting (ServerStartingEvent event)
-  {
-    OmniComp.getLogger().info("In ServerEvents.onServerStarting()");
   }
 
   public static ResourceLocation id (String path)
@@ -75,6 +64,42 @@ public class OmniComp
   public static ResourceLocation block (String id, int level)
   {
     return id(String.format("%s_%dx", id, level));
+  }
+
+  private void initCommon (final FMLCommonSetupEvent event)
+  {
+    LOGGER.debug("In {}.initCommon()", MOD_ID);
+
+    LOGGER.debug("Registered blocks:");
+    for (var block : Registrar.getKnownBlocks())
+    {
+      LOGGER.debug("- " + block.toString());
+    }
+  }
+
+  @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.DEDICATED_SERVER)
+  public static class OmniCompServer
+  {
+    @SubscribeEvent
+    public static void onServerStarting (final ServerStartingEvent event)
+    {
+      LOGGER.debug("In OmniCompServer.onServerStarting()");
+    }
+  }
+
+  @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+  public static class OmniCompClient
+  {
+    static
+    {
+      DynamicTextureManager.generateTextures();
+    }
+
+    @SubscribeEvent
+    public static void onClientSetup (final FMLClientSetupEvent event)
+    {
+      LOGGER.debug("In OmniCompClient.onClientSetup()");
+    }
   }
 }
 
