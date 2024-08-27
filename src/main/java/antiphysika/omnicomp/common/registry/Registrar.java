@@ -70,12 +70,14 @@ public class Registrar
 
   public static void initCompBlocks ()
   {
-    CompressedCobblestone.init();
-    CompressedStone.init();
-    CompressedDeepslate.init();
-    CompressedCobbledDeepslate.init();
     CompressedDirt.init();
     CompressedCoarseDirt.init();
+
+    CompressedCobblestone.init();
+    CompressedStone.init();
+
+    CompressedDeepslate.init();
+    CompressedCobbledDeepslate.init();
   }
 
   public static void register (IEventBus bus)
