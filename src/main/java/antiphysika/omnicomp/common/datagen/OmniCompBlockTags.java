@@ -15,8 +15,8 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
-import antiphysika.omnicomp.common.registry.Registrar;
 import static antiphysika.omnicomp.OmniComp.MOD_ID;
+import antiphysika.omnicomp.common.registry.Registrar;
 
 public class OmniCompBlockTags extends BlockTagsProvider
 {

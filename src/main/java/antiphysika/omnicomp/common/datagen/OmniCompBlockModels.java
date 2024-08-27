@@ -4,7 +4,6 @@
 
 package antiphysika.omnicomp.common.datagen;
 
-import antiphysika.omnicomp.OmniComp;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 
@@ -15,8 +14,10 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 
 import org.jetbrains.annotations.NotNull;
 
-import antiphysika.omnicomp.common.registry.Registrar;
 import static antiphysika.omnicomp.OmniComp.MOD_ID;
+
+import antiphysika.omnicomp.OmniComp;
+import antiphysika.omnicomp.common.registry.Registrar;
 
 public class OmniCompBlockModels extends BlockStateProvider
 {

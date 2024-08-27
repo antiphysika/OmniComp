@@ -11,8 +11,9 @@ import net.minecraft.world.level.block.Block;
 
 import java.util.Set;
 
-import antiphysika.omnicomp.common.registry.Registrar;
 import org.jetbrains.annotations.NotNull;
+
+import antiphysika.omnicomp.common.registry.Registrar;
 
 public class OmniCompBlockLoot extends BlockLootSubProvider
 {

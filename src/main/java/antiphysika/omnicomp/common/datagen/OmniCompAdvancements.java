@@ -4,8 +4,6 @@
 
 package antiphysika.omnicomp.common.datagen;
 
-import antiphysika.omnicomp.OmniComp;
-import antiphysika.omnicomp.common.registry.Registrar;
 import net.minecraft.advancements.Advancement;
 import net.minecraft.advancements.AdvancementHolder;
 import net.minecraft.advancements.AdvancementRequirements;
@@ -15,14 +13,17 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.advancements.AdvancementSubProvider;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
+
 import net.neoforged.neoforge.common.data.AdvancementProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.Consumer;
+
+import antiphysika.omnicomp.OmniComp;
+import antiphysika.omnicomp.common.registry.Registrar;
 
 public class OmniCompAdvancements extends AdvancementProvider
 {
