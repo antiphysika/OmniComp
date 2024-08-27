@@ -17,6 +17,9 @@
     "omnicomp:deepslate_3x",
     "omnicomp:cobbled_deepslate_1x",
     "omnicomp:cobbled_deepslate_2x",
-    "omnicomp:cobbled_deepslate_3x"
+    "omnicomp:cobbled_deepslate_3x",
+    "omnicomp:gravel_1x",
+    "omnicomp:gravel_2x",
+    "omnicomp:gravel_3x"
   ]
 }

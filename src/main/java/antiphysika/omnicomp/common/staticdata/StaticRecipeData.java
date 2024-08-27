@@ -52,6 +52,13 @@ public class StaticRecipeData
     CompressedCoarseDirt.ITEM_2X,
     CompressedCoarseDirt.ITEM_3X
   };
+
+  public static final ItemLike[] GRAVEL_MATERIALS = new ItemLike[]{
+    Items.GRAVEL,
+    CompressedGravel.ITEM_1X,
+    CompressedGravel.ITEM_2X,
+    CompressedGravel.ITEM_3X
+  };
 }
 
 //

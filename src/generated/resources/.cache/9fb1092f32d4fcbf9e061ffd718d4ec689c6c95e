@@ -1,4 +1,4 @@
-// 1.21.1	2024-08-27T21:09:42.043760815	Recipes
+// 1.21.1	2024-08-27T22:57:36.300435426	Recipes
 41ac8af259d7594cb45c2b39388bc8a032bacd3e data/omnicomp/advancement/recipes/building_blocks/coarse_dirt_1x.json
 abea3ccc0cc545f1da002d279e9fff54b998ad23 data/omnicomp/advancement/recipes/building_blocks/coarse_dirt_2x.json
 c71da9f2b1c6c66cb6863472fa81981c691051bf data/omnicomp/advancement/recipes/building_blocks/coarse_dirt_3x.json
@@ -14,6 +14,9 @@ d8056da0d0adc4513ba8fe90a592d9375e080884 data/omnicomp/advancement/recipes/build
 06d4780dcd69b61a60e577bc42483723baecbf53 data/omnicomp/advancement/recipes/building_blocks/dirt_1x.json
 bbeb72c8c8acbceb92d1705b58d0b27deab8544c data/omnicomp/advancement/recipes/building_blocks/dirt_2x.json
 fe887bc3515af77ba7c8f80063526aa88996c610 data/omnicomp/advancement/recipes/building_blocks/dirt_3x.json
+ac485bd28c693c13a8c7ecaf48c2be5e315a1213 data/omnicomp/advancement/recipes/building_blocks/gravel_1x.json
+e41bba385dd1c0b1b3ea1addf4559cb68287b7b5 data/omnicomp/advancement/recipes/building_blocks/gravel_2x.json
+6e06d891580317392efa04afb828301f0d51bcde data/omnicomp/advancement/recipes/building_blocks/gravel_3x.json
 7aeef0dce2d3720ad4d315c7bec9e59859db2dbf data/omnicomp/advancement/recipes/building_blocks/stone_1x.json
 86cfccc27248e1a0338218eb029667bf09fec731 data/omnicomp/advancement/recipes/building_blocks/stone_2x.json
 2859aa204e2be2fd2be48352f692b393658a15a7 data/omnicomp/advancement/recipes/building_blocks/stone_3x.json
@@ -32,6 +35,9 @@ d58ef08ad99a6449c878fbae85bfe019d2b255c6 data/omnicomp/recipe/cobblestone_3x.jso
 c394e108f311ab76704596c7e2d146c7c1cc705e data/omnicomp/recipe/dirt_1x.json
 cb842b74bd859f991c1f3ff45be481be033dbfac data/omnicomp/recipe/dirt_2x.json
 05d9f4ee32ebb333f7d72946a1fed227d03d42d9 data/omnicomp/recipe/dirt_3x.json
+fa908c1932b50cead10f85f2487a5d4eb869b485 data/omnicomp/recipe/gravel_1x.json
+5d310a21bd3fae75430f96dfa6d7428e5cda8000 data/omnicomp/recipe/gravel_2x.json
+d6bfa0b529955a8bdbc9581f826129cae990c162 data/omnicomp/recipe/gravel_3x.json
 79a87539f6dbe8d7aabe4696c6228a7f40188755 data/omnicomp/recipe/stone_1x.json
 60acb74153d61dfa7e8ef06a9cc75a17df77a7fa data/omnicomp/recipe/stone_2x.json
 ad402d2acbe412b54c2db956971199ede240c5b1 data/omnicomp/recipe/stone_3x.json

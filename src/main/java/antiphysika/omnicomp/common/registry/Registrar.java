@@ -78,6 +78,8 @@ public class Registrar
 
     CompressedDeepslate.init();
     CompressedCobbledDeepslate.init();
+
+    CompressedGravel.init();
   }
 
   public static void register (IEventBus bus)

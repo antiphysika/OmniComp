@@ -38,6 +38,9 @@ public class StaticBlockData
   public static final Block COARSE_DIRT =
     new Block("coarse_dirt", "Coarse Dirt");
 
+  public static final Block GRAVEL =
+    new Block("gravel", "Gravel");
+
   public static List<Block> getAllBlocks ()
   {
     return List.of(
@@ -46,7 +49,8 @@ public class StaticBlockData
       COBBLED_DEEPSLATE,
       DEEPSLATE,
       DIRT,
-      COARSE_DIRT
+      COARSE_DIRT,
+      GRAVEL
     );
   }
 }
