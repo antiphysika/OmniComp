@@ -52,11 +52,15 @@ public class DynamicTextureManager
     gen.addLayer(OmniComp.id("minecraft", "block/" + parent));
 
     gen.generate(DynamicTextureManager.getAssetCache());
+    OmniComp.getLogger().debug("Generated texture: " + outputLoc.toString());
+
     trackGenerated(outputLoc);
   }
 
   public static void generateTextures ()
   {
+    OmniComp.getLogger().debug("Generating textures...");
+
     for (var block : StaticBlockData.getAllBlocks())
     {
       DynamicTextureManager.generateCompBlockTextures(block.id);
