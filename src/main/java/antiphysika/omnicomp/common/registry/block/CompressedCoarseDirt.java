@@ -25,9 +25,23 @@ public class CompressedCoarseDirt
 
   public static void init ()
   {
-    BLOCK_1X = Registrar.registerBlock("coarse_dirt_1x", 0.8f, MapColor.DIRT);
-    BLOCK_2X = Registrar.registerBlock("coarse_dirt_2x", 0.8f, MapColor.DIRT);
-    BLOCK_3X = Registrar.registerBlock("coarse_dirt_3x", 0.8f, MapColor.DIRT);
+    BLOCK_1X = Registrar.registerBlock(
+      "coarse_dirt_1x",
+      2.0f,
+      MapColor.DIRT
+    );
+
+    BLOCK_2X = Registrar.registerBlock(
+      "coarse_dirt_2x",
+      3.5f,
+      MapColor.DIRT
+    );
+
+    BLOCK_3X = Registrar.registerBlock(
+      "coarse_dirt_3x",
+      5.0f,
+      MapColor.DIRT
+    );
 
     ITEM_1X = ITEMS.registerSimpleBlockItem("coarse_dirt_1x", BLOCK_1X);
     ITEM_2X = ITEMS.registerSimpleBlockItem("coarse_dirt_2x", BLOCK_2X);

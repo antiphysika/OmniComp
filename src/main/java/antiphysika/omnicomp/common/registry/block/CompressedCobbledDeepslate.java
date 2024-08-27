@@ -25,9 +25,23 @@ public class CompressedCobbledDeepslate
 
   public static void init ()
   {
-    BLOCK_1X = Registrar.registerBlock("cobbled_deepslate_1x", 0.8f, MapColor.DEEPSLATE);
-    BLOCK_2X = Registrar.registerBlock("cobbled_deepslate_2x", 0.8f, MapColor.DEEPSLATE);
-    BLOCK_3X = Registrar.registerBlock("cobbled_deepslate_3x", 0.8f, MapColor.DEEPSLATE);
+    BLOCK_1X = Registrar.registerBlock(
+      "cobbled_deepslate_1x",
+      2.0f,
+      MapColor.DEEPSLATE
+    );
+
+    BLOCK_2X = Registrar.registerBlock(
+      "cobbled_deepslate_2x",
+      3.5f,
+      MapColor.DEEPSLATE
+    );
+
+    BLOCK_3X = Registrar.registerBlock(
+      "cobbled_deepslate_3x",
+      5.0f,
+      MapColor.DEEPSLATE
+    );
 
     ITEM_1X = ITEMS.registerSimpleBlockItem("cobbled_deepslate_1x", BLOCK_1X);
     ITEM_2X = ITEMS.registerSimpleBlockItem("cobbled_deepslate_2x", BLOCK_2X);

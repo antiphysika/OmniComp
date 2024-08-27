@@ -25,9 +25,23 @@ public class CompressedCobblestone
 
   public static void init ()
   {
-    BLOCK_1X = Registrar.registerBlock("cobblestone_1x", 0.8f, MapColor.STONE);
-    BLOCK_2X = Registrar.registerBlock("cobblestone_2x", 0.8f, MapColor.STONE);
-    BLOCK_3X = Registrar.registerBlock("cobblestone_3x", 0.8f, MapColor.STONE);
+    BLOCK_1X = Registrar.registerBlock(
+      "cobblestone_1x",
+      2.0f,
+      MapColor.STONE
+    );
+
+    BLOCK_2X = Registrar.registerBlock(
+      "cobblestone_2x",
+      3.5f,
+      MapColor.STONE
+    );
+
+    BLOCK_3X = Registrar.registerBlock(
+      "cobblestone_3x",
+      5.0f,
+      MapColor.STONE
+    );
 
     ITEM_1X = ITEMS.registerSimpleBlockItem("cobblestone_1x", BLOCK_1X);
     ITEM_2X = ITEMS.registerSimpleBlockItem("cobblestone_2x", BLOCK_2X);

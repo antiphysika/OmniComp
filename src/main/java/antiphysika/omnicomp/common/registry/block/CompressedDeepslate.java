@@ -25,9 +25,23 @@ public class CompressedDeepslate
 
   public static void init ()
   {
-    BLOCK_1X = Registrar.registerBlock("deepslate_1x", 0.8f, MapColor.DEEPSLATE);
-    BLOCK_2X = Registrar.registerBlock("deepslate_2x", 0.8f, MapColor.DEEPSLATE);
-    BLOCK_3X = Registrar.registerBlock("deepslate_3x", 0.8f, MapColor.DEEPSLATE);
+    BLOCK_1X = Registrar.registerBlock(
+      "deepslate_1x",
+      2.0f,
+      MapColor.DEEPSLATE
+    );
+
+    BLOCK_2X = Registrar.registerBlock(
+      "deepslate_2x",
+      3.5f,
+      MapColor.DEEPSLATE
+    );
+
+    BLOCK_3X = Registrar.registerBlock(
+      "deepslate_3x",
+      5.0f,
+      MapColor.DEEPSLATE
+    );
 
     ITEM_1X = ITEMS.registerSimpleBlockItem("deepslate_1x", BLOCK_1X);
     ITEM_2X = ITEMS.registerSimpleBlockItem("deepslate_2x", BLOCK_2X);
