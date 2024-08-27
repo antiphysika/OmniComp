@@ -23,7 +23,7 @@ import antiphysika.omnicomp.common.registry.Registrar;
 import antiphysika.omnicomp.client.texture.DynamicTextureManager;
 
 @Mod(OmniComp.MOD_ID)
-public class OmniComp
+public class OmniComp extends OmniCompBase
 {
   public static final String MOD_ID = "omnicomp";
 
@@ -49,21 +49,6 @@ public class OmniComp
   public static Logger getLogger ()
   {
     return LOGGER;
-  }
-
-  public static ResourceLocation id (String path)
-  {
-    return ResourceLocation.fromNamespaceAndPath(MOD_ID, path);
-  }
-
-  public static ResourceLocation id (String namespace, String path)
-  {
-    return ResourceLocation.fromNamespaceAndPath(namespace, path);
-  }
-
-  public static ResourceLocation block (String id, int level)
-  {
-    return id(String.format("%s_%dx", id, level));
   }
 
   private static class OmniCompCommon

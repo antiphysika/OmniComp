@@ -67,7 +67,7 @@ public class OmniCompAdvancements extends AdvancementProvider
         AdvancementRequirements.allOf(List.of("recipe_crafted"))
       );
 
-      builder.save(consumer, OmniComp.id("craft_compressed_block"), exFileHelper);
+      builder.save(consumer, OmniComp.loc("craft_compressed_block"), exFileHelper);
     }
   }
 }
