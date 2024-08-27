@@ -5,7 +5,6 @@
 package antiphysika.omnicomp.client.event;
 
 import antiphysika.omnicomp.client.texture.DynamicTextureManager;
-import antiphysika.omnicomp.config.StaticConfig;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;

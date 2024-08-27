@@ -2,11 +2,11 @@
  * SPDX-License-Identifier: LGPL-2.1
  */
 
-package antiphysika.omnicomp.config;
+package antiphysika.omnicomp.common.config;
 
 import java.util.List;
 
-public class StaticConfig
+public class StaticBlockConfig
 {
   public static class Block
   {
