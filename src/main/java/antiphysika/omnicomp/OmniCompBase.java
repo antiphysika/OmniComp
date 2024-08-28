@@ -20,7 +20,7 @@ public class OmniCompBase
     return ResourceLocation.fromNamespaceAndPath(namespace, path);
   }
 
-  public static ResourceLocation blockLoc (String id, int level)
+  public static ResourceLocation blockLocation (String id, int level)
   {
     return location(String.format("%s_%dx", id, level));
   }

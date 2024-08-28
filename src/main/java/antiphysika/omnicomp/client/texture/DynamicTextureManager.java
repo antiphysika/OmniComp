@@ -45,7 +45,7 @@ public class DynamicTextureManager
 
   private static void generateCompBlockTexture (String parent, int level)
   {
-    ResourceLocation outputLoc = OmniComp.blockLoc("block/" + parent, level);
+    ResourceLocation outputLoc = OmniComp.blockLocation("block/" + parent, level);
     OverlayTextureGenerator gen = new OverlayTextureGenerator(outputLoc);
 
     gen.addLayer(OmniComp.location(String.format("overlay/%dx", level)));
