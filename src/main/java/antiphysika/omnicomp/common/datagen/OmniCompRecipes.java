@@ -66,6 +66,20 @@ public class OmniCompRecipes extends RecipeProvider
     return ResourceLocation.parse(itemHolder.getRegisteredName());
   }
 
+  private Object[] reverseArray (Object[] array)
+  {
+    Object[] reversed = array.clone();
+
+    for (int i = 0; i < array.length / 2; ++i)
+    {
+      var tmp = reversed[i];
+      reversed[i] = reversed[reversed.length - i - 1];
+      reversed[reversed.length - i - 1] = tmp;
+    }
+
+    return reversed;
+  }
+
   /**
    * [JAVADOC-PLACEHOLDER]
    *
@@ -74,16 +88,7 @@ public class OmniCompRecipes extends RecipeProvider
    */
   private ItemLike[] reverseMaterials (ItemLike[] materials)
   {
-    ItemLike[] reversed = materials.clone();
-
-    for (int i = 0; i < materials.length / 2; ++i)
-    {
-      var tmp = reversed[i];
-      reversed[i] = reversed[reversed.length - i - 1];
-      reversed[reversed.length - i - 1] = tmp;
-    }
-
-    return reversed;
+    return (ItemLike[]) reverseArray(materials);
   }
 
   /**
