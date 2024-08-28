@@ -1,11 +1,12 @@
 # OmniComp: Compressed Blocks
 
 OmniComp brings compressed block variants to Minecraft 1.21. No longer will will
-your inventory quickly get filled with cobble when mining, thanks 3-level block
+your inventory so quickly be filled with cobble when mining, thanks 3-level block
 compression. And all you need is a crafting table!
 
-Blocks, items and recipes are provided so that you can, e.g., compress
-Cobblestone into Compressed Cobblestone x1 and on up to x3.
+Blocks, items and recipes are provided so that you can, e.g., compress Cobblestone
+into Compressed Cobblestone x1 and on up to x3.  Compressed blocks can of course
+be decompressed back to the materials used to craft them.
 
 ## Supported Minecraft Blocks
 
