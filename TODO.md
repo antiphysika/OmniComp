@@ -13,13 +13,19 @@ Currently all of our compressed blocks can be mined with a pickaxe, but it
 would be in keeping with Vanilla to make the compressed dirt, gravel, sand etc.
 blocks require a shovel instead.
 
-## Add reversible shapeless recipes
+## Improve logo and other image file assets
 
-As it stands, a player can compress 9x cobblestone into a 1x compressed
-variant, but it's not possible to reverse the craft and get back those 9
-cobblestone from the compressed block.
+The logo as appears on the CF project page is, quite frankly, shit, even
+for the 5-minute job that it turned out to be.
 
-Time to add reversible recipes.
+Work towards a better logo ASAP and more leisurely, try and improve the
+overlay textures as they look a bit too small making especially on darker
+textures like Deepslate.
+
+## Upload to Modrinth
+
+The mod exists as a CurseForge project with downloads awaiting moderator
+approval.  Once complete, it'd be nice to get it shipped to MR as well.
 
 <!--
 vim: ts=2 sw=2 et fdm=marker :
