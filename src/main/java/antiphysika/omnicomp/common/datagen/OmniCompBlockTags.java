@@ -11,6 +11,7 @@ import net.minecraft.tags.BlockTags;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -40,7 +41,7 @@ public class OmniCompBlockTags extends BlockTagsProvider
    * @param provider
    */
   @Override
-  protected void addTags(HolderLookup.Provider provider)
+  protected void addTags(@NotNull HolderLookup.Provider provider)
   {
     for (var block : Registrar.getKnownBlocks())
     {

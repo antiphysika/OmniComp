@@ -4,8 +4,6 @@
 
 package antiphysika.omnicomp.common.datagen;
 
-import antiphysika.omnicomp.common.registry.block.CompressedCobblestone;
-import antiphysika.omnicomp.common.staticdata.StaticLangData;
 import net.minecraft.advancements.Advancement;
 import net.minecraft.advancements.AdvancementHolder;
 import net.minecraft.advancements.AdvancementRequirements;
@@ -24,7 +22,11 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.Consumer;
 
+import org.jetbrains.annotations.NotNull;
+
 import antiphysika.omnicomp.OmniComp;
+import antiphysika.omnicomp.common.registry.block.CompressedCobblestone;
+import antiphysika.omnicomp.common.staticdata.StaticLangData;
 
 public class OmniCompAdvancements extends AdvancementProvider
 {
@@ -53,9 +55,9 @@ public class OmniCompAdvancements extends AdvancementProvider
      * @param exFileHelper
      */
     @Override
-    public void generate (HolderLookup.Provider provider,
-                          Consumer<AdvancementHolder> consumer,
-                          ExistingFileHelper exFileHelper)
+    public void generate (@NotNull HolderLookup.Provider provider,
+                          @NotNull Consumer<AdvancementHolder> consumer,
+                          @NotNull ExistingFileHelper exFileHelper)
     {
       Advancement.Builder builder = Advancement.Builder.advancement();
 
