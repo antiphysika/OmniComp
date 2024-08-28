@@ -33,7 +33,7 @@ So far full support for the following compressed block variants exists:
 
 ...with a good handful more in the works.
 
-And of course, _OmniComp_ wouldn't be a worthy QoL if it did not allow you to
+And of course, _OmniComp_ wouldn't be a worthy QoL mod if it did not allow you to
 compress all of your hoarded emeralds and diamonds. Who doesn't want copious
 amounts of diamond blocks? Mmm, diamonds...
 
