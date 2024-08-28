@@ -10,7 +10,7 @@ be decompressed back to the materials used to craft them.
 
 ## Supported Minecraft Blocks
 
-So far full support for 6 basic blocks exists as of version 0.1.1:
+So far full support for the following compressed block variants exists:
 
 *   _Dirt_
 *   _Coarse Dirt_
