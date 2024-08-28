@@ -99,8 +99,8 @@ public class OmniCompRecipes extends RecipeProvider
    * @param result
    */
   private void decompBlockRecipe (@NotNull RecipeOutput output,
-                                ItemLike material,
-                                ItemLike result)
+                                  ItemLike material,
+                                  ItemLike result)
   {
     ResourceLocation materialLoc = itemLikeToId(material);
     ResourceLocation recipeId = OmniComp.location(materialLoc.getPath() + "/decompressed");
