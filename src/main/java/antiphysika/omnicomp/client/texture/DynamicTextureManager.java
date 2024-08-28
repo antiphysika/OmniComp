@@ -17,7 +17,7 @@ import java.util.List;
 public class DynamicTextureManager
 {
   private static final AssetResourceCache ASSET_CACHE =
-    ResourceCache.register(new AssetResourceCache(OmniComp.loc("assets")));
+    ResourceCache.register(new AssetResourceCache(OmniComp.location("assets")));
 
   private static final ArrayList<ResourceLocation> GENERATED = new ArrayList<>();
 
@@ -48,8 +48,8 @@ public class DynamicTextureManager
     ResourceLocation outputLoc = OmniComp.blockLoc("block/" + parent, level);
     OverlayTextureGenerator gen = new OverlayTextureGenerator(outputLoc);
 
-    gen.addLayer(OmniComp.loc(String.format("overlay/%dx", level)));
-    gen.addLayer(OmniComp.loc("minecraft", "block/" + parent));
+    gen.addLayer(OmniComp.location(String.format("overlay/%dx", level)));
+    gen.addLayer(OmniComp.location("minecraft", "block/" + parent));
 
     gen.generate(DynamicTextureManager.getAssetCache());
     OmniComp.getLogger().debug("Generated texture: " + outputLoc.toString());

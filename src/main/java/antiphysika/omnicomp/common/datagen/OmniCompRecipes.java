@@ -66,7 +66,7 @@ public class OmniCompRecipes extends RecipeProvider
                                 ItemLike result)
   {
     ResourceLocation materialLoc = itemLikeToId(material);
-    ResourceLocation recipeId = OmniComp.loc(materialLoc.getPath() + "/decompressed");
+    ResourceLocation recipeId = OmniComp.location(materialLoc.getPath() + "/decompressed");
     ItemStack resultStack = new ItemStack(result, 3);
 
     ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, resultStack)
