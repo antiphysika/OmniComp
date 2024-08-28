@@ -42,5 +42,6 @@
   "block.omnicomp.sandstone_3x": "Compressed Sandstone (3x) Block",
   "block.omnicomp.stone_1x": "Compressed Stone (1x) Block",
   "block.omnicomp.stone_2x": "Compressed Stone (2x) Block",
-  "block.omnicomp.stone_3x": "Compressed Stone (3x) Block"
+  "block.omnicomp.stone_3x": "Compressed Stone (3x) Block",
+  "creative_mode_tab.omnicomp.title": "OmniComp: Compressed Blocks"
 }

@@ -10,6 +10,8 @@ import net.neoforged.neoforge.common.data.LanguageProvider;
 import antiphysika.omnicomp.OmniComp;
 import antiphysika.omnicomp.common.staticdata.StaticBlockData;
 
+import static antiphysika.omnicomp.common.registry.Registrar.CREATIVE_MOD_TAB_TITLE_KEY;
+
 public class OmniCompTranslations extends LanguageProvider
 {
   /**
@@ -79,6 +81,11 @@ public class OmniCompTranslations extends LanguageProvider
   @Override
   protected void addTranslations()
   {
+    // Creative mods tab
+    //
+
+    add(CREATIVE_MOD_TAB_TITLE_KEY, "OmniComp: Compressed Blocks");
+
     // Blocks
     //
 
