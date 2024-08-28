@@ -20,6 +20,13 @@ import antiphysika.omnicomp.common.registry.Registrar;
 
 public class OmniCompBlockTags extends BlockTagsProvider
 {
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param output
+   * @param lookupProvider
+   * @param exFileHelper
+   */
   public OmniCompBlockTags (PackOutput output,
                             CompletableFuture<HolderLookup.Provider> lookupProvider,
                             @Nullable ExistingFileHelper exFileHelper)
@@ -27,6 +34,11 @@ public class OmniCompBlockTags extends BlockTagsProvider
     super(output, lookupProvider, MOD_ID, exFileHelper);
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param provider
+   */
   @Override
   protected void addTags(HolderLookup.Provider provider)
   {

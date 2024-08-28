@@ -26,6 +26,14 @@ public class Registrar
   public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MOD_ID);
   public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MOD_ID);
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param name
+   * @param strength
+   * @param colour
+   * @return
+   */
   public static DeferredBlock<Block> registerBlock (String name, float strength, MapColor colour)
   {
     return BLOCKS.registerSimpleBlock(name,
@@ -36,6 +44,11 @@ public class Registrar
     );
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @return
+   */
   public static Iterable<Block> getKnownBlocks ()
   {
     return BLOCKS.getEntries()
@@ -67,6 +80,9 @@ public class Registrar
       }).build()
     );
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   */
   public static void initCompBlocks ()
   {
     CompressedDirt.init();
@@ -83,6 +99,11 @@ public class Registrar
     CompressedSandstone.init();
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param bus
+   */
   public static void register (IEventBus bus)
   {
     // Initialise compressed block variants

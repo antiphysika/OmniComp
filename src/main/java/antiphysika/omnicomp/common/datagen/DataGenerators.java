@@ -24,6 +24,13 @@ import static antiphysika.omnicomp.OmniComp.MOD_ID;
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, modid = MOD_ID)
 public class DataGenerators
 {
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param event
+   * @param output
+   * @param exFileHelper
+   */
   public static void generateBlockStateData (GatherDataEvent event, PackOutput output,
                                              ExistingFileHelper exFileHelper)
   {
@@ -33,6 +40,13 @@ public class DataGenerators
     );
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param event
+   * @param output
+   * @param exFileHelper
+   */
   public static void generateBlockLootTables (GatherDataEvent event, PackOutput output,
                                               ExistingFileHelper exFileHelper)
   {
@@ -47,6 +61,13 @@ public class DataGenerators
     );
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param event
+   * @param output
+   * @param exFileHelper
+   */
   public static void generateBlockTags (GatherDataEvent event, PackOutput output,
                                         ExistingFileHelper exFileHelper)
   {
@@ -58,6 +79,13 @@ public class DataGenerators
     );
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param event
+   * @param output
+   * @param exFileHelper
+   */
   public static void generateTranslations (GatherDataEvent event, PackOutput output,
                                            ExistingFileHelper exFileHelper)
   {
@@ -67,6 +95,13 @@ public class DataGenerators
     );
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param event
+   * @param output
+   * @param exFileHelper
+   */
   public static void generateRecipes (GatherDataEvent event, PackOutput output,
                                       ExistingFileHelper exFileHelper)
   {
@@ -76,6 +111,13 @@ public class DataGenerators
     );
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param event
+   * @param output
+   * @param exFileHelper
+   */
   public static void generateAdvancements (GatherDataEvent event, PackOutput output,
                                            ExistingFileHelper exFileHelper)
   {
@@ -85,6 +127,11 @@ public class DataGenerators
     );
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param event
+   */
   @SubscribeEvent
   public static void gatherData (GatherDataEvent event)
   {

@@ -17,11 +17,21 @@ import antiphysika.omnicomp.common.registry.Registrar;
 
 public class OmniCompBlockLoot extends BlockLootSubProvider
 {
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param lookupProvider
+   */
   public OmniCompBlockLoot (HolderLookup.Provider lookupProvider)
   {
     super(Set.of(), FeatureFlags.DEFAULT_FLAGS, lookupProvider);
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @return
+   */
   @Override
   @NotNull
   protected Iterable<Block> getKnownBlocks ()
@@ -29,6 +39,9 @@ public class OmniCompBlockLoot extends BlockLootSubProvider
     return Registrar.getKnownBlocks();
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   */
   @Override
   protected void generate ()
   {

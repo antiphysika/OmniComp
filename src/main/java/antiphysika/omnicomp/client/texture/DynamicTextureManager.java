@@ -26,6 +26,11 @@ public class DynamicTextureManager
     return ASSET_CACHE;
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param parent
+   */
   public static void generateCompBlockTextures (String parent)
   {
     generateCompBlockTexture(parent, 1);
@@ -33,16 +38,32 @@ public class DynamicTextureManager
     generateCompBlockTexture(parent, 3);
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param location
+   */
   private static void trackGenerated (ResourceLocation location)
   {
     GENERATED.add(location);
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @return
+   */
   public static List<ResourceLocation> getGenerated ()
   {
     return GENERATED;
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param parent
+   * @param level
+   */
   private static void generateCompBlockTexture (String parent, int level)
   {
     ResourceLocation outputLoc = OmniComp.blockLocation("block/" + parent, level);
@@ -57,6 +78,9 @@ public class DynamicTextureManager
     trackGenerated(outputLoc);
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   */
   public static void generateTextures ()
   {
     OmniComp.getLogger().debug("Generating textures...");

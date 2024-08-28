@@ -21,6 +21,12 @@ import antiphysika.omnicomp.common.registry.Registrar;
 
 public class OmniCompBlockModels extends BlockStateProvider
 {
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param output
+   * @param exFileHelper
+   */
   public OmniCompBlockModels (PackOutput output, ExistingFileHelper exFileHelper)
   {
     super(output, MOD_ID, exFileHelper);
@@ -35,18 +41,31 @@ public class OmniCompBlockModels extends BlockStateProvider
     }
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param block
+   */
   private void simpleBlockWithItem (@NotNull Block block)
   {
     simpleBlockWithItem(block, cubeAll(block));
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @return
+   */
   private Iterable<Block> getKnownBlocks ()
   {
     return Registrar.getKnownBlocks();
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   */
   @Override
-  protected void registerStatesAndModels()
+  protected void registerStatesAndModels ()
   {
     for (var block : getKnownBlocks())
     {

@@ -27,6 +27,13 @@ import antiphysika.omnicomp.OmniComp;
 
 public class OmniCompAdvancements extends AdvancementProvider
 {
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param output
+   * @param lookupProvider
+   * @param exFileHelper
+   */
   public OmniCompAdvancements (PackOutput output,
                                CompletableFuture<HolderLookup.Provider> lookupProvider,
                                ExistingFileHelper exFileHelper)
@@ -37,6 +44,13 @@ public class OmniCompAdvancements extends AdvancementProvider
   private static final class OmniCompAdvancementGenerator
     implements AdvancementProvider.AdvancementGenerator
   {
+    /**
+     * [JAVADOC-PLACEHOLDER]
+     *
+     * @param provider
+     * @param consumer
+     * @param exFileHelper
+     */
     @Override
     public void generate (HolderLookup.Provider provider,
                           Consumer<AdvancementHolder> consumer,

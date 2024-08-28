@@ -22,12 +22,25 @@ import antiphysika.omnicomp.common.staticdata.StaticRecipeData;
 
 public class OmniCompRecipes extends RecipeProvider
 {
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param output
+   * @param lookupProvider
+   */
   public OmniCompRecipes (PackOutput output,
                           CompletableFuture<HolderLookup.Provider> lookupProvider)
   {
     super(output, lookupProvider);
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param output
+   * @param material
+   * @param result
+   */
   private void compBlockRecipe (@NotNull RecipeOutput output,
                                 ItemLike material,
                                 ItemLike result)
@@ -41,12 +54,24 @@ public class OmniCompRecipes extends RecipeProvider
       .save(output);
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param item
+   * @return
+   */
   private ResourceLocation itemLikeToId (ItemLike item)
   {
     Holder<Item> itemHolder = item.asItem().getDefaultInstance().getItemHolder();
     return ResourceLocation.parse(itemHolder.getRegisteredName());
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param materials
+   * @return
+   */
   private ItemLike[] reverseMaterials (ItemLike[] materials)
   {
     ItemLike[] reversed = materials.clone();
@@ -61,6 +86,13 @@ public class OmniCompRecipes extends RecipeProvider
     return reversed;
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param output
+   * @param material
+   * @param result
+   */
   private void decompBlockRecipe (@NotNull RecipeOutput output,
                                 ItemLike material,
                                 ItemLike result)
@@ -76,6 +108,12 @@ public class OmniCompRecipes extends RecipeProvider
       .save(output, recipeId);
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param output
+   * @param materials
+   */
   private void compBlockRecipes (@NotNull RecipeOutput output, ItemLike[] materials)
   {
     compBlockRecipe(output, materials[0], materials[1]);
@@ -88,6 +126,11 @@ public class OmniCompRecipes extends RecipeProvider
     decompBlockRecipe(output, revMaterials[2], revMaterials[3]);
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param output
+   */
   @Override
   protected void buildRecipes (@NotNull RecipeOutput output)
   {

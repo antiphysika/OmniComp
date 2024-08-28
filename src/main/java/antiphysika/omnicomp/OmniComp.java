@@ -28,6 +28,12 @@ public class OmniComp extends OmniCompBase
   private static OmniComp INSTANCE;
   private static final Logger LOGGER = LogUtils.getLogger();
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param bus
+   * @param container
+   */
   public OmniComp (IEventBus bus, ModContainer container)
   {
     INSTANCE = this;
@@ -39,11 +45,21 @@ public class OmniComp extends OmniCompBase
     Registrar.register(bus);
   }
 
+  /**
+   *[JAVADOC-PLACEHOLDER]
+   *
+   * @return
+   */
   public static OmniComp getInstance ()
   {
     return INSTANCE;
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @return
+   */
   public static Logger getLogger ()
   {
     return LOGGER;
@@ -51,6 +67,11 @@ public class OmniComp extends OmniCompBase
 
   private static class OmniCompCommon
   {
+    /**
+     * [JAVADOC-PLACEHOLDER]
+     *
+     * @param event
+     */
     private static void initCommon (final FMLCommonSetupEvent event)
     {
       LOGGER.debug("In {}.initCommon()", MOD_ID);

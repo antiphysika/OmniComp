@@ -19,22 +19,42 @@ public class OverlayTextureGenerator
   private final ResourceLocation output;
   private final ArrayList<TexSource> layers;
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param output
+   */
   public OverlayTextureGenerator (ResourceLocation output)
   {
     this.output = output;
     this.layers = new ArrayList<>();
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param location
+   */
   public void addLayer (ResourceLocation location)
   {
     this.layers.add(new TextureReaderSource.Builder().setPath(location).build());
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param location
+   */
   public void addLayer (String location)
   {
     addLayer(ResourceLocation.parse(location));
   }
 
+  /**
+   * [JAVADOC-PLACEHOLDER]
+   *
+   * @param cache
+   */
   public void generate (AssetResourceCache cache)
   {
     cache.planSource(
