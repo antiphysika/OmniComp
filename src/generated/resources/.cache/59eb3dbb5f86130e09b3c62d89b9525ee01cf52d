@@ -1,4 +1,10 @@
-// 1.21.1	2024-08-28T04:16:43.195435791	Loot Tables
+// 1.21.1	2024-08-28T04:44:45.406585414	Loot Tables
+af15d78a768da5bef72bbfc356123696322b52f8 data/omnicomp/loot_table/blocks/andesite_1x.json
+5719ee36856c50f9d68f94e2487af033c3163f30 data/omnicomp/loot_table/blocks/andesite_2x.json
+4c1bae7b727fd9c23da7896cc75e4cf870c5b85b data/omnicomp/loot_table/blocks/andesite_3x.json
+94d9600378971287e653553b0e087cebc4c23257 data/omnicomp/loot_table/blocks/calcite_1x.json
+f7f596f2ddd31e43543135a7456a3e996357b776 data/omnicomp/loot_table/blocks/calcite_2x.json
+538f53b2eccc718337f1b55aeb1b17e979032453 data/omnicomp/loot_table/blocks/calcite_3x.json
 ab3361261f0373345832cd8b8fd64fb6529774f8 data/omnicomp/loot_table/blocks/coarse_dirt_1x.json
 d89b2e8b5a992217b32cdf96eacb56cd6443de5c data/omnicomp/loot_table/blocks/coarse_dirt_2x.json
 05db4f7579652f613c1a4a49b0cbb7f9db64b480 data/omnicomp/loot_table/blocks/coarse_dirt_3x.json
@@ -11,9 +17,15 @@ b8567b4b4cc5c1b242dd239d8e32c66facc76149 data/omnicomp/loot_table/blocks/cobbles
 2f785171825f65b6ff9c58f5a8273976a6719f11 data/omnicomp/loot_table/blocks/deepslate_1x.json
 cdcde2a260e40368561347fa7e867ea7af51b4db data/omnicomp/loot_table/blocks/deepslate_2x.json
 dea5c3ec266cd12e30a8b76d0dccbe157eec4dcf data/omnicomp/loot_table/blocks/deepslate_3x.json
+0c0ef2e341fe5f0c7d708baa8d79e3755a3ea10e data/omnicomp/loot_table/blocks/diorite_1x.json
+96a8f924cc1e13d66296bc13d292eb172b5b9aa6 data/omnicomp/loot_table/blocks/diorite_2x.json
+d9c5ad1612a3e1108a6afd0aadb6eef40cb5df78 data/omnicomp/loot_table/blocks/diorite_3x.json
 d64fc5bbc011fa3b2455829f2ce2f696a0b63354 data/omnicomp/loot_table/blocks/dirt_1x.json
 9e9e78e077136f9ee41ded85373630e6a16ed31a data/omnicomp/loot_table/blocks/dirt_2x.json
 4716629439cf00b3eb513f06cc980acf3acd447d data/omnicomp/loot_table/blocks/dirt_3x.json
+7ed28aa5bab86cee3fa12589e3e7e4b468a3c64a data/omnicomp/loot_table/blocks/granite_1x.json
+7c76bc4ce3e4beb18ed93d0c1593acdc2069b6d7 data/omnicomp/loot_table/blocks/granite_2x.json
+d8c4f4036bd7e886d41f2144d1b53cfcff0b082b data/omnicomp/loot_table/blocks/granite_3x.json
 f2708b200cc1e2393bcd5c4fce7468c3765b6f76 data/omnicomp/loot_table/blocks/gravel_1x.json
 fe604ec771c391a491c801764deabb61fb8b7e40 data/omnicomp/loot_table/blocks/gravel_2x.json
 bca65386441fc2e36520ceb2a1da90cb05e09c56 data/omnicomp/loot_table/blocks/gravel_3x.json

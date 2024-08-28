@@ -50,6 +50,18 @@ public class StaticBlockData
   public static final Block SANDSTONE =
     new Block("sandstone", "Sandstone");
 
+  public static final Block ANDESITE =
+    new Block("andesite", "Andesite");
+
+  public static final Block DIORITE =
+    new Block("diorite", "Diorite");
+
+  public static final Block GRANITE =
+    new Block("granite", "Granite");
+
+  public static final Block CALCITE =
+    new Block("calcite", "Calcite");
+
   public static List<Block> getAllBlocks ()
   {
     return List.of(
@@ -62,7 +74,11 @@ public class StaticBlockData
       COARSE_DIRT,
       GRAVEL,
       SAND,
-      SANDSTONE
+      SANDSTONE,
+      ANDESITE,
+      DIORITE,
+      GRANITE,
+      CALCITE
     );
   }
 }

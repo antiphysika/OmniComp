@@ -92,6 +92,11 @@ public class Registrar
     CompressedMossyCobblestone.init();
     CompressedStone.init();
 
+    CompressedAndesite.init();
+    CompressedDiorite.init();
+    CompressedGranite.init();
+    CompressedCalcite.init();
+
     CompressedDeepslate.init();
     CompressedCobbledDeepslate.init();
 

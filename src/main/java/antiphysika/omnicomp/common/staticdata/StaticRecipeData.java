@@ -80,6 +80,34 @@ public class StaticRecipeData
     CompressedSandstone.ITEM_2X,
     CompressedSandstone.ITEM_3X
   };
+
+  public static final ItemLike[] ANDESITE_MATERIALS = new ItemLike[]{
+    Items.ANDESITE,
+    CompressedAndesite.ITEM_1X,
+    CompressedAndesite.ITEM_2X,
+    CompressedAndesite.ITEM_3X
+  };
+
+  public static final ItemLike[] DIORITE_MATERIALS = new ItemLike[]{
+    Items.DIORITE,
+    CompressedDiorite.ITEM_1X,
+    CompressedDiorite.ITEM_2X,
+    CompressedDiorite.ITEM_3X
+  };
+
+  public static final ItemLike[] GRANITE_MATERIALS = new ItemLike[]{
+    Items.GRANITE,
+    CompressedGranite.ITEM_1X,
+    CompressedGranite.ITEM_2X,
+    CompressedGranite.ITEM_3X
+  };
+
+  public static final ItemLike[] CALCITE_MATERIALS = new ItemLike[]{
+    Items.CALCITE,
+    CompressedCalcite.ITEM_1X,
+    CompressedCalcite.ITEM_2X,
+    CompressedCalcite.ITEM_3X
+  };
 }
 
 //

@@ -104,7 +104,7 @@ public class OmniCompRecipes extends RecipeProvider
   {
     ResourceLocation materialLoc = itemLikeToId(material);
     ResourceLocation recipeId = OmniComp.location(materialLoc.getPath() + "/decompressed");
-    ItemStack resultStack = new ItemStack(result, 3);
+    ItemStack resultStack = new ItemStack(result, 9);
 
     ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, resultStack)
       .requires(material)
@@ -139,16 +139,24 @@ public class OmniCompRecipes extends RecipeProvider
   @Override
   protected void buildRecipes (@NotNull RecipeOutput output)
   {
+    compBlockRecipes(output, StaticRecipeData.DIRT_MATERIALS);
+    compBlockRecipes(output, StaticRecipeData.COARSE_DIRT_MATERIALS);
+
     compBlockRecipes(output, StaticRecipeData.COBBLESTONE_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.MOSSY_COBBLESTONE_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.STONE_MATERIALS);
+
     compBlockRecipes(output, StaticRecipeData.DEEPSLATE_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.COBBLED_DEEPSLATE_MATERIALS);
-    compBlockRecipes(output, StaticRecipeData.DIRT_MATERIALS);
-    compBlockRecipes(output, StaticRecipeData.COARSE_DIRT_MATERIALS);
+
     compBlockRecipes(output, StaticRecipeData.GRAVEL_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.SAND_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.SANDSTONE_MATERIALS);
+
+    compBlockRecipes(output, StaticRecipeData.ANDESITE_MATERIALS);
+    compBlockRecipes(output, StaticRecipeData.DIORITE_MATERIALS);
+    compBlockRecipes(output, StaticRecipeData.GRANITE_MATERIALS);
+    compBlockRecipes(output, StaticRecipeData.CALCITE_MATERIALS);
   }
 }
 
