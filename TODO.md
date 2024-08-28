@@ -5,6 +5,7 @@
 Slated to appear in the next version:
 
   - Clay
+  - Tuff
 
 In addition to these three variants, we definitely want more like:
 
