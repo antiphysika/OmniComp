@@ -75,36 +75,41 @@ public class OmniCompTranslations extends LanguageProvider
     }
   }
 
+  private void creativeModeTabTranslations ()
+  {
+    add(CREATIVE_MOD_TAB_TITLE_KEY, "OmniComp: Compressed Blocks");
+  }
+
+  private void blockTranslations ()
+  {
+    for (var block : StaticBlockData.getAllBlocks())
+    {
+      compBlockTranslations(block.id, block.name);
+    }
+  }
+
+  private void advancementTranslations ()
+  {
+    add(
+      advTransKey("craft_compressed_block.title"),
+      "Compressed blocks all the way down!"
+    );
+
+    add(
+      advTransKey("craft_compressed_block.description"),
+      "Obtained when crafting any 1x compressed block variant"
+    );
+  }
+
   /**
    * [JAVADOC-PLACEHOLDER]
    */
   @Override
   protected void addTranslations()
   {
-    // Creative mods tab
-    //
-
-    add(CREATIVE_MOD_TAB_TITLE_KEY, "OmniComp: Compressed Blocks");
-
-    // Blocks
-    //
-
-    for (var block : StaticBlockData.getAllBlocks())
-    {
-      compBlockTranslations(block.id, block.name);
-    }
-
-    // Advancements
-    //
-
-    add(advTransKey(
-      "craft_compressed_block.title"),
-      "Compressed blocks all the way down!");
-
-    add(advTransKey(
-      "craft_compressed_block.description"),
-      "Obtained when crafting any 1x compressed block variant"
-    );
+    creativeModeTabTranslations();
+    blockTranslations();
+    advancementTranslations();
   }
 }
 
