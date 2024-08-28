@@ -78,7 +78,7 @@ public class OmniComp extends OmniCompBase
       LOGGER.debug("Registered blocks:");
       for (var block : Registrar.getKnownBlocks())
       {
-        LOGGER.debug("- " + block.toString());
+        LOGGER.debug("- {}", block.toString());
       }
     }
   }
