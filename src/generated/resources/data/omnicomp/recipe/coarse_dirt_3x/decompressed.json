@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "omnicomp:coarse_dirt_3x"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "omnicomp:coarse_dirt_2x"
+  }
+}
