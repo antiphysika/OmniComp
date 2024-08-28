@@ -1,4 +1,4 @@
-// 1.21.1	2024-08-27T23:26:30.924576025	Loot Tables
+// 1.21.1	2024-08-28T04:16:43.195435791	Loot Tables
 ab3361261f0373345832cd8b8fd64fb6529774f8 data/omnicomp/loot_table/blocks/coarse_dirt_1x.json
 d89b2e8b5a992217b32cdf96eacb56cd6443de5c data/omnicomp/loot_table/blocks/coarse_dirt_2x.json
 05db4f7579652f613c1a4a49b0cbb7f9db64b480 data/omnicomp/loot_table/blocks/coarse_dirt_3x.json
@@ -17,6 +17,9 @@ d64fc5bbc011fa3b2455829f2ce2f696a0b63354 data/omnicomp/loot_table/blocks/dirt_1x
 f2708b200cc1e2393bcd5c4fce7468c3765b6f76 data/omnicomp/loot_table/blocks/gravel_1x.json
 fe604ec771c391a491c801764deabb61fb8b7e40 data/omnicomp/loot_table/blocks/gravel_2x.json
 bca65386441fc2e36520ceb2a1da90cb05e09c56 data/omnicomp/loot_table/blocks/gravel_3x.json
+b4d56389c0c5bc25813d7b694f1db8c2dd6a0eb2 data/omnicomp/loot_table/blocks/mossy_cobblestone_1x.json
+6d7b890322746025670fa6efa4d7d2f52ddc14de data/omnicomp/loot_table/blocks/mossy_cobblestone_2x.json
+40446edef8fbf0f72b3e7756cbb9154984a1a9f2 data/omnicomp/loot_table/blocks/mossy_cobblestone_3x.json
 06e6d45c986beae8a6ae246e5c473617e9663073 data/omnicomp/loot_table/blocks/sand_1x.json
 c6aca93b0c84b28105f1445d73a34ee90fe525bc data/omnicomp/loot_table/blocks/sand_2x.json
 cbe9d7fcb89b596a6f05c3fb13f965123afaf245 data/omnicomp/loot_table/blocks/sand_3x.json

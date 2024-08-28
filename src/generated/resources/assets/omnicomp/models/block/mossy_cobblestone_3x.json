@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "omnicomp:block/mossy_cobblestone_3x"
+  }
+}

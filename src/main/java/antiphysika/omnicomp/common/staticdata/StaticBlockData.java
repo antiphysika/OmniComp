@@ -23,6 +23,9 @@ public class StaticBlockData
   public static final Block COBBLESTONE =
     new Block("cobblestone", "Cobblestone");
 
+  public static final Block MOSSY_COBBLESTONE =
+    new Block("mossy_cobblestone", "Mossy Cobblestone");
+
   public static final Block STONE =
     new Block("stone", "Stone");
 
@@ -51,6 +54,7 @@ public class StaticBlockData
   {
     return List.of(
       COBBLESTONE,
+      MOSSY_COBBLESTONE,
       STONE,
       COBBLED_DEEPSLATE,
       DEEPSLATE,

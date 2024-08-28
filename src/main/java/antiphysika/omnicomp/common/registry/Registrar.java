@@ -89,6 +89,7 @@ public class Registrar
     CompressedCoarseDirt.init();
 
     CompressedCobblestone.init();
+    CompressedMossyCobblestone.init();
     CompressedStone.init();
 
     CompressedDeepslate.init();

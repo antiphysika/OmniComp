@@ -18,6 +18,13 @@ public class StaticRecipeData
     CompressedCobblestone.ITEM_3X
   };
 
+  public static final ItemLike[] MOSSY_COBBLESTONE_MATERIALS = new ItemLike[]{
+    Items.MOSSY_COBBLESTONE,
+    CompressedMossyCobblestone.ITEM_1X,
+    CompressedMossyCobblestone.ITEM_2X,
+    CompressedMossyCobblestone.ITEM_3X
+  };
+
   public static final ItemLike[] STONE_MATERIALS = new ItemLike[]{
     Items.STONE,
     CompressedStone.ITEM_1X,

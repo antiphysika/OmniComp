@@ -140,6 +140,7 @@ public class OmniCompRecipes extends RecipeProvider
   protected void buildRecipes (@NotNull RecipeOutput output)
   {
     compBlockRecipes(output, StaticRecipeData.COBBLESTONE_MATERIALS);
+    compBlockRecipes(output, StaticRecipeData.MOSSY_COBBLESTONE_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.STONE_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.DEEPSLATE_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.COBBLED_DEEPSLATE_MATERIALS);
@@ -148,12 +149,6 @@ public class OmniCompRecipes extends RecipeProvider
     compBlockRecipes(output, StaticRecipeData.GRAVEL_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.SAND_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.SANDSTONE_MATERIALS);
-
-    OmniComp.getLogger().info("REVERSED ItemLike[]:");
-    for (ItemLike item : reverseMaterials(StaticRecipeData.STONE_MATERIALS))
-    {
-      OmniComp.getLogger().info("- {}", item.toString());
-    }
   }
 }
 
