@@ -1,13 +1,23 @@
 # OmniComp To-Do List
 
-## Add missing recipes
+## Moar variants
 
-We're datagen-ing recipes for cobblestone and stone variants but are lacking
-all the rest added so far (deepslate, cobbled deepslate, dirt and coarse dirt).
+Slated to appear in the next version:
 
-Add recipes for the missing variants.
+  - Mossy Cobblestone
+  - Netherrack
+  - End Stone
 
-## Require shovel tool for non-stone blocks
+In addition to these three variants, we definitely want more like:
+
+  - Redstone
+  - Lapis Lazuli
+  - Dimiand
+  - Emerald
+  - Nether Quartz
+  - Glowstone Dust
+
+## Require shovel tool for non-stone blocks?
 
 Currently all of our compressed blocks can be mined with a pickaxe, but it
 would be in keeping with Vanilla to make the compressed dirt, gravel, sand etc.
