@@ -12,7 +12,6 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
@@ -81,20 +80,6 @@ public class OmniComp extends OmniCompBase
       {
         LOGGER.debug("- " + block.toString());
       }
-    }
-  }
-
-  @EventBusSubscriber(
-    modid = MOD_ID,
-    bus = EventBusSubscriber.Bus.MOD,
-    value = Dist.DEDICATED_SERVER
-  )
-  public static class OmniCompServer
-  {
-    @SubscribeEvent
-    public static void onServerStarting (final ServerStartingEvent event)
-    {
-      LOGGER.debug("In OmniCompServer.onServerStarting()");
     }
   }
 
