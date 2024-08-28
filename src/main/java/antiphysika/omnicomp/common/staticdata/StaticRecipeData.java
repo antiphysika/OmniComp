@@ -108,6 +108,34 @@ public class StaticRecipeData
     CompressedCalcite.ITEM_2X,
     CompressedCalcite.ITEM_3X
   };
+
+  public static final ItemLike[] NETHERRACK_MATERIALS = new ItemLike[]{
+    Items.NETHERRACK,
+    CompressedNetherrack.ITEM_1X,
+    CompressedNetherrack.ITEM_2X,
+    CompressedNetherrack.ITEM_3X
+  };
+
+  public static final ItemLike[] SOUL_SAND_MATERIALS = new ItemLike[]{
+    Items.SOUL_SAND,
+    CompressedSoulSand.ITEM_1X,
+    CompressedSoulSand.ITEM_2X,
+    CompressedSoulSand.ITEM_3X
+  };
+
+  public static final ItemLike[] SOUL_SOIL_MATERIALS = new ItemLike[]{
+    Items.SOUL_SOIL,
+    CompressedSoulSoil.ITEM_1X,
+    CompressedSoulSoil.ITEM_2X,
+    CompressedSoulSoil.ITEM_3X
+  };
+
+  public static final ItemLike[] END_STONE_MATERIALS = new ItemLike[]{
+    Items.END_STONE,
+    CompressedEndStone.ITEM_1X,
+    CompressedEndStone.ITEM_2X,
+    CompressedEndStone.ITEM_3X
+  };
 }
 
 //

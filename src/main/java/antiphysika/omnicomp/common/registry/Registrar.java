@@ -105,6 +105,12 @@ public class Registrar
     CompressedGravel.init();
     CompressedSand.init();
     CompressedSandstone.init();
+
+    CompressedNetherrack.init();
+    CompressedSoulSand.init();
+    CompressedSoulSoil.init();
+
+    CompressedEndStone.init();
   }
 
   /**

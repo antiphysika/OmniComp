@@ -41,6 +41,18 @@
     "omnicomp:sand_3x",
     "omnicomp:sandstone_1x",
     "omnicomp:sandstone_2x",
-    "omnicomp:sandstone_3x"
+    "omnicomp:sandstone_3x",
+    "omnicomp:netherrack_1x",
+    "omnicomp:netherrack_2x",
+    "omnicomp:netherrack_3x",
+    "omnicomp:soul_sand_1x",
+    "omnicomp:soul_sand_2x",
+    "omnicomp:soul_sand_3x",
+    "omnicomp:soul_soil_1x",
+    "omnicomp:soul_soil_2x",
+    "omnicomp:soul_soil_3x",
+    "omnicomp:end_stone_1x",
+    "omnicomp:end_stone_2x",
+    "omnicomp:end_stone_3x"
   ]
 }

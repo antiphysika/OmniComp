@@ -1,4 +1,4 @@
-// 1.21.1	2024-08-28T04:44:45.406585414	Loot Tables
+// 1.21.1	2024-08-28T07:03:54.621807893	Loot Tables
 af15d78a768da5bef72bbfc356123696322b52f8 data/omnicomp/loot_table/blocks/andesite_1x.json
 5719ee36856c50f9d68f94e2487af033c3163f30 data/omnicomp/loot_table/blocks/andesite_2x.json
 4c1bae7b727fd9c23da7896cc75e4cf870c5b85b data/omnicomp/loot_table/blocks/andesite_3x.json
@@ -23,6 +23,9 @@ d9c5ad1612a3e1108a6afd0aadb6eef40cb5df78 data/omnicomp/loot_table/blocks/diorite
 d64fc5bbc011fa3b2455829f2ce2f696a0b63354 data/omnicomp/loot_table/blocks/dirt_1x.json
 9e9e78e077136f9ee41ded85373630e6a16ed31a data/omnicomp/loot_table/blocks/dirt_2x.json
 4716629439cf00b3eb513f06cc980acf3acd447d data/omnicomp/loot_table/blocks/dirt_3x.json
+c38d4b77482358484206acefc3160769bb752f25 data/omnicomp/loot_table/blocks/end_stone_1x.json
+befa8c2fb8ba58295c187fabf2bd82c2b91e1e7d data/omnicomp/loot_table/blocks/end_stone_2x.json
+47452f29054917e277c6196711022924f4809215 data/omnicomp/loot_table/blocks/end_stone_3x.json
 7ed28aa5bab86cee3fa12589e3e7e4b468a3c64a data/omnicomp/loot_table/blocks/granite_1x.json
 7c76bc4ce3e4beb18ed93d0c1593acdc2069b6d7 data/omnicomp/loot_table/blocks/granite_2x.json
 d8c4f4036bd7e886d41f2144d1b53cfcff0b082b data/omnicomp/loot_table/blocks/granite_3x.json
@@ -32,12 +35,21 @@ bca65386441fc2e36520ceb2a1da90cb05e09c56 data/omnicomp/loot_table/blocks/gravel_
 b4d56389c0c5bc25813d7b694f1db8c2dd6a0eb2 data/omnicomp/loot_table/blocks/mossy_cobblestone_1x.json
 6d7b890322746025670fa6efa4d7d2f52ddc14de data/omnicomp/loot_table/blocks/mossy_cobblestone_2x.json
 40446edef8fbf0f72b3e7756cbb9154984a1a9f2 data/omnicomp/loot_table/blocks/mossy_cobblestone_3x.json
+b126d531ea44f464d7135cddf473cb1900e74689 data/omnicomp/loot_table/blocks/netherrack_1x.json
+78180440bff276d5bde8c172af2f81fbda8fbbbe data/omnicomp/loot_table/blocks/netherrack_2x.json
+ac0ff3f0aa3915590b7c73fa02a5892c461956bb data/omnicomp/loot_table/blocks/netherrack_3x.json
 06e6d45c986beae8a6ae246e5c473617e9663073 data/omnicomp/loot_table/blocks/sand_1x.json
 c6aca93b0c84b28105f1445d73a34ee90fe525bc data/omnicomp/loot_table/blocks/sand_2x.json
 cbe9d7fcb89b596a6f05c3fb13f965123afaf245 data/omnicomp/loot_table/blocks/sand_3x.json
 5e72778bf053b333cad8f882998099f8ccf3da87 data/omnicomp/loot_table/blocks/sandstone_1x.json
 e7dc63100759b83faae48aed096b2e4c27973b46 data/omnicomp/loot_table/blocks/sandstone_2x.json
 7db94c65c7094f27813baa176cca0638e3b156ab data/omnicomp/loot_table/blocks/sandstone_3x.json
+665dcafbfedd93c0b73cbef334fcd489ea97245f data/omnicomp/loot_table/blocks/soul_sand_1x.json
+b8a5b4820855a418a405bcc55a475dd6e7ac12da data/omnicomp/loot_table/blocks/soul_sand_2x.json
+5a103070fd0209aa1e4e8081269eee39ffa1caca data/omnicomp/loot_table/blocks/soul_sand_3x.json
+6f55def251b5ba60e9339981b58848d90009e2f9 data/omnicomp/loot_table/blocks/soul_soil_1x.json
+fda63107260966d552f4f15137a21e54f8d3bd9e data/omnicomp/loot_table/blocks/soul_soil_2x.json
+c22a9c3f15278777bcc3ff93bb386c70117a784b data/omnicomp/loot_table/blocks/soul_soil_3x.json
 34267d14cd74db7b1334ca62336ab6412298bf0e data/omnicomp/loot_table/blocks/stone_1x.json
 777c8ff020bdc572ddd21105c98b164ab1523efe data/omnicomp/loot_table/blocks/stone_2x.json
 9bfaff43b99f0c8cab7afa54b64d2755b0d314b0 data/omnicomp/loot_table/blocks/stone_3x.json

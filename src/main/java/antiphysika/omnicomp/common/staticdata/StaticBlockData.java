@@ -62,6 +62,18 @@ public class StaticBlockData
   public static final Block CALCITE =
     new Block("calcite", "Calcite");
 
+  public static final Block NETHERRACK =
+    new Block("netherrack", "Netherrack");
+
+  public static final Block SOUL_SAND =
+    new Block("soul_sand", "Soul Sand");
+
+  public static final Block SOUL_SOIL =
+    new Block("soul_soil", "Soul Soil");
+
+  public static final Block END_STONE =
+    new Block("end_stone", "End Stone");
+
   public static List<Block> getAllBlocks ()
   {
     return List.of(
@@ -78,7 +90,11 @@ public class StaticBlockData
       ANDESITE,
       DIORITE,
       GRANITE,
-      CALCITE
+      CALCITE,
+      NETHERRACK,
+      SOUL_SAND,
+      SOUL_SOIL,
+      END_STONE
     );
   }
 }
