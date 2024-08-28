@@ -84,7 +84,11 @@ public class OmniComp extends OmniCompBase
     }
   }
 
-  @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.DEDICATED_SERVER)
+  @EventBusSubscriber(
+    modid = MOD_ID,
+    bus = EventBusSubscriber.Bus.MOD,
+    value = Dist.DEDICATED_SERVER
+  )
   public static class OmniCompServer
   {
     @SubscribeEvent
@@ -94,7 +98,11 @@ public class OmniComp extends OmniCompBase
     }
   }
 
-  @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+  @EventBusSubscriber(
+    modid = MOD_ID,
+    bus = EventBusSubscriber.Bus.MOD,
+    value = Dist.CLIENT
+  )
   public static class OmniCompClient
   {
     static
