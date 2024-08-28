@@ -6,6 +6,7 @@ Slated to appear in the next version:
 
   - Mossy Cobblestone
   - Netherrack
+  - Soul Sand/Soil
   - End Stone
 
 In addition to these three variants, we definitely want more like:
