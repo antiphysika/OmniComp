@@ -4,13 +4,12 @@
 
 package antiphysika.omnicomp.common.datagen;
 
+import antiphysika.omnicomp.common.staticdata.StaticLangData;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 
 import antiphysika.omnicomp.OmniComp;
 import antiphysika.omnicomp.common.staticdata.StaticBlockData;
-
-import static antiphysika.omnicomp.common.registry.Registrar.CREATIVE_MOD_TAB_TITLE_KEY;
 
 public class OmniCompTranslations extends LanguageProvider
 {
@@ -77,7 +76,7 @@ public class OmniCompTranslations extends LanguageProvider
 
   private void creativeModeTabTranslations ()
   {
-    add(CREATIVE_MOD_TAB_TITLE_KEY, "OmniComp: Compressed Blocks");
+    add(StaticLangData.CREATIVE_MOD_TAB_TITLE_KEY, StaticLangData.CREATIVE_MOD_TAB_TITLE);
   }
 
   private void blockTranslations ()
@@ -90,15 +89,8 @@ public class OmniCompTranslations extends LanguageProvider
 
   private void advancementTranslations ()
   {
-    add(
-      advTransKey("craft_compressed_block.title"),
-      "Compressed blocks all the way down!"
-    );
-
-    add(
-      advTransKey("craft_compressed_block.description"),
-      "Obtained when crafting any 1x compressed block variant"
-    );
+    add(StaticLangData.ADVANCEMENT_TITLE_KEY, StaticLangData.ADVANCEMENT_TITLE);
+    add(StaticLangData.ADVANCEMENT_DESCRIPTION_KEY, StaticLangData.ADVANCEMENT_DESCRIPTION);
   }
 
   /**

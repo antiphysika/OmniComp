@@ -14,7 +14,7 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.omnicomp.craft_compressed_block.description"
+      "translate": "advancement.craft_compressed_block.description"
     },
     "frame": "goal",
     "icon": {
@@ -22,7 +22,7 @@
       "id": "omnicomp:cobblestone_1x"
     },
     "title": {
-      "translate": "advancement.omnicomp.craft_compressed_block.title"
+      "translate": "advancement.craft_compressed_block.title"
     }
   },
   "requirements": [

@@ -5,6 +5,7 @@
 package antiphysika.omnicomp.common.datagen;
 
 import antiphysika.omnicomp.common.registry.block.CompressedCobblestone;
+import antiphysika.omnicomp.common.staticdata.StaticLangData;
 import net.minecraft.advancements.Advancement;
 import net.minecraft.advancements.AdvancementHolder;
 import net.minecraft.advancements.AdvancementRequirements;
@@ -63,13 +64,9 @@ public class OmniCompAdvancements extends AdvancementProvider
 
       builder.display(
         new ItemStack(CompressedCobblestone.ITEM_1X.get()),
-        Component.translatable("advancement.omnicomp.craft_compressed_block.title"),
-        Component.translatable("advancement.omnicomp.craft_compressed_block.description"),
-        null,
-        AdvancementType.GOAL,
-        true,
-        true,
-        false
+        Component.translatable(StaticLangData.ADVANCEMENT_TITLE_KEY),
+        Component.translatable(StaticLangData.ADVANCEMENT_DESCRIPTION_KEY),
+        null, AdvancementType.GOAL, true, true, false
       );
 
       builder.addCriterion(

@@ -19,6 +19,8 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import static antiphysika.omnicomp.OmniComp.MOD_ID;
+import antiphysika.omnicomp.common.staticdata.StaticLangData;
+
 import antiphysika.omnicomp.common.registry.block.*;
 
 public class Registrar
@@ -57,16 +59,12 @@ public class Registrar
       .toList();
   }
 
-  public static final String CREATIVE_MOD_TAB_TITLE_KEY =
-    "creative_mode_tab.omnicomp.title";
-
   public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
     DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
 
   public static final DeferredHolder<CreativeModeTab, CreativeModeTab> OMNICOMP_TAB =
     CREATIVE_MODE_TABS.register("omnicomp_tab", () -> CreativeModeTab.builder()
-      .title(Component.literal("OmniComp"))
-      .title(Component.translatable(CREATIVE_MOD_TAB_TITLE_KEY))
+      .title(Component.translatable(StaticLangData.CREATIVE_MOD_TAB_TITLE_KEY))
       .withTabsBefore(CreativeModeTabs.COMBAT)
       .icon(() -> CompressedCobblestone.ITEM_1X.get().getDefaultInstance())
       .displayItems((parameters, output) ->

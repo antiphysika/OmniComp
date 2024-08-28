@@ -1,6 +1,6 @@
 {
-  "advancement.omnicomp.craft_compressed_block.description": "Obtained when crafting any 1x compressed block variant",
-  "advancement.omnicomp.craft_compressed_block.title": "Compressed blocks all the way down!",
+  "advancement.craft_compressed_block.description": "Obtained when crafting any 1x compressed block variant",
+  "advancement.craft_compressed_block.title": "Compressed blocks all the way down!",
   "block.omnicomp.andesite_1x": "Compressed Andesite (1x) Block",
   "block.omnicomp.andesite_2x": "Compressed Andesite (2x) Block",
   "block.omnicomp.andesite_3x": "Compressed Andesite (3x) Block",
