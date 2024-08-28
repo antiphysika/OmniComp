@@ -4,8 +4,6 @@
 
 package antiphysika.omnicomp;
 
-import net.minecraft.resources.ResourceLocation;
-
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;

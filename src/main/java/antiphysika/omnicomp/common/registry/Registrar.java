@@ -19,7 +19,6 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import static antiphysika.omnicomp.OmniComp.MOD_ID;
-
 import antiphysika.omnicomp.common.registry.block.*;
 
 public class Registrar
