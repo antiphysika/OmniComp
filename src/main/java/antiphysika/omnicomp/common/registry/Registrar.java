@@ -48,15 +48,18 @@ public class Registrar
   }
 
   /**
-   * [JAVADOC-PLACEHOLDER]
+   * Get an {@link Iterable<Block>} for all known mod blocks.
    *
-   * @return
+   * Helper to fetch a list of all blocks registered by the mod, primarily used
+   * by the datagen code for block models, loot and tags.
+   *
+   * @return Returns an iterable list of blocks
    */
   public static Iterable<Block> getKnownBlocks ()
   {
     return BLOCKS.getEntries()
       .stream()
-      .map(e -> (Block) e.value())
+      .map(entry -> (Block) entry.value())
       .toList();
   }
 
