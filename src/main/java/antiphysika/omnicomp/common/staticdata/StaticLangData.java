@@ -6,23 +6,44 @@ package antiphysika.omnicomp.common.staticdata;
 
 public class StaticLangData
 {
+  // Creative mode tab
+  //
+
   public static final String CREATIVE_MOD_TAB_TITLE_KEY =
     "creative_mode_tab.omnicomp.title";
 
   public static final String CREATIVE_MOD_TAB_TITLE =
     "OmniComp: Compressed Blocks";
 
-  public static final String ADVANCEMENT_TITLE_KEY =
-    "advancement.craft_compressed_block.title";
+  // Advancement: root
+  //
 
-  public static final String ADVANCEMENT_TITLE =
-    "Compressed blocks all the way down!";
+  public static final String ADVANCEMENT_ROOT_TITLE_KEY =
+    "advancement.omnicomp.the_story_begins.title";
 
-  public static final String ADVANCEMENT_DESCRIPTION_KEY =
-    "advancement.craft_compressed_block.description";
+  public static final String ADVANCEMENT_ROOT_TITLE =
+    "Compressing Blocks";
 
-  public static final String ADVANCEMENT_DESCRIPTION =
-    "Obtained when crafting any 1x compressed block variant";
+  public static final String ADVANCEMENT_ROOT_DESCRIPTION_KEY =
+    "advancement.omnicomp.the_story_begins.description";
+
+  public static final String ADVANCEMENT_ROOT_DESCRIPTION =
+    "Compressing blocks all the way down, for and profit!";
+
+  // Advancement: root
+  //
+
+  public static final String ADVANCEMENT_COBBLESTONE_1X_TITLE_KEY =
+    "advancement.omnicomp.craft_cobblestone_1x.title";
+
+  public static final String ADVANCEMENT_COBBLESTONE_1X_TITLE =
+    "Compressed Cobblestone";
+
+  public static final String ADVANCEMENT_COBBLESTONE_1X_DESCRIPTION_KEY =
+    "advancement.omnicomp.craft_cobblestone_1x.description";
+
+  public static final String ADVANCEMENT_COBBLESTONE_1X_DESCRIPTION =
+    "Obtained when crafting compressed Cobblestone 1x";
 }
 
 //

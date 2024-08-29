@@ -4,12 +4,12 @@
 
 package antiphysika.omnicomp.common.datagen;
 
-import antiphysika.omnicomp.common.staticdata.StaticLangData;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 
 import antiphysika.omnicomp.OmniComp;
 import antiphysika.omnicomp.common.staticdata.StaticBlockData;
+import static antiphysika.omnicomp.common.staticdata.StaticLangData.*;
 
 public class OmniCompTranslations extends LanguageProvider
 {
@@ -76,7 +76,7 @@ public class OmniCompTranslations extends LanguageProvider
 
   private void creativeModeTabTranslations ()
   {
-    add(StaticLangData.CREATIVE_MOD_TAB_TITLE_KEY, StaticLangData.CREATIVE_MOD_TAB_TITLE);
+    add(CREATIVE_MOD_TAB_TITLE_KEY, CREATIVE_MOD_TAB_TITLE);
   }
 
   private void blockTranslations ()
@@ -89,8 +89,11 @@ public class OmniCompTranslations extends LanguageProvider
 
   private void advancementTranslations ()
   {
-    add(StaticLangData.ADVANCEMENT_TITLE_KEY, StaticLangData.ADVANCEMENT_TITLE);
-    add(StaticLangData.ADVANCEMENT_DESCRIPTION_KEY, StaticLangData.ADVANCEMENT_DESCRIPTION);
+    add(ADVANCEMENT_ROOT_TITLE_KEY, ADVANCEMENT_ROOT_TITLE);
+    add(ADVANCEMENT_ROOT_DESCRIPTION_KEY, ADVANCEMENT_ROOT_DESCRIPTION);
+
+    add(ADVANCEMENT_COBBLESTONE_1X_TITLE_KEY, ADVANCEMENT_COBBLESTONE_1X_TITLE);
+    add(ADVANCEMENT_COBBLESTONE_1X_DESCRIPTION_KEY, ADVANCEMENT_COBBLESTONE_1X_DESCRIPTION);
   }
 
   /**

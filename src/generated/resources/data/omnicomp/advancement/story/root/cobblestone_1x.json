@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:story/root",
+  "parent": "omnicomp:story/root",
   "criteria": {
-    "recipe_crafted": {
+    "cobblestone_1x_crafted": {
       "conditions": {
         "items": [
           {
@@ -14,7 +14,7 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.craft_compressed_block.description"
+      "translate": "advancement.omnicomp.craft_cobblestone_1x.description"
     },
     "frame": "goal",
     "icon": {
@@ -22,12 +22,12 @@
       "id": "omnicomp:cobblestone_1x"
     },
     "title": {
-      "translate": "advancement.craft_compressed_block.title"
+      "translate": "advancement.omnicomp.craft_cobblestone_1x.title"
     }
   },
   "requirements": [
     [
-      "recipe_crafted"
+      "cobblestone_1x_crafted"
     ]
   ],
   "sends_telemetry_event": true
