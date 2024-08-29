@@ -4,11 +4,6 @@
 
 Slated to appear in the next version:
 
-  - Dripstone Block
-  - Magma Block
-  - Obsidian
-  - Glowstone
-
   - Oak Log
   - Spruce Log
   - Birch Log
