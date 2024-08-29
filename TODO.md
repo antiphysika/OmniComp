@@ -4,8 +4,6 @@
 
 Slated to appear in the next version:
 
-  - Red Sand
-  - Red Sandstone
   - Blackstone
   - Smooth Basalt
   - Dripstone Block
