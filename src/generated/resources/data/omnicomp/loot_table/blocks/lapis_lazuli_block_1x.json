@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "omnicomp:lapis_lazuli_block_1x"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "omnicomp:blocks/lapis_lazuli_block_1x"
+}

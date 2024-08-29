@@ -71,6 +71,10 @@ public class DynamicTextureManager
     if (name.equals("basalt"))
       return "block/" + name + "_top";
 
+    // Vanilla tech debt, yay!
+    if (name.equals("lapis_lazuli_block"))
+      return "block/" + "lapis_block";
+
     return "block/" + name;
   }
 

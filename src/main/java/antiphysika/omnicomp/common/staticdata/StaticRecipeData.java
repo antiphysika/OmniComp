@@ -234,6 +234,20 @@ public class StaticRecipeData
     CompressedGoldBlock.ITEM_2X,
     CompressedGoldBlock.ITEM_3X
   };
+
+  public static final ItemLike[] LAPIS_LAZULI_BLOCK_MATERIALS = new ItemLike[]{
+    Items.LAPIS_BLOCK,
+    CompressedLapisLazuliBlock.ITEM_1X,
+    CompressedLapisLazuliBlock.ITEM_2X,
+    CompressedLapisLazuliBlock.ITEM_3X
+  };
+
+  public static final ItemLike[] REDSTONE_BLOCK_MATERIALS = new ItemLike[]{
+    Items.REDSTONE_BLOCK,
+    CompressedRedstoneBlock.ITEM_1X,
+    CompressedRedstoneBlock.ITEM_2X,
+    CompressedRedstoneBlock.ITEM_3X
+  };
 }
 
 //

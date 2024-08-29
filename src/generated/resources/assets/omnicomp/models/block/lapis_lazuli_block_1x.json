@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "omnicomp:block/lapis_lazuli_block_1x"
+  }
+}

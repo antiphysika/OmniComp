@@ -53,6 +53,8 @@ public class BlockInit
     CompressedCoalBlock.init();
     CompressedIronBlock.init();
     CompressedGoldBlock.init();
+    CompressedLapisLazuliBlock.init();
+    CompressedRedstoneBlock.init();
   }
 }
 
