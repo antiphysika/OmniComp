@@ -107,8 +107,14 @@ public class StaticBlockData
   public static final Block COAL_BLOCK =
     new Block("coal_block", "Block of Coal");
 
+  public static final Block COPPER_BLOCK =
+    new Block("copper_block", "Block of Copper");
+
   public static final Block IRON_BLOCK =
     new Block("iron_block", "Block of Iron");
+
+  public static final Block GOLD_BLOCK =
+    new Block("gold_block", "Block of Gold");
 
   public static List<Block> getAllBlocks ()
   {
@@ -142,7 +148,9 @@ public class StaticBlockData
       OBSIDIAN,
       GLOWSTONE,
       COAL_BLOCK,
-      IRON_BLOCK
+      COPPER_BLOCK,
+      IRON_BLOCK,
+      GOLD_BLOCK
     );
   }
 }

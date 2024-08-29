@@ -84,11 +84,17 @@
     "omnicomp:end_stone_1x",
     "omnicomp:end_stone_2x",
     "omnicomp:end_stone_3x",
+    "omnicomp:copper_block_1x",
+    "omnicomp:copper_block_2x",
+    "omnicomp:copper_block_3x",
     "omnicomp:coal_block_1x",
     "omnicomp:coal_block_2x",
     "omnicomp:coal_block_3x",
     "omnicomp:iron_block_1x",
     "omnicomp:iron_block_2x",
-    "omnicomp:iron_block_3x"
+    "omnicomp:iron_block_3x",
+    "omnicomp:gold_block_1x",
+    "omnicomp:gold_block_2x",
+    "omnicomp:gold_block_3x"
   ]
 }

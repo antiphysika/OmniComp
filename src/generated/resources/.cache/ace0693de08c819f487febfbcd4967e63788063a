@@ -1,4 +1,4 @@
-// 1.21.1	2024-08-29T06:45:04.300383756	Block States: omnicomp
+// 1.21.1	2024-08-29T06:59:43.667028917	Block States: omnicomp
 c5e21151efddd5106a87a8ecc3dc308e67441f22 assets/omnicomp/blockstates/andesite_1x.json
 ef8eebeabf520e32a96f49e23367fa397ff74fde assets/omnicomp/blockstates/andesite_2x.json
 7cd5c04cac3db09cdbfb5abdff632d998503518c assets/omnicomp/blockstates/andesite_3x.json
@@ -26,6 +26,9 @@ cdb2e0c62b9153205a73e7e082cfc59a4a01446f assets/omnicomp/blockstates/cobbled_dee
 0e5d23d748bee5a21e072c2c32cfa37a9e214014 assets/omnicomp/blockstates/cobblestone_1x.json
 15be3efee90b126be9e98606a772bde285eab849 assets/omnicomp/blockstates/cobblestone_2x.json
 b5fdb767f4a7eb6ec77e7e9db0e86641cc515172 assets/omnicomp/blockstates/cobblestone_3x.json
+09e62a14ddc6543b9005fa66961ee61ba6913884 assets/omnicomp/blockstates/copper_block_1x.json
+96ccedef2f339cbe41133b8cd58838c2d75dc538 assets/omnicomp/blockstates/copper_block_2x.json
+0942500f1028c084b95e442b2306d8aee5bf7bf3 assets/omnicomp/blockstates/copper_block_3x.json
 f30e3c85b696ab2709cead9dbdc1cb33cf576701 assets/omnicomp/blockstates/deepslate_1x.json
 6e82ab9b4bd4e1f3a1d7edd55a74a63af9d4f6c6 assets/omnicomp/blockstates/deepslate_2x.json
 a07aed0b204486437d1fde1eb0ab0d75c7d1c556 assets/omnicomp/blockstates/deepslate_3x.json
@@ -44,6 +47,9 @@ b99f815f3ebcdfe98c11cda9b276a9b34e0c9798 assets/omnicomp/blockstates/end_stone_3
 36c6f211a07e02037afc2ca70dde68b4fa6ad6ac assets/omnicomp/blockstates/glowstone_1x.json
 06663531c8ada76f587fd90909e94824a9fe9969 assets/omnicomp/blockstates/glowstone_2x.json
 30bf616e5341cd532d397400932ec2500609e6af assets/omnicomp/blockstates/glowstone_3x.json
+e5fe0f9d82090baebad4efff85c7858b692c5527 assets/omnicomp/blockstates/gold_block_1x.json
+ff1694dfcbc50c001f3a6d00f7cdc7115d54ec6a assets/omnicomp/blockstates/gold_block_2x.json
+c72089ada36662fd0490944da4e4e790c938c97e assets/omnicomp/blockstates/gold_block_3x.json
 93b3fdc11889d4cfd662f6ad42f5831954f3f286 assets/omnicomp/blockstates/granite_1x.json
 aace87927675857c712d8a89543d28d52a920b32 assets/omnicomp/blockstates/granite_2x.json
 1b0761a3dada149fe72f7a6a11522dea53e5a8e2 assets/omnicomp/blockstates/granite_3x.json
@@ -116,6 +122,9 @@ a19ed12ae5ffa53cdbf530d85981d540f661ceb5 assets/omnicomp/models/block/cobbled_de
 2f99b43549b30dc34ace5d8bf574f9075c5c3ec8 assets/omnicomp/models/block/cobblestone_1x.json
 4fd94f9a226ce47afff9fb8be146c6b314577152 assets/omnicomp/models/block/cobblestone_2x.json
 9252c5feab8b561785ef21fae359e9402c34eb84 assets/omnicomp/models/block/cobblestone_3x.json
+27eaa50029eb769523d9c09a7e7f06fcd72a0af5 assets/omnicomp/models/block/copper_block_1x.json
+f7dd385ddc19270ce1785d721b377d32c518ecba assets/omnicomp/models/block/copper_block_2x.json
+afb7eaefa8cd95443b0b4c744c9f2c2957a568c8 assets/omnicomp/models/block/copper_block_3x.json
 0bc48415d1c2da314d7f3e154f10c9dfd6991113 assets/omnicomp/models/block/deepslate_1x.json
 01d70a879554cd07e34229bfc8217cce1dca9051 assets/omnicomp/models/block/deepslate_2x.json
 b99add0479937b079d74050d58558c3b8b6a3ab5 assets/omnicomp/models/block/deepslate_3x.json
@@ -134,6 +143,9 @@ d452fca4c968389de9c40dbea9c5e6e8e25cee04 assets/omnicomp/models/block/end_stone_
 b89980a4ee8ba7b7e07d0ff9b5aa88d8511b7050 assets/omnicomp/models/block/glowstone_1x.json
 81875aea42a0ad7e80a1da793b56a2a14f8742c9 assets/omnicomp/models/block/glowstone_2x.json
 ba103c939f01600e95347788048eeeea123c43f4 assets/omnicomp/models/block/glowstone_3x.json
+ae7eda9f0c1eded0a64dc6c276e021aac888b066 assets/omnicomp/models/block/gold_block_1x.json
+ecb15cfe40bf59b8f78f48624ac3996a48dd4956 assets/omnicomp/models/block/gold_block_2x.json
+1753d2d6ec6317cc09fb25c035942d68f6692c0a assets/omnicomp/models/block/gold_block_3x.json
 0689a4393dedb2ee36d5f37642f90858326f499a assets/omnicomp/models/block/granite_1x.json
 d94f5123076be2d8ab77d07eeedc4f9ac5ebd34f assets/omnicomp/models/block/granite_2x.json
 768a50ef7293cbcefe8ddc667b2424df24043c09 assets/omnicomp/models/block/granite_3x.json
@@ -206,6 +218,9 @@ bc1cd1a2ed5e2687ef89ba66884c48c5a6868067 assets/omnicomp/models/item/cobbled_dee
 7e046cc652d5d07a24ce7684791d7c8fd89c9e53 assets/omnicomp/models/item/cobblestone_1x.json
 d1f2348b40bb53387222137e8e013c76113b75f0 assets/omnicomp/models/item/cobblestone_2x.json
 98ae6137aa748c24f9859aa93849a95d1dd6b036 assets/omnicomp/models/item/cobblestone_3x.json
+1aa61e0505150c0be63ce55024e328e1c4fe0826 assets/omnicomp/models/item/copper_block_1x.json
+c03a3a4acab82a5c962c40499dbbd5585952c21c assets/omnicomp/models/item/copper_block_2x.json
+4be2ac51fc76d96b015c3c35cf96d5a54b237a91 assets/omnicomp/models/item/copper_block_3x.json
 56b7aef83f3b6848fae5401a7e71795eb4206968 assets/omnicomp/models/item/deepslate_1x.json
 7aa421c37c003bd4d9c7fbcc0430398ef59923c9 assets/omnicomp/models/item/deepslate_2x.json
 7a042c473ab6d8d8a2530706cc9302b981a88154 assets/omnicomp/models/item/deepslate_3x.json
@@ -224,6 +239,9 @@ e5a233609df2a8f58585c23ff537be9688bae9e8 assets/omnicomp/models/item/end_stone_1
 c5261e08c4b0567be12118bef9bc9bc07ad09cf0 assets/omnicomp/models/item/glowstone_1x.json
 e88a6b64ee56fc56c7ba1a90d7b5371a9ae3c3b4 assets/omnicomp/models/item/glowstone_2x.json
 79e74b796b0507f6b55cd31553db549a4ad29ef7 assets/omnicomp/models/item/glowstone_3x.json
+3940a857f71e037fdbca44668c9da6d096c944ed assets/omnicomp/models/item/gold_block_1x.json
+5d26c52c29d61efe958f4fcf1b6cc99c7c554830 assets/omnicomp/models/item/gold_block_2x.json
+3e750f4fe1090bf155633cdff78414dc1d070236 assets/omnicomp/models/item/gold_block_3x.json
 772bf2134f96eee42ee913598a6e08b80b6f0c70 assets/omnicomp/models/item/granite_1x.json
 be84c1eeb47cb37690ab78ffa90d3191ab9ad66b assets/omnicomp/models/item/granite_2x.json
 0c2120bb615d0c297ed09d92d4b2b150e3329ec3 assets/omnicomp/models/item/granite_3x.json

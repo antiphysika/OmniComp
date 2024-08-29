@@ -49,8 +49,10 @@ public class BlockInit
 
     CompressedEndStone.init();
 
+    CompressedCopperBlock.init();
     CompressedCoalBlock.init();
     CompressedIronBlock.init();
+    CompressedGoldBlock.init();
   }
 }
 

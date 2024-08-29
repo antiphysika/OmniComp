@@ -214,11 +214,25 @@ public class StaticRecipeData
     CompressedCoalBlock.ITEM_3X
   };
 
+  public static final ItemLike[] COPPER_BLOCK_MATERIALS = new ItemLike[]{
+    Items.COPPER_BLOCK,
+    CompressedCopperBlock.ITEM_1X,
+    CompressedCopperBlock.ITEM_2X,
+    CompressedCopperBlock.ITEM_3X
+  };
+
   public static final ItemLike[] IRON_BLOCK_MATERIALS = new ItemLike[]{
     Items.IRON_BLOCK,
     CompressedIronBlock.ITEM_1X,
     CompressedIronBlock.ITEM_2X,
     CompressedIronBlock.ITEM_3X
+  };
+
+  public static final ItemLike[] GOLD_BLOCK_MATERIALS = new ItemLike[]{
+    Items.GOLD_BLOCK,
+    CompressedGoldBlock.ITEM_1X,
+    CompressedGoldBlock.ITEM_2X,
+    CompressedGoldBlock.ITEM_3X
   };
 }
 

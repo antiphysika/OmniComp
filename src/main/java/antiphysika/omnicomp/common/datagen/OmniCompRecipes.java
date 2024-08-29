@@ -177,7 +177,9 @@ public class OmniCompRecipes extends RecipeProvider
     compBlockRecipes(output, StaticRecipeData.END_STONE_MATERIALS);
 
     compBlockRecipes(output, StaticRecipeData.COAL_BLOCK_MATERIALS);
+    compBlockRecipes(output, StaticRecipeData.COPPER_BLOCK_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.IRON_BLOCK_MATERIALS);
+    compBlockRecipes(output, StaticRecipeData.GOLD_BLOCK_MATERIALS);
   }
 }
 
