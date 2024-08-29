@@ -24,7 +24,6 @@ public class OmniComp extends OmniCompBase
 {
   public static final String MOD_ID = "omnicomp";
 
-  private static OmniComp INSTANCE;
   private static final Logger LOGGER = LogUtils.getLogger();
 
   /**
@@ -35,23 +34,11 @@ public class OmniComp extends OmniCompBase
    */
   public OmniComp (IEventBus bus, ModContainer container)
   {
-    INSTANCE = this;
-
     // Add listener for FMLCommonSetupEvent event
     bus.addListener(OmniCompCommon::initCommon);
 
     // Deferred registers
     Registrar.register(bus);
-  }
-
-  /**
-   *[JAVADOC-PLACEHOLDER]
-   *
-   * @return
-   */
-  public static OmniComp getInstance ()
-  {
-    return INSTANCE;
   }
 
   /**
