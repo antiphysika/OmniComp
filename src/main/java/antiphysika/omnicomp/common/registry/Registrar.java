@@ -118,9 +118,9 @@ public class Registrar
   }
 
   /**
-   * [JAVADOC-PLACEHOLDER]
+   * Register mod blocks, items and creative mode tab
    *
-   * @param bus
+   * @param bus Mod event bus
    */
   public static void register (IEventBus bus)
   {
