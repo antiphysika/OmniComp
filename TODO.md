@@ -5,16 +5,38 @@
 Slated to appear in the next version:
 
   - Clay
+  - Mud
   - Tuff
+  - Red Sand
+  - Red Sandstone
+  - Blackstone
+  - Smooth Basalt
+  - Dripstone Block
+  - Magma Block
+  - Obsidian
+  - Glowstone
 
-In addition to these three variants, we definitely want more like:
+  - Oak Log
+  - Spruce Log
+  - Birch Log
+  - Jungle Log
+  - Acacia Log
+  - Dark Oak Log
+  - Mangrove Log
+  - Cherry Log
+  - Crimson Stem
+  - Warped Stem
 
-  - Redstone
-  - Lapis Lazuli
-  - Dimiand
-  - Emerald
-  - Nether Quartz
-  - Glowstone Dust
+  - Block of Coal
+  - Block of Copper
+  - Block of Iron
+  - Block of Redstone
+  - Block of Emerald
+  - Block of Lapis Lazuli
+  - Block of Diamond
+  - Block of Netherite
+  - Block of Quartz
+  - Block of Amethyst
 
 ## Require shovel tool for non-stone blocks?
 
