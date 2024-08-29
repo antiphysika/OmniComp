@@ -1,4 +1,4 @@
-// 1.21.1	2024-08-29T07:53:55.130656273	Block States: omnicomp
+// 1.21.1	2024-08-29T08:15:55.139583222	Block States: omnicomp
 c5e21151efddd5106a87a8ecc3dc308e67441f22 assets/omnicomp/blockstates/andesite_1x.json
 ef8eebeabf520e32a96f49e23367fa397ff74fde assets/omnicomp/blockstates/andesite_2x.json
 7cd5c04cac3db09cdbfb5abdff632d998503518c assets/omnicomp/blockstates/andesite_3x.json
@@ -74,6 +74,9 @@ ff11f9b85af3f52009630f83c0e7f99e3f5f6f9f assets/omnicomp/blockstates/mossy_cobbl
 e640a379c0c0f83bd81cecd43462c14f672642fa assets/omnicomp/blockstates/mud_1x.json
 27f051ba8fc3b57938c0e6959a53093f3bd86241 assets/omnicomp/blockstates/mud_2x.json
 808f065d31dd331382c55f06795f3583826b78c6 assets/omnicomp/blockstates/mud_3x.json
+07bc4ae5691af037335fd86231d840425a704965 assets/omnicomp/blockstates/netherite_block_1x.json
+0011aa92f944af61bb74fcff78fb2425b39c353e assets/omnicomp/blockstates/netherite_block_2x.json
+e7c704babcccb506e7fe0a627e7e35856c3f599e assets/omnicomp/blockstates/netherite_block_3x.json
 a608bffed84482fb922cb88ff872ef883c3a4d13 assets/omnicomp/blockstates/netherrack_1x.json
 7b39b36278769dc381973aadc2d64912fd8060d4 assets/omnicomp/blockstates/netherrack_2x.json
 e9144e904889a0288966617c30f5ce0863a6bd3e assets/omnicomp/blockstates/netherrack_3x.json
@@ -182,6 +185,9 @@ c4b35e05932c4065b69ab7adcb3de8b182d8ab2f assets/omnicomp/models/block/lapis_lazu
 88f8b47fbfc10a64c7a93889e5ecb9056f9cd8fe assets/omnicomp/models/block/mud_1x.json
 bdd14c24a879c91e4f64111807985642412955a5 assets/omnicomp/models/block/mud_2x.json
 55c4234fd470268a1df73529539b466d1d60d9fa assets/omnicomp/models/block/mud_3x.json
+c1a7355eebc6fa00f70318b8695889410e592382 assets/omnicomp/models/block/netherite_block_1x.json
+5413f621b154b73548a3966aba6a20f123277554 assets/omnicomp/models/block/netherite_block_2x.json
+bb7ecda50e8422315bebe353905a36e0a3cdb25d assets/omnicomp/models/block/netherite_block_3x.json
 30b833db2eef100ab71cf57e370df6f1c347fc34 assets/omnicomp/models/block/netherrack_1x.json
 06128503c7ab213900d2fcf50dfaa9c2ea8f79e0 assets/omnicomp/models/block/netherrack_2x.json
 3b01c0b224026e4087d300fefddc8470432efda9 assets/omnicomp/models/block/netherrack_3x.json
@@ -290,6 +296,9 @@ b7128f0e0d6a88b49d90cab642cb174f1fd714dc assets/omnicomp/models/item/mossy_cobbl
 d2ce0335f8ca2566ae810b6a4bf847c23e8ac879 assets/omnicomp/models/item/mud_1x.json
 341362b415ece728371228cde01722484e69830f assets/omnicomp/models/item/mud_2x.json
 11f8f94fe64ed535a84a61afe99ec1aa256acd2e assets/omnicomp/models/item/mud_3x.json
+d9eaf061c2be4668134f6e5e2f66c0a5bd0c5790 assets/omnicomp/models/item/netherite_block_1x.json
+59d39f0d42928465ca27176f6430a7b9c62b0207 assets/omnicomp/models/item/netherite_block_2x.json
+fb05c7066b0515dd50f8620db83e323d17679654 assets/omnicomp/models/item/netherite_block_3x.json
 d637263f378220c3cc496cb32fe4f0a9a9907994 assets/omnicomp/models/item/netherrack_1x.json
 d5b4921bc1df9f12802265ff633ef87993b7c480 assets/omnicomp/models/item/netherrack_2x.json
 7f767fb3620d455057bb9c4f148c2950e62c960a assets/omnicomp/models/item/netherrack_3x.json

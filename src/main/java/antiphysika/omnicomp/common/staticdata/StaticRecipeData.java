@@ -262,6 +262,13 @@ public class StaticRecipeData
     CompressedDiamondBlock.ITEM_2X,
     CompressedDiamondBlock.ITEM_3X
   };
+
+  public static final ItemLike[] NETHERITE_BLOCK_MATERIALS = new ItemLike[]{
+    Items.NETHERITE_BLOCK,
+    CompressedNetheriteBlock.ITEM_1X,
+    CompressedNetheriteBlock.ITEM_2X,
+    CompressedNetheriteBlock.ITEM_3X
+  };
 }
 
 //

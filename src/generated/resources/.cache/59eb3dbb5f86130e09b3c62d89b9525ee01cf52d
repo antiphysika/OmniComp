@@ -1,4 +1,4 @@
-// 1.21.1	2024-08-29T07:53:55.125684499	Loot Tables
+// 1.21.1	2024-08-29T08:15:55.134590653	Loot Tables
 af15d78a768da5bef72bbfc356123696322b52f8 data/omnicomp/loot_table/blocks/andesite_1x.json
 5719ee36856c50f9d68f94e2487af033c3163f30 data/omnicomp/loot_table/blocks/andesite_2x.json
 4c1bae7b727fd9c23da7896cc75e4cf870c5b85b data/omnicomp/loot_table/blocks/andesite_3x.json
@@ -74,6 +74,9 @@ b4d56389c0c5bc25813d7b694f1db8c2dd6a0eb2 data/omnicomp/loot_table/blocks/mossy_c
 9dd5c0aec4e924265892836cddc30c55dea710e6 data/omnicomp/loot_table/blocks/mud_1x.json
 f3bb59a4fe757e2e711325ea61d1f4bf61a93b55 data/omnicomp/loot_table/blocks/mud_2x.json
 b387e9ac1709159351d50a406562a7148854731f data/omnicomp/loot_table/blocks/mud_3x.json
+bda76cc0ddcbda62beb1cc4a6698f735693a3a33 data/omnicomp/loot_table/blocks/netherite_block_1x.json
+4110e8f5404cb058ce4799d08a29424770e0e3d7 data/omnicomp/loot_table/blocks/netherite_block_2x.json
+9aa515ac970607cc5aef79ffec95776b3ba4d20b data/omnicomp/loot_table/blocks/netherite_block_3x.json
 b126d531ea44f464d7135cddf473cb1900e74689 data/omnicomp/loot_table/blocks/netherrack_1x.json
 78180440bff276d5bde8c172af2f81fbda8fbbbe data/omnicomp/loot_table/blocks/netherrack_2x.json
 ac0ff3f0aa3915590b7c73fa02a5892c461956bb data/omnicomp/loot_table/blocks/netherrack_3x.json
