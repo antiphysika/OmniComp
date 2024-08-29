@@ -15,9 +15,6 @@ Slated to appear in an upcoming version:
   - Crimson Stem
   - Warped Stem
 
-  - Block of Quartz
-  - Block of Amethyst
-
 ## Require shovel tool for non-stone blocks?
 
 Currently all of our compressed blocks can be mined with a pickaxe, but it
