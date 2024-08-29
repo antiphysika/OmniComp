@@ -27,9 +27,9 @@ public class DynamicTextureManager
   }
 
   /**
-   * [JAVADOC-PLACEHOLDER]
+   * Generate the three textures for a given compressed block variant
    *
-   * @param parent
+   * @param parent Variant block parent
    */
   public static void generateCompBlockTextures (String parent)
   {
@@ -39,9 +39,9 @@ public class DynamicTextureManager
   }
 
   /**
-   * [JAVADOC-PLACEHOLDER]
+   * Mark texture as dynamically generated
    *
-   * @param location
+   * @param location Texture location
    */
   private static void trackGenerated (ResourceLocation location)
   {
@@ -49,9 +49,9 @@ public class DynamicTextureManager
   }
 
   /**
-   * [JAVADOC-PLACEHOLDER]
+   * Get list of {@link ResourceLocation} instances for generated textures
    *
-   * @return
+   * @return Returns list of generated textures
    */
   public static List<ResourceLocation> getGenerated ()
   {
@@ -82,10 +82,10 @@ public class DynamicTextureManager
   }
 
   /**
-   * [JAVADOC-PLACEHOLDER]
+   * Generate a single compressed block variant's texture
    *
-   * @param parent
-   * @param level
+   * @param parent  Variant block parent
+   * @param level   Compression level (1-3)
    */
   private static void generateCompBlockTexture (String parent, int level)
   {
@@ -102,7 +102,7 @@ public class DynamicTextureManager
   }
 
   /**
-   * [JAVADOC-PLACEHOLDER]
+   * Generate textures for all compressed block variants
    */
   public static void generateTextures ()
   {
