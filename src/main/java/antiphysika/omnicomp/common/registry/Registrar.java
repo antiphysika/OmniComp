@@ -29,21 +29,22 @@ public class Registrar
   public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MOD_ID);
 
   /**
-   * [JAVADOC-PLACEHOLDER]
+   * Register a simple block
    *
-   * @param name
-   * @param strength
-   * @param colour
-   * @return
+   * @param name      Registry name for block
+   * @param strength  Block strength property
+   * @param colour    Block map colour property
+   *
+   * @return Returns {@link DeferredBlock} for block to register
    */
   public static DeferredBlock<Block> registerBlock (String name, float strength, MapColor colour)
   {
-    return BLOCKS.registerSimpleBlock(name,
-      BlockBehaviour.Properties.of()
-        .strength(strength)
-        .mapColor(colour)
-        .requiresCorrectToolForDrops()
-    );
+    BlockBehaviour.Properties blockProps = BlockBehaviour.Properties.of()
+      .strength(strength)
+      .mapColor(colour)
+      .requiresCorrectToolForDrops();
+
+    return BLOCKS.registerSimpleBlock(name, blockProps);
   }
 
   /**
