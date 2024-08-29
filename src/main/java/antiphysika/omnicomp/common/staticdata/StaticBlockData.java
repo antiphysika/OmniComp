@@ -122,6 +122,12 @@ public class StaticBlockData
   public static final Block REDSTONE_BLOCK =
     new Block("redstone_block", "Block of Redstone");
 
+  public static final Block EMERALD_BLOCK =
+    new Block("emerald_block", "Block of Emerald");
+
+  public static final Block DIAMOND_BLOCK =
+    new Block("diamond_block", "Block of Diamond");
+
   public static List<Block> getAllBlocks ()
   {
     return List.of(
@@ -158,7 +164,9 @@ public class StaticBlockData
       IRON_BLOCK,
       GOLD_BLOCK,
       LAPIS_LAZULI_BLOCK,
-      REDSTONE_BLOCK
+      REDSTONE_BLOCK,
+      EMERALD_BLOCK,
+      DIAMOND_BLOCK
     );
   }
 }

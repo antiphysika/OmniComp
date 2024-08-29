@@ -101,6 +101,12 @@
     "omnicomp:lapis_lazuli_block_3x",
     "omnicomp:redstone_block_1x",
     "omnicomp:redstone_block_2x",
-    "omnicomp:redstone_block_3x"
+    "omnicomp:redstone_block_3x",
+    "omnicomp:emerald_block_1x",
+    "omnicomp:emerald_block_2x",
+    "omnicomp:emerald_block_3x",
+    "omnicomp:diamond_block_1x",
+    "omnicomp:diamond_block_2x",
+    "omnicomp:diamond_block_3x"
   ]
 }

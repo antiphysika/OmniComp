@@ -1,4 +1,4 @@
-// 1.21.1	2024-08-29T07:14:34.952213377	Loot Tables
+// 1.21.1	2024-08-29T07:53:55.125684499	Loot Tables
 af15d78a768da5bef72bbfc356123696322b52f8 data/omnicomp/loot_table/blocks/andesite_1x.json
 5719ee36856c50f9d68f94e2487af033c3163f30 data/omnicomp/loot_table/blocks/andesite_2x.json
 4c1bae7b727fd9c23da7896cc75e4cf870c5b85b data/omnicomp/loot_table/blocks/andesite_3x.json
@@ -32,6 +32,9 @@ c116c78f7a0bce6552631d66d926708699aaca2e data/omnicomp/loot_table/blocks/copper_
 2f785171825f65b6ff9c58f5a8273976a6719f11 data/omnicomp/loot_table/blocks/deepslate_1x.json
 cdcde2a260e40368561347fa7e867ea7af51b4db data/omnicomp/loot_table/blocks/deepslate_2x.json
 dea5c3ec266cd12e30a8b76d0dccbe157eec4dcf data/omnicomp/loot_table/blocks/deepslate_3x.json
+43f415baad79c29332ee62c78608f36b3a93d5d9 data/omnicomp/loot_table/blocks/diamond_block_1x.json
+ec8cad648add6795fe44ea56901950bbd4eeadf7 data/omnicomp/loot_table/blocks/diamond_block_2x.json
+892b9a2d66412a20b18dfeacf45eb6b8e8b8f93d data/omnicomp/loot_table/blocks/diamond_block_3x.json
 0c0ef2e341fe5f0c7d708baa8d79e3755a3ea10e data/omnicomp/loot_table/blocks/diorite_1x.json
 96a8f924cc1e13d66296bc13d292eb172b5b9aa6 data/omnicomp/loot_table/blocks/diorite_2x.json
 d9c5ad1612a3e1108a6afd0aadb6eef40cb5df78 data/omnicomp/loot_table/blocks/diorite_3x.json
@@ -41,6 +44,9 @@ d64fc5bbc011fa3b2455829f2ce2f696a0b63354 data/omnicomp/loot_table/blocks/dirt_1x
 c28bc87a8a244eaa5e8d1d8ffa7299c1522affb9 data/omnicomp/loot_table/blocks/dripstone_block_1x.json
 6f5374ff39c427f9a1103e47e05b2c30259c756a data/omnicomp/loot_table/blocks/dripstone_block_2x.json
 2bb8aac4676f1d5978e32cc32e75b8f3089f17d8 data/omnicomp/loot_table/blocks/dripstone_block_3x.json
+b8cf0fba5c876fc88d1e89a6ef4d4de6f8b15068 data/omnicomp/loot_table/blocks/emerald_block_1x.json
+cdf538aa268c2488b688dd066ad8ed3a11ff3893 data/omnicomp/loot_table/blocks/emerald_block_2x.json
+00236d7912b209fe0b0db169d4691bc1caff02b1 data/omnicomp/loot_table/blocks/emerald_block_3x.json
 c38d4b77482358484206acefc3160769bb752f25 data/omnicomp/loot_table/blocks/end_stone_1x.json
 befa8c2fb8ba58295c187fabf2bd82c2b91e1e7d data/omnicomp/loot_table/blocks/end_stone_2x.json
 47452f29054917e277c6196711022924f4809215 data/omnicomp/loot_table/blocks/end_stone_3x.json

@@ -248,6 +248,20 @@ public class StaticRecipeData
     CompressedRedstoneBlock.ITEM_2X,
     CompressedRedstoneBlock.ITEM_3X
   };
+
+  public static final ItemLike[] EMERALD_BLOCK_MATERIALS = new ItemLike[]{
+    Items.EMERALD_BLOCK,
+    CompressedEmeraldBlock.ITEM_1X,
+    CompressedEmeraldBlock.ITEM_2X,
+    CompressedEmeraldBlock.ITEM_3X
+  };
+
+  public static final ItemLike[] DIAMOND_BLOCK_MATERIALS = new ItemLike[]{
+    Items.DIAMOND_BLOCK,
+    CompressedDiamondBlock.ITEM_1X,
+    CompressedDiamondBlock.ITEM_2X,
+    CompressedDiamondBlock.ITEM_3X
+  };
 }
 
 //

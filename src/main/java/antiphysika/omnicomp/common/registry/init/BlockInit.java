@@ -55,6 +55,8 @@ public class BlockInit
     CompressedGoldBlock.init();
     CompressedLapisLazuliBlock.init();
     CompressedRedstoneBlock.init();
+    CompressedEmeraldBlock.init();
+    CompressedDiamondBlock.init();
   }
 }
 
