@@ -27,10 +27,13 @@ public class BlockInit
 
     CompressedDeepslate.init();
     CompressedCobbledDeepslate.init();
+    CompressedTuff.init();
 
     CompressedGravel.init();
     CompressedSand.init();
     CompressedSandstone.init();
+    CompressedClay.init();
+    CompressedMud.init();
 
     CompressedNetherrack.init();
     CompressedSoulSand.init();

@@ -1,10 +1,13 @@
-// 1.21.1	2024-08-28T07:03:54.621807893	Loot Tables
+// 1.21.1	2024-08-29T03:32:24.540004067	Loot Tables
 af15d78a768da5bef72bbfc356123696322b52f8 data/omnicomp/loot_table/blocks/andesite_1x.json
 5719ee36856c50f9d68f94e2487af033c3163f30 data/omnicomp/loot_table/blocks/andesite_2x.json
 4c1bae7b727fd9c23da7896cc75e4cf870c5b85b data/omnicomp/loot_table/blocks/andesite_3x.json
 94d9600378971287e653553b0e087cebc4c23257 data/omnicomp/loot_table/blocks/calcite_1x.json
 f7f596f2ddd31e43543135a7456a3e996357b776 data/omnicomp/loot_table/blocks/calcite_2x.json
 538f53b2eccc718337f1b55aeb1b17e979032453 data/omnicomp/loot_table/blocks/calcite_3x.json
+4286e8d2f4d57f706c2f4ec41ab60934e6344737 data/omnicomp/loot_table/blocks/clay_1x.json
+a15ef9d8ae88192bf4440d2fa863a464097d6b00 data/omnicomp/loot_table/blocks/clay_2x.json
+e9ab8ce38d36a37cfe836761a810d04f03c4170b data/omnicomp/loot_table/blocks/clay_3x.json
 ab3361261f0373345832cd8b8fd64fb6529774f8 data/omnicomp/loot_table/blocks/coarse_dirt_1x.json
 d89b2e8b5a992217b32cdf96eacb56cd6443de5c data/omnicomp/loot_table/blocks/coarse_dirt_2x.json
 05db4f7579652f613c1a4a49b0cbb7f9db64b480 data/omnicomp/loot_table/blocks/coarse_dirt_3x.json
@@ -35,6 +38,9 @@ bca65386441fc2e36520ceb2a1da90cb05e09c56 data/omnicomp/loot_table/blocks/gravel_
 b4d56389c0c5bc25813d7b694f1db8c2dd6a0eb2 data/omnicomp/loot_table/blocks/mossy_cobblestone_1x.json
 6d7b890322746025670fa6efa4d7d2f52ddc14de data/omnicomp/loot_table/blocks/mossy_cobblestone_2x.json
 40446edef8fbf0f72b3e7756cbb9154984a1a9f2 data/omnicomp/loot_table/blocks/mossy_cobblestone_3x.json
+9dd5c0aec4e924265892836cddc30c55dea710e6 data/omnicomp/loot_table/blocks/mud_1x.json
+f3bb59a4fe757e2e711325ea61d1f4bf61a93b55 data/omnicomp/loot_table/blocks/mud_2x.json
+b387e9ac1709159351d50a406562a7148854731f data/omnicomp/loot_table/blocks/mud_3x.json
 b126d531ea44f464d7135cddf473cb1900e74689 data/omnicomp/loot_table/blocks/netherrack_1x.json
 78180440bff276d5bde8c172af2f81fbda8fbbbe data/omnicomp/loot_table/blocks/netherrack_2x.json
 ac0ff3f0aa3915590b7c73fa02a5892c461956bb data/omnicomp/loot_table/blocks/netherrack_3x.json
@@ -53,3 +59,6 @@ c22a9c3f15278777bcc3ff93bb386c70117a784b data/omnicomp/loot_table/blocks/soul_so
 34267d14cd74db7b1334ca62336ab6412298bf0e data/omnicomp/loot_table/blocks/stone_1x.json
 777c8ff020bdc572ddd21105c98b164ab1523efe data/omnicomp/loot_table/blocks/stone_2x.json
 9bfaff43b99f0c8cab7afa54b64d2755b0d314b0 data/omnicomp/loot_table/blocks/stone_3x.json
+3a9cf0da488edf07395fd474ad5aa924007da58f data/omnicomp/loot_table/blocks/tuff_1x.json
+07c85ddbf29f8c8af8ba4e427614d96f1655d17a data/omnicomp/loot_table/blocks/tuff_2x.json
+ed697a764dc024efe398cc7de0403ce8ff83afcd data/omnicomp/loot_table/blocks/tuff_3x.json

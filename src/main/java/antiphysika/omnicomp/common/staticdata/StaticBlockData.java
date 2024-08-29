@@ -74,6 +74,15 @@ public class StaticBlockData
   public static final Block END_STONE =
     new Block("end_stone", "End Stone");
 
+  public static final Block CLAY =
+    new Block("clay", "Clay");
+
+  public static final Block MUD =
+    new Block("mud", "Mud");
+
+  public static final Block TUFF =
+    new Block("tuff", "Tuff");
+
   public static List<Block> getAllBlocks ()
   {
     return List.of(
@@ -94,7 +103,10 @@ public class StaticBlockData
       NETHERRACK,
       SOUL_SAND,
       SOUL_SOIL,
-      END_STONE
+      END_STONE,
+      CLAY,
+      MUD,
+      TUFF
     );
   }
 }

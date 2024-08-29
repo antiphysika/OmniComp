@@ -136,6 +136,27 @@ public class StaticRecipeData
     CompressedEndStone.ITEM_2X,
     CompressedEndStone.ITEM_3X
   };
+
+  public static final ItemLike[] CLAY_MATERIALS = new ItemLike[]{
+    Items.CLAY,
+    CompressedClay.ITEM_1X,
+    CompressedClay.ITEM_2X,
+    CompressedClay.ITEM_3X
+  };
+
+  public static final ItemLike[] MUD_MATERIALS = new ItemLike[]{
+    Items.MUD,
+    CompressedMud.ITEM_1X,
+    CompressedMud.ITEM_2X,
+    CompressedMud.ITEM_3X
+  };
+
+  public static final ItemLike[] TUFF_MATERIALS = new ItemLike[]{
+    Items.TUFF,
+    CompressedTuff.ITEM_1X,
+    CompressedTuff.ITEM_2X,
+    CompressedTuff.ITEM_3X
+  };
 }
 
 //

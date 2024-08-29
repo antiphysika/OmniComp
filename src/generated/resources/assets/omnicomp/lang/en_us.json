@@ -7,6 +7,9 @@
   "block.omnicomp.calcite_1x": "Compressed Calcite (1x) Block",
   "block.omnicomp.calcite_2x": "Compressed Calcite (2x) Block",
   "block.omnicomp.calcite_3x": "Compressed Calcite (3x) Block",
+  "block.omnicomp.clay_1x": "Compressed Clay (1x) Block",
+  "block.omnicomp.clay_2x": "Compressed Clay (2x) Block",
+  "block.omnicomp.clay_3x": "Compressed Clay (3x) Block",
   "block.omnicomp.coarse_dirt_1x": "Compressed Coarse Dirt (1x) Block",
   "block.omnicomp.coarse_dirt_2x": "Compressed Coarse Dirt (2x) Block",
   "block.omnicomp.coarse_dirt_3x": "Compressed Coarse Dirt (3x) Block",
@@ -37,6 +40,9 @@
   "block.omnicomp.mossy_cobblestone_1x": "Compressed Mossy Cobblestone (1x) Block",
   "block.omnicomp.mossy_cobblestone_2x": "Compressed Mossy Cobblestone (2x) Block",
   "block.omnicomp.mossy_cobblestone_3x": "Compressed Mossy Cobblestone (3x) Block",
+  "block.omnicomp.mud_1x": "Compressed Mud (1x) Block",
+  "block.omnicomp.mud_2x": "Compressed Mud (2x) Block",
+  "block.omnicomp.mud_3x": "Compressed Mud (3x) Block",
   "block.omnicomp.netherrack_1x": "Compressed Netherrack (1x) Block",
   "block.omnicomp.netherrack_2x": "Compressed Netherrack (2x) Block",
   "block.omnicomp.netherrack_3x": "Compressed Netherrack (3x) Block",
@@ -55,5 +61,8 @@
   "block.omnicomp.stone_1x": "Compressed Stone (1x) Block",
   "block.omnicomp.stone_2x": "Compressed Stone (2x) Block",
   "block.omnicomp.stone_3x": "Compressed Stone (3x) Block",
+  "block.omnicomp.tuff_1x": "Compressed Tuff (1x) Block",
+  "block.omnicomp.tuff_2x": "Compressed Tuff (2x) Block",
+  "block.omnicomp.tuff_3x": "Compressed Tuff (3x) Block",
   "creative_mode_tab.omnicomp.title": "OmniComp: Compressed Blocks"
 }
