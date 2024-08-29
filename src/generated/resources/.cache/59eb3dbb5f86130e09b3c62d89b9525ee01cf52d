@@ -1,4 +1,4 @@
-// 1.21.1	2024-08-29T06:26:42.643642395	Loot Tables
+// 1.21.1	2024-08-29T06:45:04.295752456	Loot Tables
 af15d78a768da5bef72bbfc356123696322b52f8 data/omnicomp/loot_table/blocks/andesite_1x.json
 5719ee36856c50f9d68f94e2487af033c3163f30 data/omnicomp/loot_table/blocks/andesite_2x.json
 4c1bae7b727fd9c23da7896cc75e4cf870c5b85b data/omnicomp/loot_table/blocks/andesite_3x.json
@@ -14,6 +14,9 @@ f7f596f2ddd31e43543135a7456a3e996357b776 data/omnicomp/loot_table/blocks/calcite
 4286e8d2f4d57f706c2f4ec41ab60934e6344737 data/omnicomp/loot_table/blocks/clay_1x.json
 a15ef9d8ae88192bf4440d2fa863a464097d6b00 data/omnicomp/loot_table/blocks/clay_2x.json
 e9ab8ce38d36a37cfe836761a810d04f03c4170b data/omnicomp/loot_table/blocks/clay_3x.json
+53bcf19b0ae2fa165b6bd50df763447e9d75ca19 data/omnicomp/loot_table/blocks/coal_block_1x.json
+79caf0bf2fcbba3412e62845550b883c072c3968 data/omnicomp/loot_table/blocks/coal_block_2x.json
+7595c00d8aaacaf582243fa6859eefc3f4663897 data/omnicomp/loot_table/blocks/coal_block_3x.json
 ab3361261f0373345832cd8b8fd64fb6529774f8 data/omnicomp/loot_table/blocks/coarse_dirt_1x.json
 d89b2e8b5a992217b32cdf96eacb56cd6443de5c data/omnicomp/loot_table/blocks/coarse_dirt_2x.json
 05db4f7579652f613c1a4a49b0cbb7f9db64b480 data/omnicomp/loot_table/blocks/coarse_dirt_3x.json
@@ -47,6 +50,9 @@ d8c4f4036bd7e886d41f2144d1b53cfcff0b082b data/omnicomp/loot_table/blocks/granite
 f2708b200cc1e2393bcd5c4fce7468c3765b6f76 data/omnicomp/loot_table/blocks/gravel_1x.json
 fe604ec771c391a491c801764deabb61fb8b7e40 data/omnicomp/loot_table/blocks/gravel_2x.json
 bca65386441fc2e36520ceb2a1da90cb05e09c56 data/omnicomp/loot_table/blocks/gravel_3x.json
+75ebd27bd07b660da3239321e7216adf26b64e88 data/omnicomp/loot_table/blocks/iron_block_1x.json
+299b2453a344e54731077577983a4a47fe93bec5 data/omnicomp/loot_table/blocks/iron_block_2x.json
+24264e28b88abb6813e3a7066ec88307b49247cb data/omnicomp/loot_table/blocks/iron_block_3x.json
 b4d56389c0c5bc25813d7b694f1db8c2dd6a0eb2 data/omnicomp/loot_table/blocks/mossy_cobblestone_1x.json
 6d7b890322746025670fa6efa4d7d2f52ddc14de data/omnicomp/loot_table/blocks/mossy_cobblestone_2x.json
 40446edef8fbf0f72b3e7756cbb9154984a1a9f2 data/omnicomp/loot_table/blocks/mossy_cobblestone_3x.json

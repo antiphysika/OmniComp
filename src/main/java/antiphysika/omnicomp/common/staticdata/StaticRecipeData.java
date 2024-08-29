@@ -206,6 +206,20 @@ public class StaticRecipeData
     CompressedGlowstone.ITEM_2X,
     CompressedGlowstone.ITEM_3X
   };
+
+  public static final ItemLike[] COAL_BLOCK_MATERIALS = new ItemLike[]{
+    Items.COAL_BLOCK,
+    CompressedCoalBlock.ITEM_1X,
+    CompressedCoalBlock.ITEM_2X,
+    CompressedCoalBlock.ITEM_3X
+  };
+
+  public static final ItemLike[] IRON_BLOCK_MATERIALS = new ItemLike[]{
+    Items.IRON_BLOCK,
+    CompressedIronBlock.ITEM_1X,
+    CompressedIronBlock.ITEM_2X,
+    CompressedIronBlock.ITEM_3X
+  };
 }
 
 //

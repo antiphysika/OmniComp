@@ -104,6 +104,12 @@ public class StaticBlockData
   public static final Block GLOWSTONE =
     new Block("glowstone", "Glowstone");
 
+  public static final Block COAL_BLOCK =
+    new Block("coal_block", "Block of Coal");
+
+  public static final Block IRON_BLOCK =
+    new Block("iron_block", "Block of Iron");
+
   public static List<Block> getAllBlocks ()
   {
     return List.of(
@@ -134,7 +140,9 @@ public class StaticBlockData
       BLACKSTONE,
       DRIPSTONE,
       OBSIDIAN,
-      GLOWSTONE
+      GLOWSTONE,
+      COAL_BLOCK,
+      IRON_BLOCK
     );
   }
 }
