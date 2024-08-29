@@ -4,6 +4,7 @@
 
 package antiphysika.omnicomp.common.registry;
 
+import antiphysika.omnicomp.common.registry.init.BlockInit;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,7 +22,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import static antiphysika.omnicomp.OmniComp.MOD_ID;
 import antiphysika.omnicomp.common.staticdata.StaticLangData;
 
-import antiphysika.omnicomp.common.registry.block.*;
+import antiphysika.omnicomp.common.registry.block.CompressedCobblestone;
 
 public class Registrar
 {
@@ -87,37 +88,6 @@ public class Registrar
   }
 
   /**
-   * [JAVADOC-PLACEHOLDER]
-   */
-  public static void initCompBlocks ()
-  {
-    CompressedDirt.init();
-    CompressedCoarseDirt.init();
-
-    CompressedCobblestone.init();
-    CompressedMossyCobblestone.init();
-    CompressedStone.init();
-
-    CompressedAndesite.init();
-    CompressedDiorite.init();
-    CompressedGranite.init();
-    CompressedCalcite.init();
-
-    CompressedDeepslate.init();
-    CompressedCobbledDeepslate.init();
-
-    CompressedGravel.init();
-    CompressedSand.init();
-    CompressedSandstone.init();
-
-    CompressedNetherrack.init();
-    CompressedSoulSand.init();
-    CompressedSoulSoil.init();
-
-    CompressedEndStone.init();
-  }
-
-  /**
    * Register mod blocks, items and creative mode tab
    *
    * @param bus Mod event bus
@@ -125,7 +95,7 @@ public class Registrar
   public static void register (IEventBus bus)
   {
     // Initialise compressed block variants
-    initCompBlocks();
+    BlockInit.init();
 
     // Register blocks and items
     BLOCKS.register(bus);
