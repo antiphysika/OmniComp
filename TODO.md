@@ -4,9 +4,6 @@
 
 Slated to appear in the next version:
 
-  - Clay
-  - Mud
-  - Tuff
   - Red Sand
   - Red Sandstone
   - Blackstone
