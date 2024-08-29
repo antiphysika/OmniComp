@@ -51,5 +51,8 @@ sed \
 
 rm -f "$tmp_gradle_props"
 
+git commit -m "[Auto] Version bump: $new_ver" "$gradle_props" \
+  || die "git(1) commit failed"
+
 #
 # vim: ts=2 sw=2 et fdm=marker :
