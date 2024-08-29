@@ -1,7 +1,13 @@
-// 1.21.1	2024-08-29T04:24:10.186525535	Block States: omnicomp
+// 1.21.1	2024-08-29T04:58:12.914761146	Block States: omnicomp
 c5e21151efddd5106a87a8ecc3dc308e67441f22 assets/omnicomp/blockstates/andesite_1x.json
 ef8eebeabf520e32a96f49e23367fa397ff74fde assets/omnicomp/blockstates/andesite_2x.json
 7cd5c04cac3db09cdbfb5abdff632d998503518c assets/omnicomp/blockstates/andesite_3x.json
+72e5d8f720d41fa8723b887c2bd48b16a02a78dc assets/omnicomp/blockstates/basalt_1x.json
+83a111182534e6c74b5fdf44213128098e8660a3 assets/omnicomp/blockstates/basalt_2x.json
+b0f9994663272c6d508b2aa48b3355e6b2956be7 assets/omnicomp/blockstates/basalt_3x.json
+e1ffcd0cc1b67d6857681c791b1face1c1897c77 assets/omnicomp/blockstates/blackstone_1x.json
+e537949e6f458558319978eaf079e0b672e53b47 assets/omnicomp/blockstates/blackstone_2x.json
+8e5229a5eea1ead05a772d47cc87adb80d836d14 assets/omnicomp/blockstates/blackstone_3x.json
 c97ece35d19ba08f196cdd444260aadfa9e80049 assets/omnicomp/blockstates/calcite_1x.json
 71547cf21098ffbb08f3cdff4dcb1d0f0d4dc44f assets/omnicomp/blockstates/calcite_2x.json
 30d1c4539c1adee54879cf8555b44f651f06ea28 assets/omnicomp/blockstates/calcite_3x.json
@@ -71,6 +77,12 @@ bbd3c200ee4ceadaf971404d35a1df1d418dc638 assets/omnicomp/blockstates/stone_2x.js
 efb8f8c49a040ac0314dd643f2896ba8bc995731 assets/omnicomp/models/block/andesite_1x.json
 a16926c47e49c236deba45d2a2cfd0a126a8374f assets/omnicomp/models/block/andesite_2x.json
 56f0930e51a6fe55ba0a526f496827b813a89acf assets/omnicomp/models/block/andesite_3x.json
+35853c8cab7605a796c63c8957755cb398f9a503 assets/omnicomp/models/block/basalt_1x.json
+c32fd3d3e850d85f63fec453d890cade3c690496 assets/omnicomp/models/block/basalt_2x.json
+a5293784c31627ec19eee30b50cf7ffedd67f69e assets/omnicomp/models/block/basalt_3x.json
+aae0902fb1a0a2258acd219982cf8f0d1bb1fb06 assets/omnicomp/models/block/blackstone_1x.json
+5d976ce37b5e2fe0407d81982e3cc4bb06e20bd0 assets/omnicomp/models/block/blackstone_2x.json
+513905eee851297b571e0ec96ba99bab84ede51c assets/omnicomp/models/block/blackstone_3x.json
 33549fd8a4711937edbfff969a4eca9d3f4735cf assets/omnicomp/models/block/calcite_1x.json
 4f4be75b93f5b417f145182a1cc053ee4e7a5693 assets/omnicomp/models/block/calcite_2x.json
 51e0496d1dc7d4b2b7232e17b7f9a2f1175e31b2 assets/omnicomp/models/block/calcite_3x.json
@@ -140,6 +152,12 @@ eef94c635d9b10d805312a3f4056c61c694847f2 assets/omnicomp/models/block/tuff_3x.js
 9612e86616f50651f2be7f700112c8b7f694e4f2 assets/omnicomp/models/item/andesite_1x.json
 478fd1fc26e0afa2da0c7abdc308d212ed8a9541 assets/omnicomp/models/item/andesite_2x.json
 d7ac194cafd35891fd8dfbd33a59a1d36121b3a7 assets/omnicomp/models/item/andesite_3x.json
+4cbac6b384bea4e6e30255ae581bff09837301c2 assets/omnicomp/models/item/basalt_1x.json
+3804f027936c653a18297a8faedcaaea7cffe2fa assets/omnicomp/models/item/basalt_2x.json
+7adbda23923f04ab276f313c372eac4ebb4ae29f assets/omnicomp/models/item/basalt_3x.json
+348044f58be80add547c692c77517c06b14d21fd assets/omnicomp/models/item/blackstone_1x.json
+fd59a3815b003cdea8b546d73a411b4996604c81 assets/omnicomp/models/item/blackstone_2x.json
+750234d079cdd4d689571c5e57585acca81e14e8 assets/omnicomp/models/item/blackstone_3x.json
 d11971ca216a10d68cdd80e97aa25591f09b1982 assets/omnicomp/models/item/calcite_1x.json
 76acf979a70f952a4beb9cfebacbea2745ca2750 assets/omnicomp/models/item/calcite_2x.json
 3a8d021958f7128cb312c340060d26a9959bc57d assets/omnicomp/models/item/calcite_3x.json

@@ -40,6 +40,8 @@ public class BlockInit
     CompressedNetherrack.init();
     CompressedSoulSand.init();
     CompressedSoulSoil.init();
+    CompressedBasalt.init();
+    CompressedBlackstone.init();
 
     CompressedEndStone.init();
   }

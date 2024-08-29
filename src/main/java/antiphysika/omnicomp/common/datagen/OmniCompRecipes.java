@@ -167,6 +167,8 @@ public class OmniCompRecipes extends RecipeProvider
     compBlockRecipes(output, StaticRecipeData.NETHERRACK_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.SOUL_SAND_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.SOUL_SOIL_MATERIALS);
+    compBlockRecipes(output, StaticRecipeData.BASALT_MATERIALS);
+    compBlockRecipes(output, StaticRecipeData.BLACKSTONE_MATERIALS);
 
     compBlockRecipes(output, StaticRecipeData.END_STONE_MATERIALS);
   }

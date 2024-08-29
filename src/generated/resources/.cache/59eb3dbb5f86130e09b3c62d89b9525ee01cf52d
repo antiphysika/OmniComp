@@ -1,7 +1,13 @@
-// 1.21.1	2024-08-29T04:24:10.182817984	Loot Tables
+// 1.21.1	2024-08-29T04:58:12.911034622	Loot Tables
 af15d78a768da5bef72bbfc356123696322b52f8 data/omnicomp/loot_table/blocks/andesite_1x.json
 5719ee36856c50f9d68f94e2487af033c3163f30 data/omnicomp/loot_table/blocks/andesite_2x.json
 4c1bae7b727fd9c23da7896cc75e4cf870c5b85b data/omnicomp/loot_table/blocks/andesite_3x.json
+bd17a53cc1b3d61ce12e4d806057adee25fde0f3 data/omnicomp/loot_table/blocks/basalt_1x.json
+b26c5ac4e0c7bf864b172e8958d7891a11bef645 data/omnicomp/loot_table/blocks/basalt_2x.json
+73955067a3c4243d613b5a72995969e24713ae21 data/omnicomp/loot_table/blocks/basalt_3x.json
+e990be6c3e16710c8f391ebe1352fd042b96bfd0 data/omnicomp/loot_table/blocks/blackstone_1x.json
+0af4f64328d2c7f002ac5c5697770694669cb68f data/omnicomp/loot_table/blocks/blackstone_2x.json
+68c80b33e699a8c8f0833f50c46bbcd9c8fdee1f data/omnicomp/loot_table/blocks/blackstone_3x.json
 94d9600378971287e653553b0e087cebc4c23257 data/omnicomp/loot_table/blocks/calcite_1x.json
 f7f596f2ddd31e43543135a7456a3e996357b776 data/omnicomp/loot_table/blocks/calcite_2x.json
 538f53b2eccc718337f1b55aeb1b17e979032453 data/omnicomp/loot_table/blocks/calcite_3x.json

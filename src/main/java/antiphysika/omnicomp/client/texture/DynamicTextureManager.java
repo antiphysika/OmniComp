@@ -59,6 +59,22 @@ public class DynamicTextureManager
   }
 
   /**
+   * Get path part for block texture resource location
+   *
+   * @param name Block to get texture path for
+   *
+   * @return Returns a {@link String} representing the block's texture path
+   */
+  private static String getBlockTexturePath (String name)
+  {
+    // Basalt blocks have only `_side` and `_top` textures
+    if (name.equals("basalt"))
+      return "block/" + name + "_top";
+
+    return "block/" + name;
+  }
+
+  /**
    * [JAVADOC-PLACEHOLDER]
    *
    * @param parent
@@ -70,7 +86,7 @@ public class DynamicTextureManager
     OverlayTextureGenerator gen = new OverlayTextureGenerator(outputLoc);
 
     gen.addLayer(OmniComp.location(String.format("overlay/%dx", level)));
-    gen.addLayer(OmniComp.location("minecraft", "block/" + parent));
+    gen.addLayer(OmniComp.location("minecraft", getBlockTexturePath(parent)));
 
     gen.generate(DynamicTextureManager.getAssetCache());
     OmniComp.getLogger().debug("Generated texture: " + outputLoc.toString());

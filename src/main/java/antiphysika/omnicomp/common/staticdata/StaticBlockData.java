@@ -89,6 +89,12 @@ public class StaticBlockData
   public static final Block RED_SANDSTONE =
     new Block("red_sandstone", "Red Sandstone");
 
+  public static final Block BASALT =
+    new Block("basalt", "Basalt");
+
+  public static final Block BLACKSTONE =
+    new Block("blackstone", "Blackstone");
+
   public static List<Block> getAllBlocks ()
   {
     return List.of(
@@ -114,7 +120,9 @@ public class StaticBlockData
       MUD,
       TUFF,
       RED_SAND,
-      RED_SANDSTONE
+      RED_SANDSTONE,
+      BASALT,
+      BLACKSTONE
     );
   }
 }
