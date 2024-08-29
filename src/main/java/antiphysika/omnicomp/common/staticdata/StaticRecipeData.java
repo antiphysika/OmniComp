@@ -185,6 +185,27 @@ public class StaticRecipeData
     CompressedBlackstone.ITEM_2X,
     CompressedBlackstone.ITEM_3X
   };
+
+  public static final ItemLike[] DRIPSTONE_BLOCK_MATERIALS = new ItemLike[]{
+    Items.DRIPSTONE_BLOCK,
+    CompressedDripstoneBlock.ITEM_1X,
+    CompressedDripstoneBlock.ITEM_2X,
+    CompressedDripstoneBlock.ITEM_3X
+  };
+
+  public static final ItemLike[] OBSIDIAN_MATERIALS = new ItemLike[]{
+    Items.OBSIDIAN,
+    CompressedObsidian.ITEM_1X,
+    CompressedObsidian.ITEM_2X,
+    CompressedObsidian.ITEM_3X
+  };
+
+  public static final ItemLike[] GLOWSTONE_MATERIALS = new ItemLike[]{
+    Items.GLOWSTONE,
+    CompressedGlowstone.ITEM_1X,
+    CompressedGlowstone.ITEM_2X,
+    CompressedGlowstone.ITEM_3X
+  };
 }
 
 //

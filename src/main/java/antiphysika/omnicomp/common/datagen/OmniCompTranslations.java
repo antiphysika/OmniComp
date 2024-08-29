@@ -69,7 +69,7 @@ public class OmniCompTranslations extends LanguageProvider
     for (int level = 1; level < 4; ++level)
     {
       String key = blockTransKey(OmniComp.blockLocation(id, level).getPath());
-      String str = String.format("Compressed %s (%dx) Block", name, level);
+      String str = String.format("Compressed %s (%dx)", name, level);
       add(key, str);
     }
   }

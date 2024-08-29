@@ -95,6 +95,15 @@ public class StaticBlockData
   public static final Block BLACKSTONE =
     new Block("blackstone", "Blackstone");
 
+  public static final Block DRIPSTONE =
+    new Block("dripstone_block", "Dripstone Block");
+
+  public static final Block OBSIDIAN =
+    new Block("obsidian", "Obsidian");
+
+  public static final Block GLOWSTONE =
+    new Block("glowstone", "Glowstone");
+
   public static List<Block> getAllBlocks ()
   {
     return List.of(
@@ -122,7 +131,10 @@ public class StaticBlockData
       RED_SAND,
       RED_SANDSTONE,
       BASALT,
-      BLACKSTONE
+      BLACKSTONE,
+      DRIPSTONE,
+      OBSIDIAN,
+      GLOWSTONE
     );
   }
 }
