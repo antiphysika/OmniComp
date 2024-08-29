@@ -15,9 +15,7 @@ Slated to appear in the next version:
   - Crimson Stem
   - Warped Stem
 
-  - Block of Coal
   - Block of Copper
-  - Block of Iron
   - Block of Gold
   - Block of Redstone
   - Block of Emerald
