@@ -269,6 +269,20 @@ public class StaticRecipeData
     CompressedNetheriteBlock.ITEM_2X,
     CompressedNetheriteBlock.ITEM_3X
   };
+
+  public static final ItemLike[] QUARTZ_BLOCK_MATERIALS = new ItemLike[]{
+    Items.QUARTZ_BLOCK,
+    CompressedQuartzBlock.ITEM_1X,
+    CompressedQuartzBlock.ITEM_2X,
+    CompressedQuartzBlock.ITEM_3X
+  };
+
+  public static final ItemLike[] AMETHYST_BLOCK_MATERIALS = new ItemLike[]{
+    Items.AMETHYST_BLOCK,
+    CompressedAmethystBlock.ITEM_1X,
+    CompressedAmethystBlock.ITEM_2X,
+    CompressedAmethystBlock.ITEM_3X
+  };
 }
 
 //

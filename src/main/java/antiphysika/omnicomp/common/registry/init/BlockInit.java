@@ -47,6 +47,9 @@ public class BlockInit
     CompressedBasalt.init();
     CompressedBlackstone.init();
 
+    CompressedAmethystBlock.init();
+    CompressedQuartzBlock.init();
+
     CompressedEndStone.init();
 
     CompressedCopperBlock.init();

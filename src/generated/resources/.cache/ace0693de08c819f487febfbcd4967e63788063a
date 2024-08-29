@@ -1,4 +1,7 @@
-// 1.21.1	2024-08-29T08:15:55.139583222	Block States: omnicomp
+// 1.21.1	2024-08-29T08:35:34.245428558	Block States: omnicomp
+dc3ba77a72ee4353b831dafe6953d95ea4793ab9 assets/omnicomp/blockstates/amethyst_block_1x.json
+8e60354c9342f768c4a59133e90b16914850c638 assets/omnicomp/blockstates/amethyst_block_2x.json
+902c3d38666150984c4a38dda90815e5b7b1f42f assets/omnicomp/blockstates/amethyst_block_3x.json
 c5e21151efddd5106a87a8ecc3dc308e67441f22 assets/omnicomp/blockstates/andesite_1x.json
 ef8eebeabf520e32a96f49e23367fa397ff74fde assets/omnicomp/blockstates/andesite_2x.json
 7cd5c04cac3db09cdbfb5abdff632d998503518c assets/omnicomp/blockstates/andesite_3x.json
@@ -83,6 +86,9 @@ e9144e904889a0288966617c30f5ce0863a6bd3e assets/omnicomp/blockstates/netherrack_
 6df48e5131bd93cbc6fc6e70f7c32afbd954726e assets/omnicomp/blockstates/obsidian_1x.json
 f676798213c35173ae99e73af567570692f538d1 assets/omnicomp/blockstates/obsidian_2x.json
 f0c88e31e93a48967fde1e682d9000f05d27bdf5 assets/omnicomp/blockstates/obsidian_3x.json
+bdaedf0deaaa8f76c30849630dd69419740be411 assets/omnicomp/blockstates/quartz_block_1x.json
+2b4f33c8ad998332ffc0f1af4ec7f85cf2bc13a1 assets/omnicomp/blockstates/quartz_block_2x.json
+c12e73aedc17ef94c4b94f545075d7f8810b8a07 assets/omnicomp/blockstates/quartz_block_3x.json
 ff4a9e41abeaec5e5d60ca3e000337a437d5874f assets/omnicomp/blockstates/red_sand_1x.json
 b871286fa16f8932ddcb5ce219683c6eecf87d70 assets/omnicomp/blockstates/red_sand_2x.json
 3cda8f3c5f91fad287b604575a80b147dfa85bff assets/omnicomp/blockstates/red_sand_3x.json
@@ -110,6 +116,9 @@ bbd3c200ee4ceadaf971404d35a1df1d418dc638 assets/omnicomp/blockstates/stone_2x.js
 9d6939fcf84173ff628a256c3d88680808dfd4fe assets/omnicomp/blockstates/tuff_1x.json
 17efe5be1f2eecdd9f93658986cba43d516c11a3 assets/omnicomp/blockstates/tuff_2x.json
 5805cbabd80508270ebbe37eff516444f4281474 assets/omnicomp/blockstates/tuff_3x.json
+7526b4fd0443a6992569d84528c63092693cd234 assets/omnicomp/models/block/amethyst_block_1x.json
+2a39533b8953e0e28eb2ed9127fb1bf3eb6d5df6 assets/omnicomp/models/block/amethyst_block_2x.json
+edb5938ef233771ef9bea3546ed0a012e5cace29 assets/omnicomp/models/block/amethyst_block_3x.json
 efb8f8c49a040ac0314dd643f2896ba8bc995731 assets/omnicomp/models/block/andesite_1x.json
 a16926c47e49c236deba45d2a2cfd0a126a8374f assets/omnicomp/models/block/andesite_2x.json
 56f0930e51a6fe55ba0a526f496827b813a89acf assets/omnicomp/models/block/andesite_3x.json
@@ -194,6 +203,9 @@ bb7ecda50e8422315bebe353905a36e0a3cdb25d assets/omnicomp/models/block/netherite_
 7b88c1a519834638bfea81486bdb6bc68f70a8d0 assets/omnicomp/models/block/obsidian_1x.json
 0388c3eaa0ca71a162eeb22749e6ddc913735965 assets/omnicomp/models/block/obsidian_2x.json
 a0ca4c146df4aa5ea406ec607f42ac1c53b9a175 assets/omnicomp/models/block/obsidian_3x.json
+c6f1e81a0632f20dce887400078e0082c806bdf7 assets/omnicomp/models/block/quartz_block_1x.json
+09f244a35ddaf52cb87099e07c82563fb04760c2 assets/omnicomp/models/block/quartz_block_2x.json
+93144cd0f8b38b58bfb087ba77dcecb493f999bb assets/omnicomp/models/block/quartz_block_3x.json
 c6274a53dc7144c982249baf8815ab92b1e1c0c8 assets/omnicomp/models/block/red_sand_1x.json
 fe822655a00d18a49344b66b1e1cc50cbd0ce2ed assets/omnicomp/models/block/red_sand_2x.json
 9e0aab2e4b3943ef30875b4822988353ba2564ea assets/omnicomp/models/block/red_sand_3x.json
@@ -221,6 +233,9 @@ bd6ff43b34c235d24c8145f35b68418d583ccb78 assets/omnicomp/models/block/soul_soil_
 74d62a2d85d98b569b0014eec539673e9eeb1d75 assets/omnicomp/models/block/tuff_1x.json
 dd56ae68cf2956b5d49e234259176252e8cb1e08 assets/omnicomp/models/block/tuff_2x.json
 eef94c635d9b10d805312a3f4056c61c694847f2 assets/omnicomp/models/block/tuff_3x.json
+b8d76ecd385de657001f0bc2d91f03a22be78bb6 assets/omnicomp/models/item/amethyst_block_1x.json
+9f0d98a02a657f948cc7cc1752f400df739ad030 assets/omnicomp/models/item/amethyst_block_2x.json
+24c24c0964fc703a37695b3ae8540789dce1ff18 assets/omnicomp/models/item/amethyst_block_3x.json
 9612e86616f50651f2be7f700112c8b7f694e4f2 assets/omnicomp/models/item/andesite_1x.json
 478fd1fc26e0afa2da0c7abdc308d212ed8a9541 assets/omnicomp/models/item/andesite_2x.json
 d7ac194cafd35891fd8dfbd33a59a1d36121b3a7 assets/omnicomp/models/item/andesite_3x.json
@@ -305,6 +320,9 @@ d5b4921bc1df9f12802265ff633ef87993b7c480 assets/omnicomp/models/item/netherrack_
 3e88cb88a9ad78f9db80226c7644fd165b50ddf9 assets/omnicomp/models/item/obsidian_1x.json
 e39ee059fe215298f0ee64a0665600c96312f372 assets/omnicomp/models/item/obsidian_2x.json
 1f287e16ce55109c009c85ac5a056f8561690c8d assets/omnicomp/models/item/obsidian_3x.json
+de6f46ce104da793609c165615b27f1247bb287e assets/omnicomp/models/item/quartz_block_1x.json
+30c8aee0bc8b4cd0a72777bba8dc5574de9b7c2c assets/omnicomp/models/item/quartz_block_2x.json
+d0597bff754c3197d1bab433f68ea417514c22f9 assets/omnicomp/models/item/quartz_block_3x.json
 a67aa3a1757842f86f0ac19a0d310eb1bfb4f432 assets/omnicomp/models/item/red_sand_1x.json
 b90944d162e418d0d8ebbebac13d69ba74f31fe8 assets/omnicomp/models/item/red_sand_2x.json
 ada00c0fc6cec5fab241a698354f2a91d2e64d7a assets/omnicomp/models/item/red_sand_3x.json

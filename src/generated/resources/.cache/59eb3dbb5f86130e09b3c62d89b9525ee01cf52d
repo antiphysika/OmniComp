@@ -1,4 +1,7 @@
-// 1.21.1	2024-08-29T08:15:55.134590653	Loot Tables
+// 1.21.1	2024-08-29T08:35:34.238041546	Loot Tables
+fb048e70158916b5878b3131a9029a99fe6524fa data/omnicomp/loot_table/blocks/amethyst_block_1x.json
+0c373b779831adfcdd126978bde8b135fc6c231a data/omnicomp/loot_table/blocks/amethyst_block_2x.json
+82aabd17ec696f086e566314cbd301c060800106 data/omnicomp/loot_table/blocks/amethyst_block_3x.json
 af15d78a768da5bef72bbfc356123696322b52f8 data/omnicomp/loot_table/blocks/andesite_1x.json
 5719ee36856c50f9d68f94e2487af033c3163f30 data/omnicomp/loot_table/blocks/andesite_2x.json
 4c1bae7b727fd9c23da7896cc75e4cf870c5b85b data/omnicomp/loot_table/blocks/andesite_3x.json
@@ -83,6 +86,9 @@ ac0ff3f0aa3915590b7c73fa02a5892c461956bb data/omnicomp/loot_table/blocks/netherr
 d3d1d1054cf34f8e5939b32cee98521910f8866f data/omnicomp/loot_table/blocks/obsidian_1x.json
 f3c0d9e5b8132bb91ce74433d628b24f5767cc9d data/omnicomp/loot_table/blocks/obsidian_2x.json
 0a05d42374bf745985c7e07d5140d6dd34c94841 data/omnicomp/loot_table/blocks/obsidian_3x.json
+afe591314f9bcbbbb51f2e0226c6c2ed131380cb data/omnicomp/loot_table/blocks/quartz_block_1x.json
+3e4b0470aa3830de697487d6afd746a17087c24f data/omnicomp/loot_table/blocks/quartz_block_2x.json
+4809908cde2613de33355c82218a7933e985c0ff data/omnicomp/loot_table/blocks/quartz_block_3x.json
 e16b42069dbbebb6e1035eb62b6fc8f21372f8e2 data/omnicomp/loot_table/blocks/red_sand_1x.json
 2e8e400886a8e8b71cb289584be7366e023389eb data/omnicomp/loot_table/blocks/red_sand_2x.json
 25371159b01c003921556b52c69c568628e18ff0 data/omnicomp/loot_table/blocks/red_sand_3x.json

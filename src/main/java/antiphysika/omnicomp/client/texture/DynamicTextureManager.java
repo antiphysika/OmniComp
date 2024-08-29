@@ -67,15 +67,18 @@ public class DynamicTextureManager
    */
   private static String getBlockTexturePath (String name)
   {
-    // Basalt blocks have only `_side` and `_top` textures
-    if (name.equals("basalt"))
-      return "block/" + name + "_top";
+    return switch (name)
+    {
+      // Basalt and quartz blocks have only `_side` and `_top` textures
+      case "basalt" -> "block/" + name + "_top";
+      case "quartz_block" -> "block/" + name + "_top";
 
-    // Vanilla tech debt, yay!
-    if (name.equals("lapis_lazuli_block"))
-      return "block/" + "lapis_block";
+      // Vanilla tech debt, yay!
+      case "lapis_lazuli_block" -> "block/" + "lapis_block";
 
-    return "block/" + name;
+      // Default: "block/$name"
+      default -> "block/" + name;
+    };
   }
 
   /**

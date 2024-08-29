@@ -131,6 +131,12 @@ public class StaticBlockData
   public static final Block NETHERITE_BLOCK =
     new Block("netherite_block", "Block of Netherite");
 
+  public static final Block QUARTZ_BLOCK =
+    new Block("quartz_block", "Quartz Block");
+
+  public static final Block AMETHYST_BLOCK =
+    new Block("amethyst_block", "Amethyst Block");
+
   public static List<Block> getAllBlocks ()
   {
     return List.of(
@@ -170,7 +176,9 @@ public class StaticBlockData
       REDSTONE_BLOCK,
       EMERALD_BLOCK,
       DIAMOND_BLOCK,
-      NETHERITE_BLOCK
+      NETHERITE_BLOCK,
+      QUARTZ_BLOCK,
+      AMETHYST_BLOCK
     );
   }
 }
