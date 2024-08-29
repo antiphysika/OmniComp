@@ -2,7 +2,7 @@
 
 ## Moar variants
 
-Slated to appear in the next version:
+Slated to appear in an upcoming version:
 
   - Oak Log
   - Spruce Log
