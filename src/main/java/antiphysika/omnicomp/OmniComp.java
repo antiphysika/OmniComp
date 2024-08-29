@@ -70,11 +70,7 @@ public class OmniComp extends OmniCompBase
     }
   }
 
-  @EventBusSubscriber(
-    modid = MOD_ID,
-    bus = EventBusSubscriber.Bus.MOD,
-    value = Dist.CLIENT
-  )
+  @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
   public static class OmniCompClient
   {
     static
