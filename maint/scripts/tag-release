@@ -28,7 +28,7 @@ fi
 
 version="$1"
 version_str="v$version"
-echo git tag -s -m "Tag release $version_str" "$version_str"
+git tag -s -m "Tag release $version_str" "$version_str"
 
 #
 # vim: ts=2 sw=2 et fdm=marker :
