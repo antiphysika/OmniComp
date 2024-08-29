@@ -18,6 +18,7 @@ Slated to appear in the next version:
   - Block of Coal
   - Block of Copper
   - Block of Iron
+  - Block of Gold
   - Block of Redstone
   - Block of Emerald
   - Block of Lapis Lazuli
