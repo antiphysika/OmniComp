@@ -32,6 +32,8 @@ public class BlockInit
     CompressedGravel.init();
     CompressedSand.init();
     CompressedSandstone.init();
+    CompressedRedSand.init();
+    CompressedRedSandstone.init();
     CompressedClay.init();
     CompressedMud.init();
 

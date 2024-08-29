@@ -157,6 +157,20 @@ public class StaticRecipeData
     CompressedTuff.ITEM_2X,
     CompressedTuff.ITEM_3X
   };
+
+  public static final ItemLike[] RED_SAND_MATERIALS = new ItemLike[]{
+    Items.RED_SAND,
+    CompressedRedSand.ITEM_1X,
+    CompressedRedSand.ITEM_2X,
+    CompressedRedSand.ITEM_3X
+  };
+
+  public static final ItemLike[] RED_SANDSTONE_MATERIALS = new ItemLike[]{
+    Items.RED_SANDSTONE,
+    CompressedRedSandstone.ITEM_1X,
+    CompressedRedSandstone.ITEM_2X,
+    CompressedRedSandstone.ITEM_3X
+  };
 }
 
 //

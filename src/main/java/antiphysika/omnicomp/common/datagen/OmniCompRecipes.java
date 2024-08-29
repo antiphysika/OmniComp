@@ -151,10 +151,13 @@ public class OmniCompRecipes extends RecipeProvider
     compBlockRecipes(output, StaticRecipeData.TUFF_MATERIALS);
 
     compBlockRecipes(output, StaticRecipeData.GRAVEL_MATERIALS);
-    compBlockRecipes(output, StaticRecipeData.SAND_MATERIALS);
-    compBlockRecipes(output, StaticRecipeData.SANDSTONE_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.CLAY_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.MUD_MATERIALS);
+
+    compBlockRecipes(output, StaticRecipeData.SAND_MATERIALS);
+    compBlockRecipes(output, StaticRecipeData.SANDSTONE_MATERIALS);
+    compBlockRecipes(output, StaticRecipeData.RED_SAND_MATERIALS);
+    compBlockRecipes(output, StaticRecipeData.RED_SANDSTONE_MATERIALS);
 
     compBlockRecipes(output, StaticRecipeData.ANDESITE_MATERIALS);
     compBlockRecipes(output, StaticRecipeData.DIORITE_MATERIALS);

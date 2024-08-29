@@ -1,4 +1,4 @@
-// 1.21.1	2024-08-29T03:32:24.543743968	Block States: omnicomp
+// 1.21.1	2024-08-29T04:24:10.186525535	Block States: omnicomp
 c5e21151efddd5106a87a8ecc3dc308e67441f22 assets/omnicomp/blockstates/andesite_1x.json
 ef8eebeabf520e32a96f49e23367fa397ff74fde assets/omnicomp/blockstates/andesite_2x.json
 7cd5c04cac3db09cdbfb5abdff632d998503518c assets/omnicomp/blockstates/andesite_3x.json
@@ -44,6 +44,12 @@ e640a379c0c0f83bd81cecd43462c14f672642fa assets/omnicomp/blockstates/mud_1x.json
 a608bffed84482fb922cb88ff872ef883c3a4d13 assets/omnicomp/blockstates/netherrack_1x.json
 7b39b36278769dc381973aadc2d64912fd8060d4 assets/omnicomp/blockstates/netherrack_2x.json
 e9144e904889a0288966617c30f5ce0863a6bd3e assets/omnicomp/blockstates/netherrack_3x.json
+ff4a9e41abeaec5e5d60ca3e000337a437d5874f assets/omnicomp/blockstates/red_sand_1x.json
+b871286fa16f8932ddcb5ce219683c6eecf87d70 assets/omnicomp/blockstates/red_sand_2x.json
+3cda8f3c5f91fad287b604575a80b147dfa85bff assets/omnicomp/blockstates/red_sand_3x.json
+b5c1140d28925d8bc9cc84200910f70087aa7c68 assets/omnicomp/blockstates/red_sandstone_1x.json
+03563db1ad96407cf83f1fffb003335da1d640dc assets/omnicomp/blockstates/red_sandstone_2x.json
+e0c295b1f132930d27cf07cb79d1f1843e650265 assets/omnicomp/blockstates/red_sandstone_3x.json
 2b26502fa1aa4d0c544cb640e0e6ed734b6525fb assets/omnicomp/blockstates/sand_1x.json
 23d424abf29183e26a7122ed1f37cc72a8726574 assets/omnicomp/blockstates/sand_2x.json
 7a3f93731dd73d61cf9132bea8d8f38fb675e3e6 assets/omnicomp/blockstates/sand_3x.json
@@ -107,6 +113,12 @@ bdd14c24a879c91e4f64111807985642412955a5 assets/omnicomp/models/block/mud_2x.jso
 30b833db2eef100ab71cf57e370df6f1c347fc34 assets/omnicomp/models/block/netherrack_1x.json
 06128503c7ab213900d2fcf50dfaa9c2ea8f79e0 assets/omnicomp/models/block/netherrack_2x.json
 3b01c0b224026e4087d300fefddc8470432efda9 assets/omnicomp/models/block/netherrack_3x.json
+c6274a53dc7144c982249baf8815ab92b1e1c0c8 assets/omnicomp/models/block/red_sand_1x.json
+fe822655a00d18a49344b66b1e1cc50cbd0ce2ed assets/omnicomp/models/block/red_sand_2x.json
+9e0aab2e4b3943ef30875b4822988353ba2564ea assets/omnicomp/models/block/red_sand_3x.json
+543b6b7fc6b996b1b39d397d5422bf3f5fe13511 assets/omnicomp/models/block/red_sandstone_1x.json
+bf0b0f2447acbbd6415ae140cf315e6d367e371c assets/omnicomp/models/block/red_sandstone_2x.json
+0293e670663a32df2e75d3a1808ffd1f5079ff96 assets/omnicomp/models/block/red_sandstone_3x.json
 69f131a93ebcf2da7e8f67a267d5313240369a53 assets/omnicomp/models/block/sand_1x.json
 240dad93c742fb6f07107857dc27c11227f77f8a assets/omnicomp/models/block/sand_2x.json
 e7f00d103bf252728b1b6ef925f78eda64f9596b assets/omnicomp/models/block/sand_3x.json
@@ -170,6 +182,12 @@ d2ce0335f8ca2566ae810b6a4bf847c23e8ac879 assets/omnicomp/models/item/mud_1x.json
 d637263f378220c3cc496cb32fe4f0a9a9907994 assets/omnicomp/models/item/netherrack_1x.json
 d5b4921bc1df9f12802265ff633ef87993b7c480 assets/omnicomp/models/item/netherrack_2x.json
 7f767fb3620d455057bb9c4f148c2950e62c960a assets/omnicomp/models/item/netherrack_3x.json
+a67aa3a1757842f86f0ac19a0d310eb1bfb4f432 assets/omnicomp/models/item/red_sand_1x.json
+b90944d162e418d0d8ebbebac13d69ba74f31fe8 assets/omnicomp/models/item/red_sand_2x.json
+ada00c0fc6cec5fab241a698354f2a91d2e64d7a assets/omnicomp/models/item/red_sand_3x.json
+556cfa96359166ec390c543239fdb4bd8c557b76 assets/omnicomp/models/item/red_sandstone_1x.json
+866a3fbf7b27f0658892e12d0524f42c62874757 assets/omnicomp/models/item/red_sandstone_2x.json
+6d271be9ed152406817eb8868f33c809f7cec233 assets/omnicomp/models/item/red_sandstone_3x.json
 481a1d619d46d2aacbefd06d1aa60b64c526df06 assets/omnicomp/models/item/sand_1x.json
 746695563d14bbae17507fb775cc59c244e89292 assets/omnicomp/models/item/sand_2x.json
 135a5800b9c67008449cbb7861790171f2bcfa59 assets/omnicomp/models/item/sand_3x.json

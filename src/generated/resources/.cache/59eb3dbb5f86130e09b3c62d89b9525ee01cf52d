@@ -1,4 +1,4 @@
-// 1.21.1	2024-08-29T03:32:24.540004067	Loot Tables
+// 1.21.1	2024-08-29T04:24:10.182817984	Loot Tables
 af15d78a768da5bef72bbfc356123696322b52f8 data/omnicomp/loot_table/blocks/andesite_1x.json
 5719ee36856c50f9d68f94e2487af033c3163f30 data/omnicomp/loot_table/blocks/andesite_2x.json
 4c1bae7b727fd9c23da7896cc75e4cf870c5b85b data/omnicomp/loot_table/blocks/andesite_3x.json
@@ -44,6 +44,12 @@ b387e9ac1709159351d50a406562a7148854731f data/omnicomp/loot_table/blocks/mud_3x.
 b126d531ea44f464d7135cddf473cb1900e74689 data/omnicomp/loot_table/blocks/netherrack_1x.json
 78180440bff276d5bde8c172af2f81fbda8fbbbe data/omnicomp/loot_table/blocks/netherrack_2x.json
 ac0ff3f0aa3915590b7c73fa02a5892c461956bb data/omnicomp/loot_table/blocks/netherrack_3x.json
+e16b42069dbbebb6e1035eb62b6fc8f21372f8e2 data/omnicomp/loot_table/blocks/red_sand_1x.json
+2e8e400886a8e8b71cb289584be7366e023389eb data/omnicomp/loot_table/blocks/red_sand_2x.json
+25371159b01c003921556b52c69c568628e18ff0 data/omnicomp/loot_table/blocks/red_sand_3x.json
+645a157b4c389b701b848b080870c76287d4eec2 data/omnicomp/loot_table/blocks/red_sandstone_1x.json
+738b06e949498b456ee6366d2ad4edce9bfe7b6d data/omnicomp/loot_table/blocks/red_sandstone_2x.json
+41836d1722fd028ca22d7ccd26b9b2225a296f0f data/omnicomp/loot_table/blocks/red_sandstone_3x.json
 06e6d45c986beae8a6ae246e5c473617e9663073 data/omnicomp/loot_table/blocks/sand_1x.json
 c6aca93b0c84b28105f1445d73a34ee90fe525bc data/omnicomp/loot_table/blocks/sand_2x.json
 cbe9d7fcb89b596a6f05c3fb13f965123afaf245 data/omnicomp/loot_table/blocks/sand_3x.json
