@@ -114,11 +114,8 @@ public class OmniCompAdvancements extends AdvancementProvider
           true,
           false
         )
-        .addCriterion("cobblestone_1x_crafted", itemCriterion(CompressedCobblestone.ITEM_1X)
-        )
-        .requirements(
-          AdvancementRequirements.allOf(List.of("cobblestone_1x_crafted"))
-        )
+        .addCriterion("cobblestone_1x_crafted", itemCriterion(CompressedCobblestone.ITEM_1X))
+        .requirements(AdvancementRequirements.allOf(List.of("cobblestone_1x_crafted")))
         .save(consumer, COBBLESTONE_1X_LOCATION, exFileHelper);
     }
   }
