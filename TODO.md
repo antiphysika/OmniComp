@@ -15,9 +15,7 @@ Slated to appear in the next version:
   - Crimson Stem
   - Warped Stem
 
-  - Block of Redstone
   - Block of Emerald
-  - Block of Lapis Lazuli
   - Block of Diamond
   - Block of Netherite
   - Block of Quartz
