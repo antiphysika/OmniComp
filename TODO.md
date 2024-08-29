@@ -4,8 +4,6 @@
 
 Slated to appear in the next version:
 
-  - Blackstone
-  - Smooth Basalt
   - Dripstone Block
   - Magma Block
   - Obsidian
