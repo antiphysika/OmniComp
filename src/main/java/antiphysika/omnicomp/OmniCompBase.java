@@ -11,10 +11,11 @@ import static antiphysika.omnicomp.OmniComp.MOD_ID;
 public class OmniCompBase
 {
   /**
-   * [JAVADOC-PLACEHOLDER]
+   * Get {@link ResourceLocation} for mod resource
    *
-   * @param path
-   * @return
+   * @param path Path of resource
+   *
+   * @return Returns {@link ResourceLocation} instance for resource
    */
   public static ResourceLocation location (String path)
   {
@@ -22,11 +23,12 @@ public class OmniCompBase
   }
 
   /**
-   * [JAVADOC-PLACEHOLDER]
+   * Get {@link ResourceLocation} for namespaced resource
    *
-   * @param namespace
-   * @param path
-   * @return
+   * @param namespace  Resource namespace
+   * @param path       Resource path
+   *
+   * @return Returns {@link ResourceLocation} instance for resource
    */
   public static ResourceLocation location (String namespace, String path)
   {
@@ -34,15 +36,16 @@ public class OmniCompBase
   }
 
   /**
-   * [JAVADOC-PLACEHOLDER]
+   * Helper to get {@link ResourceLocation} for compressed block variant
    *
-   * @param id
-   * @param level
-   * @return
+   * @param name   Block name
+   * @param level  Compression level (1-3)
+   *
+   * @return Returns {@link ResourceLocation} instance for block
    */
-  public static ResourceLocation blockLocation (String id, int level)
+  public static ResourceLocation blockLocation (String name, int level)
   {
-    return location(String.format("%s_%dx", id, level));
+    return location(String.format("%s_%dx", name, level));
   }
 }
 
