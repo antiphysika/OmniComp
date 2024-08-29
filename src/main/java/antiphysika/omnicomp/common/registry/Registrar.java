@@ -28,6 +28,29 @@ public class Registrar
   public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MOD_ID);
   public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MOD_ID);
 
+  public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
+    DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
+
+  public static final DeferredHolder<CreativeModeTab, CreativeModeTab> OMNICOMP_TAB =
+    CREATIVE_MODE_TABS.register("omnicomp_tab", () -> CreativeModeTab.builder()
+      .title(Component.translatable(StaticLangData.CREATIVE_MOD_TAB_TITLE_KEY))
+      .withTabsBefore(CreativeModeTabs.COMBAT)
+      .icon(() -> CompressedCobblestone.ITEM_1X.get().getDefaultInstance())
+      .displayItems((parameters, output) ->
+      {
+        BLOCKS.getEntries().forEach(e ->
+        {
+          Item item = e.get().asItem();
+          output.accept(item);
+        });
+        ITEMS.getEntries().forEach(e ->
+        {
+          Item item = e.get();
+          output.accept(item);
+        });
+      }).build()
+    );
+
   /**
    * Register a simple block
    *
@@ -62,29 +85,6 @@ public class Registrar
       .map(entry -> (Block) entry.value())
       .toList();
   }
-
-  public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
-    DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
-
-  public static final DeferredHolder<CreativeModeTab, CreativeModeTab> OMNICOMP_TAB =
-    CREATIVE_MODE_TABS.register("omnicomp_tab", () -> CreativeModeTab.builder()
-      .title(Component.translatable(StaticLangData.CREATIVE_MOD_TAB_TITLE_KEY))
-      .withTabsBefore(CreativeModeTabs.COMBAT)
-      .icon(() -> CompressedCobblestone.ITEM_1X.get().getDefaultInstance())
-      .displayItems((parameters, output) ->
-      {
-        BLOCKS.getEntries().forEach(e ->
-        {
-          Item item = e.get().asItem();
-          output.accept(item);
-        });
-        ITEMS.getEntries().forEach(e ->
-        {
-          Item item = e.get();
-          output.accept(item);
-        });
-      }).build()
-    );
 
   /**
    * [JAVADOC-PLACEHOLDER]
