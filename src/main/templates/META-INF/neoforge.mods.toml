@@ -21,25 +21,25 @@ description='''${mod_description}'''
 #file="META-INF/accesstransformer.cfg"
 
 [[dependencies."${mod_id}"]]
-    modId="neoforge"
-    type="required"
-    versionRange="${neo_version_range}"
-    ordering="NONE"
-    side="BOTH"
+  modId="neoforge"
+  type="required"
+  versionRange="${neo_version_range}"
+  ordering="NONE"
+  side="BOTH"
 
 [[dependencies."${mod_id}"]]
-    modId="minecraft"
-    type="required"
-    versionRange="${minecraft_version_range}"
-    ordering="NONE"
-    side="BOTH"
+  modId="minecraft"
+  type="required"
+  versionRange="${minecraft_version_range}"
+  ordering="NONE"
+  side="BOTH"
 
 [[dependencies."${mod_id}"]]
-    modId="dynamic_asset_generator"
-    type="required"
-    versionRange="${dynassetgen_version}"
-    ordering="NONE"
-    side="CLIENT"
+  modId="dynamic_asset_generator"
+  type="required"
+  versionRange="${dynassetgen_version}"
+  ordering="NONE"
+  side="CLIENT"
 
 #
 # vim: ts=2 sw=2 et fdm=marker :
